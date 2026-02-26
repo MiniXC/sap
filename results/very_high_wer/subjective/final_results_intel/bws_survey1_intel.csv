@@ -1,0 +1,51 @@
+Unnamed: 0,response_id,type_trial,recording,e2-tts,f5-tts,fish-speech,gpt-sovits,hierspeech,indextts,maskgct,metavoice,openvoice,qwen3-tts,styletts2,tortoise,vevo,vibevoice,voicecraft,whisperspeech,xtts,attention_best,attention_worst,display_order,speaker_name,speaker_etiology,speaker_wer
+0,R_2qXvfs83mIeWl6V,trial,0,0,3,0,0,0,0,0,0,0,2,0,0,0,1,0,2,0,0,0,QID6_4|QID6_3|QID6_2|QID6_1,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_2qXvfs83mIeWl6V,trial,0,2,0,2,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,QID15_2|QID15_1|QID15_4|QID15_3,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_2qXvfs83mIeWl6V,trial,0,0,2,0,0,3,1,0,0,0,0,0,0,0,0,0,2,0,0,0,QID23_1|QID23_3|QID23_2|QID23_4,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_8q4cpUghYe7INJJ,trial,0,0,2,0,0,0,0,0,0,0,3,0,0,0,1,0,2,0,0,0,QID6_1|QID6_2|QID6_3|QID6_4,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_8q4cpUghYe7INJJ,trial,0,2,0,2,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,QID15_4|QID15_1|QID15_2|QID15_3,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_8q4cpUghYe7INJJ,trial,0,0,1,0,0,2,2,0,0,0,0,0,0,0,0,0,3,0,0,0,QID23_1|QID23_3|QID23_2|QID23_4,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_8maQF8SXO7Rj4RY,trial,0,0,2,0,0,0,0,0,0,0,3,0,0,0,2,0,1,0,0,0,QID6_4|QID6_3|QID6_2|QID6_1,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_8maQF8SXO7Rj4RY,trial,0,3,0,2,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,QID15_2|QID15_4|QID15_3|QID15_1,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_8maQF8SXO7Rj4RY,trial,0,0,2,0,0,3,1,0,0,0,0,0,0,0,0,0,2,0,0,0,QID23_1|QID23_3|QID23_4|QID23_2,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_2s5rpgiQoeUpiwi,trial,0,0,2,0,0,0,0,0,0,0,3,0,0,0,1,0,2,0,0,0,QID6_4|QID6_1|QID6_3|QID6_2,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_2s5rpgiQoeUpiwi,trial,0,2,0,2,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,QID15_3|QID15_2|QID15_4|QID15_1,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_2s5rpgiQoeUpiwi,trial,0,0,1,0,0,2,2,0,0,0,0,0,0,0,0,0,3,0,0,0,QID23_3|QID23_2|QID23_4|QID23_1,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_51ck0zPgArKocuw,trial,0,0,2,0,0,0,0,0,0,0,1,0,0,0,2,0,3,0,0,0,QID6_2|QID6_4|QID6_1|QID6_3,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_51ck0zPgArKocuw,trial,0,3,0,2,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,QID15_2|QID15_4|QID15_1|QID15_3,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_51ck0zPgArKocuw,trial,0,0,2,0,0,3,2,0,0,0,0,0,0,0,0,0,1,0,0,0,QID23_3|QID23_1|QID23_4|QID23_2,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_8k4JOSqBIfJ5TIt,trial,0,0,2,0,0,0,0,0,0,0,3,0,0,0,1,0,2,0,0,0,QID6_4|QID6_2|QID6_1|QID6_3,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_8k4JOSqBIfJ5TIt,trial,0,2,0,2,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,QID15_1|QID15_4|QID15_2|QID15_3,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_8k4JOSqBIfJ5TIt,trial,0,0,1,0,0,2,2,0,0,0,0,0,0,0,0,0,3,0,0,0,QID23_3|QID23_1|QID23_2|QID23_4,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_3f4PPb2hThrEGXf,trial,0,0,2,0,0,0,0,0,0,0,2,0,0,0,1,0,3,0,0,0,QID6_2|QID6_1|QID6_3|QID6_4,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_3f4PPb2hThrEGXf,trial,0,2,0,2,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,QID15_3|QID15_2|QID15_4|QID15_1,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_3f4PPb2hThrEGXf,trial,0,0,1,0,0,2,2,0,0,0,0,0,0,0,0,0,3,0,0,0,QID23_4|QID23_3|QID23_2|QID23_1,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_1OdDse5B7McCU5Z,trial,0,0,3,0,0,0,0,0,0,0,2,0,0,0,1,0,2,0,0,0,QID6_4|QID6_1|QID6_2|QID6_3,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_1OdDse5B7McCU5Z,trial,0,2,0,2,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,QID15_1|QID15_2|QID15_4|QID15_3,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_1OdDse5B7McCU5Z,trial,0,0,1,0,0,3,2,0,0,0,0,0,0,0,0,0,2,0,0,0,QID23_2|QID23_3|QID23_1|QID23_4,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_7EWrvnozvXdJQ6j,trial,0,0,3,0,0,0,0,0,0,0,2,0,0,0,1,0,2,0,0,0,QID6_4|QID6_1|QID6_2|QID6_3,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_7EWrvnozvXdJQ6j,trial,0,2,0,2,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,QID15_1|QID15_2|QID15_3|QID15_4,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_7EWrvnozvXdJQ6j,trial,0,0,1,0,0,3,2,0,0,0,0,0,0,0,0,0,2,0,0,0,QID23_1|QID23_4|QID23_2|QID23_3,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_7sjD8Dsb1n7zXOk,trial,0,0,2,0,0,0,0,0,0,0,3,0,0,0,1,0,2,0,0,0,QID6_3|QID6_2|QID6_4|QID6_1,edeaf033-ba86-46a5-4a52-08dc3c7b3134,ALS,0.3215780035863718
+0,R_7sjD8Dsb1n7zXOk,trial,0,2,0,2,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,QID15_3|QID15_4|QID15_1|QID15_2,374ad5cf-710f-4147-450c-08dc42c84745,Cerebral Palsy,1.0625
+0,R_7sjD8Dsb1n7zXOk,trial,0,0,1,0,0,3,2,0,0,0,0,0,0,0,0,0,2,0,0,0,QID23_2|QID23_3|QID23_4|QID23_1,09716de8-6f65-4a68-3769-08db63d00ed9,Parkinson's Disease,1.089150800846177
+0,R_2qXvfs83mIeWl6V,attention_worst,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,3,QID16_4|QID16_3|QID16_1|QID16_2,attention_worst,-,-
+0,R_2qXvfs83mIeWl6V,attention_best,0,2,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,1,0,QID17_4|QID17_2|QID17_3|QID17_1,attention_best,-,-
+0,R_8q4cpUghYe7INJJ,attention_worst,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,3,QID16_2|QID16_4|QID16_1|QID16_3,attention_worst,-,-
+0,R_8q4cpUghYe7INJJ,attention_best,0,3,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,0,1,0,QID17_1|QID17_2|QID17_3|QID17_4,attention_best,-,-
+0,R_8maQF8SXO7Rj4RY,attention_worst,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,3,QID16_1|QID16_3|QID16_2|QID16_4,attention_worst,-,-
+0,R_8maQF8SXO7Rj4RY,attention_best,0,2,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,1,0,QID17_4|QID17_3|QID17_2|QID17_1,attention_best,-,-
+0,R_2s5rpgiQoeUpiwi,attention_worst,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,3,QID16_1|QID16_2|QID16_3|QID16_4,attention_worst,-,-
+0,R_2s5rpgiQoeUpiwi,attention_best,0,2,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,1,0,QID17_1|QID17_4|QID17_3|QID17_2,attention_best,-,-
+0,R_51ck0zPgArKocuw,attention_worst,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,3,QID16_3|QID16_4|QID16_2|QID16_1,attention_worst,-,-
+0,R_51ck0zPgArKocuw,attention_best,0,2,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,1,0,QID17_3|QID17_2|QID17_1|QID17_4,attention_best,-,-
+0,R_8k4JOSqBIfJ5TIt,attention_worst,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,3,QID16_2|QID16_3|QID16_4|QID16_1,attention_worst,-,-
+0,R_8k4JOSqBIfJ5TIt,attention_best,0,3,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,0,1,0,QID17_2|QID17_1|QID17_3|QID17_4,attention_best,-,-
+0,R_3f4PPb2hThrEGXf,attention_worst,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,3,QID16_1|QID16_4|QID16_2|QID16_3,attention_worst,-,-
+0,R_3f4PPb2hThrEGXf,attention_best,0,2,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,1,0,QID17_4|QID17_1|QID17_3|QID17_2,attention_best,-,-
+0,R_1OdDse5B7McCU5Z,attention_worst,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,3,QID16_3|QID16_1|QID16_4|QID16_2,attention_worst,-,-
+0,R_1OdDse5B7McCU5Z,attention_best,0,2,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,1,0,QID17_4|QID17_3|QID17_1|QID17_2,attention_best,-,-
+0,R_7EWrvnozvXdJQ6j,attention_worst,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2,0,3,QID16_4|QID16_1|QID16_2|QID16_3,attention_worst,-,-
+0,R_7EWrvnozvXdJQ6j,attention_best,0,2,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,1,0,QID17_2|QID17_1|QID17_4|QID17_3,attention_best,-,-
+0,R_7sjD8Dsb1n7zXOk,attention_worst,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,3,QID16_4|QID16_2|QID16_1|QID16_3,attention_worst,-,-
+0,R_7sjD8Dsb1n7zXOk,attention_best,0,2,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,1,0,QID17_1|QID17_2|QID17_3|QID17_4,attention_best,-,-

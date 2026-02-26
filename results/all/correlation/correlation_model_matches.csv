@@ -1,0 +1,649 @@
+item,canonical_model,subjective_rank,subjective_worth,benchmark_category,dataset,score_mean,objective_rank,subjective_label,objective_source
+indextts,indextts,1,0.962534929784353,GENERIC,indextts/default/eng,92.5500030260766,7.0,sim,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,GENERIC,qwen3-tts/1.7b-base/eng,93.99124533337503,3.0,sim,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,3,0.67182568139416,GENERIC,e2-tts/default/eng,89.25418226794578,11.0,sim,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,4,0.355839445079671,GENERIC,fish-speech/s1-mini/eng,94.82834092127064,1.0,sim,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,5,0.181825571787109,GENERIC,f5-tts/v1/eng,92.20201063498948,8.0,sim,aggregated_results_sap__libritts.csv
+maskgct,maskgct,6,0.140665032548458,GENERIC,maskgct/default/eng,87.23061329714018,15.0,sim,aggregated_results_sap__libritts.csv
+recording,recording,7,0.0,GENERIC,recording/default/eng,84.6418039385725,18.0,sim,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,8,-0.419851736565557,GENERIC,vibevoice/default/eng,91.08113745146,10.0,sim,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,9,-0.576927185670687,GENERIC,voicecraft/giga830m_tts_enhanced/eng,87.18922499233986,16.0,sim,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,GENERIC,gpt-sovits/v4/eng,91.57815835901484,9.0,sim,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,11,-0.754505234743026,GENERIC,hierspeech/v1.1/eng,85.65423357845286,17.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,12,-0.787962267314379,GENERIC,styletts2/default/eng,93.86682922635045,4.0,sim,aggregated_results_sap__libritts.csv
+tortoise,tortoise,13,-0.827690328166699,GENERIC,tortoise/default/eng,93.82331368767616,5.0,sim,aggregated_results_sap__libritts.csv
+vevo,vevo,14,-0.944343404792295,GENERIC,vevo/vevo1.5/eng,88.41300511231066,13.0,sim,aggregated_results_sap__libritts.csv
+metavoice,metavoice,15,-1.17557209871395,GENERIC,metavoice/default/eng,87.89311787934697,14.0,sim,aggregated_results_sap__libritts.csv
+xtts,xtts,16,-1.28878163920876,GENERIC,xtts/v2/eng,89.12860459691042,12.0,sim,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,GENERIC,whisperspeech/small/eng,94.53541248403974,2.0,sim,aggregated_results_sap__libritts.csv
+openvoice,openvoice,18,-1.53361547255085,GENERIC,openvoice/default/eng,92.97697718556968,6.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,1,2.44697819734404,GENERIC,styletts2/default/eng,93.86682922635045,4.0,intel,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,2,2.33973696175463,GENERIC,fish-speech/s1-mini/eng,94.82834092127064,1.0,intel,aggregated_results_sap__libritts.csv
+openvoice,openvoice,3,2.23589580650502,GENERIC,openvoice/default/eng,92.97697718556968,6.0,intel,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,GENERIC,qwen3-tts/1.7b-base/eng,93.99124533337503,3.0,intel,aggregated_results_sap__libritts.csv
+tortoise,tortoise,5,1.93963770677368,GENERIC,tortoise/default/eng,93.82331368767616,5.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,6,1.9212030193773,GENERIC,indextts/default/eng,92.5500030260766,7.0,intel,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,7,1.46426118294162,GENERIC,f5-tts/v1/eng,92.20201063498948,8.0,intel,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,8,1.20841567669501,GENERIC,whisperspeech/small/eng,94.53541248403974,2.0,intel,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,9,0.92878102689503,GENERIC,vibevoice/default/eng,91.08113745146,10.0,intel,aggregated_results_sap__libritts.csv
+xtts,xtts,10,0.48960136589781,GENERIC,xtts/v2/eng,89.12860459691042,12.0,intel,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,11,0.198223341447589,GENERIC,e2-tts/default/eng,89.25418226794578,11.0,intel,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,12,0.0818880149053242,GENERIC,hierspeech/v1.1/eng,85.65423357845286,17.0,intel,aggregated_results_sap__libritts.csv
+vevo,vevo,13,0.029618680831655,GENERIC,vevo/vevo1.5/eng,88.41300511231066,13.0,intel,aggregated_results_sap__libritts.csv
+recording,recording,14,0.0,GENERIC,recording/default/eng,84.6418039385725,18.0,intel,aggregated_results_sap__libritts.csv
+maskgct,maskgct,15,-0.0537024851800524,GENERIC,maskgct/default/eng,87.23061329714018,15.0,intel,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,GENERIC,gpt-sovits/v4/eng,91.57815835901484,9.0,intel,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,17,-0.653807459549089,GENERIC,voicecraft/giga830m_tts_enhanced/eng,87.18922499233986,16.0,intel,aggregated_results_sap__libritts.csv
+metavoice,metavoice,18,-1.07553475807921,GENERIC,metavoice/default/eng,87.89311787934697,14.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,1,0.962534929784353,INTELLIGIBILITY,indextts/default/eng,83.88676180976238,2.0,sim,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,INTELLIGIBILITY,qwen3-tts/1.7b-base/eng,84.72418973939341,1.0,sim,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,3,0.67182568139416,INTELLIGIBILITY,e2-tts/default/eng,82.95230691259285,8.0,sim,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,4,0.355839445079671,INTELLIGIBILITY,fish-speech/s1-mini/eng,80.59965274225895,13.0,sim,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,5,0.181825571787109,INTELLIGIBILITY,f5-tts/v1/eng,83.17315971065281,7.0,sim,aggregated_results_sap__libritts.csv
+maskgct,maskgct,6,0.140665032548458,INTELLIGIBILITY,maskgct/default/eng,82.24682627111966,10.0,sim,aggregated_results_sap__libritts.csv
+recording,recording,7,0.0,INTELLIGIBILITY,recording/default/eng,81.22907681818037,11.0,sim,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,8,-0.419851736565557,INTELLIGIBILITY,vibevoice/default/eng,83.47773515294851,5.0,sim,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,9,-0.576927185670687,INTELLIGIBILITY,voicecraft/giga830m_tts_enhanced/eng,80.94044773421061,12.0,sim,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,INTELLIGIBILITY,gpt-sovits/v4/eng,83.6319813672238,3.0,sim,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,11,-0.754505234743026,INTELLIGIBILITY,hierspeech/v1.1/eng,83.18838386650992,6.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,12,-0.787962267314379,INTELLIGIBILITY,styletts2/default/eng,82.44527866704203,9.0,sim,aggregated_results_sap__libritts.csv
+tortoise,tortoise,13,-0.827690328166699,INTELLIGIBILITY,tortoise/default/eng,80.26841062535726,15.0,sim,aggregated_results_sap__libritts.csv
+vevo,vevo,14,-0.944343404792295,INTELLIGIBILITY,vevo/vevo1.5/eng,80.58918533845517,14.0,sim,aggregated_results_sap__libritts.csv
+metavoice,metavoice,15,-1.17557209871395,INTELLIGIBILITY,metavoice/default/eng,69.92840973482733,18.0,sim,aggregated_results_sap__libritts.csv
+xtts,xtts,16,-1.28878163920876,INTELLIGIBILITY,xtts/v2/eng,83.58644853116391,4.0,sim,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,INTELLIGIBILITY,whisperspeech/small/eng,75.63231167828874,17.0,sim,aggregated_results_sap__libritts.csv
+openvoice,openvoice,18,-1.53361547255085,INTELLIGIBILITY,openvoice/default/eng,76.02959590162922,16.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,1,2.44697819734404,INTELLIGIBILITY,styletts2/default/eng,82.44527866704203,9.0,intel,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,2,2.33973696175463,INTELLIGIBILITY,fish-speech/s1-mini/eng,80.59965274225895,13.0,intel,aggregated_results_sap__libritts.csv
+openvoice,openvoice,3,2.23589580650502,INTELLIGIBILITY,openvoice/default/eng,76.02959590162922,16.0,intel,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,INTELLIGIBILITY,qwen3-tts/1.7b-base/eng,84.72418973939341,1.0,intel,aggregated_results_sap__libritts.csv
+tortoise,tortoise,5,1.93963770677368,INTELLIGIBILITY,tortoise/default/eng,80.26841062535726,15.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,6,1.9212030193773,INTELLIGIBILITY,indextts/default/eng,83.88676180976238,2.0,intel,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,7,1.46426118294162,INTELLIGIBILITY,f5-tts/v1/eng,83.17315971065281,7.0,intel,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,8,1.20841567669501,INTELLIGIBILITY,whisperspeech/small/eng,75.63231167828874,17.0,intel,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,9,0.92878102689503,INTELLIGIBILITY,vibevoice/default/eng,83.47773515294851,5.0,intel,aggregated_results_sap__libritts.csv
+xtts,xtts,10,0.48960136589781,INTELLIGIBILITY,xtts/v2/eng,83.58644853116391,4.0,intel,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,11,0.198223341447589,INTELLIGIBILITY,e2-tts/default/eng,82.95230691259285,8.0,intel,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,12,0.0818880149053242,INTELLIGIBILITY,hierspeech/v1.1/eng,83.18838386650992,6.0,intel,aggregated_results_sap__libritts.csv
+vevo,vevo,13,0.029618680831655,INTELLIGIBILITY,vevo/vevo1.5/eng,80.58918533845517,14.0,intel,aggregated_results_sap__libritts.csv
+recording,recording,14,0.0,INTELLIGIBILITY,recording/default/eng,81.22907681818037,11.0,intel,aggregated_results_sap__libritts.csv
+maskgct,maskgct,15,-0.0537024851800524,INTELLIGIBILITY,maskgct/default/eng,82.24682627111966,10.0,intel,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,INTELLIGIBILITY,gpt-sovits/v4/eng,83.6319813672238,3.0,intel,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,17,-0.653807459549089,INTELLIGIBILITY,voicecraft/giga830m_tts_enhanced/eng,80.94044773421061,12.0,intel,aggregated_results_sap__libritts.csv
+metavoice,metavoice,18,-1.07553475807921,INTELLIGIBILITY,metavoice/default/eng,69.92840973482733,18.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,1,0.962534929784353,OVERALL,indextts/default/eng,85.28423658235796,4.0,sim,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,OVERALL,qwen3-tts/1.7b-base/eng,86.46925178283132,2.0,sim,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,3,0.67182568139416,OVERALL,e2-tts/default/eng,81.91669589153261,11.0,sim,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,4,0.355839445079671,OVERALL,fish-speech/s1-mini/eng,86.80379260129486,1.0,sim,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,5,0.181825571787109,OVERALL,f5-tts/v1/eng,85.24930064565193,5.0,sim,aggregated_results_sap__libritts.csv
+maskgct,maskgct,6,0.140665032548458,OVERALL,maskgct/default/eng,79.30559806845729,14.0,sim,aggregated_results_sap__libritts.csv
+recording,recording,7,0.0,OVERALL,recording/default/eng,77.38635162002237,18.0,sim,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,8,-0.419851736565557,OVERALL,vibevoice/default/eng,82.9566910593863,9.0,sim,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,9,-0.576927185670687,OVERALL,voicecraft/giga830m_tts_enhanced/eng,78.57005415856194,16.0,sim,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,OVERALL,gpt-sovits/v4/eng,82.7244769309414,10.0,sim,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,11,-0.754505234743026,OVERALL,hierspeech/v1.1/eng,78.64311702050796,15.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,12,-0.787962267314379,OVERALL,styletts2/default/eng,85.01730440995561,6.0,sim,aggregated_results_sap__libritts.csv
+tortoise,tortoise,13,-0.827690328166699,OVERALL,tortoise/default/eng,85.65150391653931,3.0,sim,aggregated_results_sap__libritts.csv
+vevo,vevo,14,-0.944343404792295,OVERALL,vevo/vevo1.5/eng,81.22605845545485,12.0,sim,aggregated_results_sap__libritts.csv
+metavoice,metavoice,15,-1.17557209871395,OVERALL,metavoice/default/eng,77.56147477933837,17.0,sim,aggregated_results_sap__libritts.csv
+xtts,xtts,16,-1.28878163920876,OVERALL,xtts/v2/eng,80.919930381139,13.0,sim,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,OVERALL,whisperspeech/small/eng,84.70836037311615,7.0,sim,aggregated_results_sap__libritts.csv
+openvoice,openvoice,18,-1.53361547255085,OVERALL,openvoice/default/eng,84.06737801994583,8.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,1,2.44697819734404,OVERALL,styletts2/default/eng,85.01730440995561,6.0,intel,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,2,2.33973696175463,OVERALL,fish-speech/s1-mini/eng,86.80379260129486,1.0,intel,aggregated_results_sap__libritts.csv
+openvoice,openvoice,3,2.23589580650502,OVERALL,openvoice/default/eng,84.06737801994583,8.0,intel,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,OVERALL,qwen3-tts/1.7b-base/eng,86.46925178283132,2.0,intel,aggregated_results_sap__libritts.csv
+tortoise,tortoise,5,1.93963770677368,OVERALL,tortoise/default/eng,85.65150391653931,3.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,6,1.9212030193773,OVERALL,indextts/default/eng,85.28423658235796,4.0,intel,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,7,1.46426118294162,OVERALL,f5-tts/v1/eng,85.24930064565193,5.0,intel,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,8,1.20841567669501,OVERALL,whisperspeech/small/eng,84.70836037311615,7.0,intel,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,9,0.92878102689503,OVERALL,vibevoice/default/eng,82.9566910593863,9.0,intel,aggregated_results_sap__libritts.csv
+xtts,xtts,10,0.48960136589781,OVERALL,xtts/v2/eng,80.919930381139,13.0,intel,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,11,0.198223341447589,OVERALL,e2-tts/default/eng,81.91669589153261,11.0,intel,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,12,0.0818880149053242,OVERALL,hierspeech/v1.1/eng,78.64311702050796,15.0,intel,aggregated_results_sap__libritts.csv
+vevo,vevo,13,0.029618680831655,OVERALL,vevo/vevo1.5/eng,81.22605845545485,12.0,intel,aggregated_results_sap__libritts.csv
+recording,recording,14,0.0,OVERALL,recording/default/eng,77.38635162002237,18.0,intel,aggregated_results_sap__libritts.csv
+maskgct,maskgct,15,-0.0537024851800524,OVERALL,maskgct/default/eng,79.30559806845729,14.0,intel,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,OVERALL,gpt-sovits/v4/eng,82.7244769309414,10.0,intel,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,17,-0.653807459549089,OVERALL,voicecraft/giga830m_tts_enhanced/eng,78.57005415856194,16.0,intel,aggregated_results_sap__libritts.csv
+metavoice,metavoice,18,-1.07553475807921,OVERALL,metavoice/default/eng,77.56147477933837,17.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,1,0.962534929784353,PROSODY,indextts/default/eng,85.20212904217975,5.0,sim,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,PROSODY,qwen3-tts/1.7b-base/eng,83.84821458023163,7.0,sim,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,3,0.67182568139416,PROSODY,e2-tts/default/eng,77.64096045815124,14.0,sim,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,4,0.355839445079671,PROSODY,fish-speech/s1-mini/eng,90.347006773247,1.0,sim,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,5,0.181825571787109,PROSODY,f5-tts/v1/eng,83.8059176563438,8.0,sim,aggregated_results_sap__libritts.csv
+maskgct,maskgct,6,0.140665032548458,PROSODY,maskgct/default/eng,76.14336577873432,16.0,sim,aggregated_results_sap__libritts.csv
+recording,recording,7,0.0,PROSODY,recording/default/eng,70.61764638521451,18.0,sim,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,8,-0.419851736565557,PROSODY,vibevoice/default/eng,80.11668670350302,10.0,sim,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,9,-0.576927185670687,PROSODY,voicecraft/giga830m_tts_enhanced/eng,76.52668630075704,15.0,sim,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,PROSODY,gpt-sovits/v4/eng,79.35747267576438,11.0,sim,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,11,-0.754505234743026,PROSODY,hierspeech/v1.1/eng,72.23932439603591,17.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,12,-0.787962267314379,PROSODY,styletts2/default/eng,83.11684982305414,9.0,sim,aggregated_results_sap__libritts.csv
+tortoise,tortoise,13,-0.827690328166699,PROSODY,tortoise/default/eng,86.59913746701959,3.0,sim,aggregated_results_sap__libritts.csv
+vevo,vevo,14,-0.944343404792295,PROSODY,vevo/vevo1.5/eng,78.96137708724115,12.0,sim,aggregated_results_sap__libritts.csv
+metavoice,metavoice,15,-1.17557209871395,PROSODY,metavoice/default/eng,84.45478513003765,6.0,sim,aggregated_results_sap__libritts.csv
+xtts,xtts,16,-1.28878163920876,PROSODY,xtts/v2/eng,78.43820917450579,13.0,sim,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,PROSODY,whisperspeech/small/eng,89.88204500103326,2.0,sim,aggregated_results_sap__libritts.csv
+openvoice,openvoice,18,-1.53361547255085,PROSODY,openvoice/default/eng,86.51801358445185,4.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,1,2.44697819734404,PROSODY,styletts2/default/eng,83.11684982305414,9.0,intel,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,2,2.33973696175463,PROSODY,fish-speech/s1-mini/eng,90.347006773247,1.0,intel,aggregated_results_sap__libritts.csv
+openvoice,openvoice,3,2.23589580650502,PROSODY,openvoice/default/eng,86.51801358445185,4.0,intel,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,PROSODY,qwen3-tts/1.7b-base/eng,83.84821458023163,7.0,intel,aggregated_results_sap__libritts.csv
+tortoise,tortoise,5,1.93963770677368,PROSODY,tortoise/default/eng,86.59913746701959,3.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,6,1.9212030193773,PROSODY,indextts/default/eng,85.20212904217975,5.0,intel,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,7,1.46426118294162,PROSODY,f5-tts/v1/eng,83.8059176563438,8.0,intel,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,8,1.20841567669501,PROSODY,whisperspeech/small/eng,89.88204500103326,2.0,intel,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,9,0.92878102689503,PROSODY,vibevoice/default/eng,80.11668670350302,10.0,intel,aggregated_results_sap__libritts.csv
+xtts,xtts,10,0.48960136589781,PROSODY,xtts/v2/eng,78.43820917450579,13.0,intel,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,11,0.198223341447589,PROSODY,e2-tts/default/eng,77.64096045815124,14.0,intel,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,12,0.0818880149053242,PROSODY,hierspeech/v1.1/eng,72.23932439603591,17.0,intel,aggregated_results_sap__libritts.csv
+vevo,vevo,13,0.029618680831655,PROSODY,vevo/vevo1.5/eng,78.96137708724115,12.0,intel,aggregated_results_sap__libritts.csv
+recording,recording,14,0.0,PROSODY,recording/default/eng,70.61764638521451,18.0,intel,aggregated_results_sap__libritts.csv
+maskgct,maskgct,15,-0.0537024851800524,PROSODY,maskgct/default/eng,76.14336577873432,16.0,intel,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,PROSODY,gpt-sovits/v4/eng,79.35747267576438,11.0,intel,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,17,-0.653807459549089,PROSODY,voicecraft/giga830m_tts_enhanced/eng,76.52668630075704,15.0,intel,aggregated_results_sap__libritts.csv
+metavoice,metavoice,18,-1.07553475807921,PROSODY,metavoice/default/eng,84.45478513003765,6.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,1,0.962534929784353,SPEAKER,indextts/default/eng,79.49805245141316,7.0,sim,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,SPEAKER,qwen3-tts/1.7b-base/eng,83.3133574783252,1.0,sim,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,3,0.67182568139416,SPEAKER,e2-tts/default/eng,77.81933392744057,9.0,sim,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,4,0.355839445079671,SPEAKER,fish-speech/s1-mini/eng,81.44016996840284,4.0,sim,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,5,0.181825571787109,SPEAKER,f5-tts/v1/eng,81.81611458062159,3.0,sim,aggregated_results_sap__libritts.csv
+maskgct,maskgct,6,0.140665032548458,SPEAKER,maskgct/default/eng,71.60158692683498,16.0,sim,aggregated_results_sap__libritts.csv
+recording,recording,7,0.0,SPEAKER,recording/default/eng,73.0568793381221,14.0,sim,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,8,-0.419851736565557,SPEAKER,vibevoice/default/eng,77.15120492963365,10.0,sim,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,9,-0.576927185670687,SPEAKER,voicecraft/giga830m_tts_enhanced/eng,69.62385760694028,17.0,sim,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,SPEAKER,gpt-sovits/v4/eng,76.33029532176262,12.0,sim,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,11,-0.754505234743026,SPEAKER,hierspeech/v1.1/eng,73.49052624103314,13.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,12,-0.787962267314379,SPEAKER,styletts2/default/eng,80.64025992337585,6.0,sim,aggregated_results_sap__libritts.csv
+tortoise,tortoise,13,-0.827690328166699,SPEAKER,tortoise/default/eng,81.91515388610424,2.0,sim,aggregated_results_sap__libritts.csv
+vevo,vevo,14,-0.944343404792295,SPEAKER,vevo/vevo1.5/eng,76.9406662838124,11.0,sim,aggregated_results_sap__libritts.csv
+metavoice,metavoice,15,-1.17557209871395,SPEAKER,metavoice/default/eng,67.96958637314152,18.0,sim,aggregated_results_sap__libritts.csv
+xtts,xtts,16,-1.28878163920876,SPEAKER,xtts/v2/eng,72.5264592219759,15.0,sim,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,SPEAKER,whisperspeech/small/eng,78.78367232910287,8.0,sim,aggregated_results_sap__libritts.csv
+openvoice,openvoice,18,-1.53361547255085,SPEAKER,openvoice/default/eng,80.74492540813259,5.0,sim,aggregated_results_sap__libritts.csv
+styletts2,styletts2,1,2.44697819734404,SPEAKER,styletts2/default/eng,80.64025992337585,6.0,intel,aggregated_results_sap__libritts.csv
+fish.speech,fish-speech,2,2.33973696175463,SPEAKER,fish-speech/s1-mini/eng,81.44016996840284,4.0,intel,aggregated_results_sap__libritts.csv
+openvoice,openvoice,3,2.23589580650502,SPEAKER,openvoice/default/eng,80.74492540813259,5.0,intel,aggregated_results_sap__libritts.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,SPEAKER,qwen3-tts/1.7b-base/eng,83.3133574783252,1.0,intel,aggregated_results_sap__libritts.csv
+tortoise,tortoise,5,1.93963770677368,SPEAKER,tortoise/default/eng,81.91515388610424,2.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,6,1.9212030193773,SPEAKER,indextts/default/eng,79.49805245141316,7.0,intel,aggregated_results_sap__libritts.csv
+f5.tts,f5-tts,7,1.46426118294162,SPEAKER,f5-tts/v1/eng,81.81611458062159,3.0,intel,aggregated_results_sap__libritts.csv
+whisperspeech,whisperspeech,8,1.20841567669501,SPEAKER,whisperspeech/small/eng,78.78367232910287,8.0,intel,aggregated_results_sap__libritts.csv
+vibevoice,vibevoice,9,0.92878102689503,SPEAKER,vibevoice/default/eng,77.15120492963365,10.0,intel,aggregated_results_sap__libritts.csv
+xtts,xtts,10,0.48960136589781,SPEAKER,xtts/v2/eng,72.5264592219759,15.0,intel,aggregated_results_sap__libritts.csv
+e2.tts,e2-tts,11,0.198223341447589,SPEAKER,e2-tts/default/eng,77.81933392744057,9.0,intel,aggregated_results_sap__libritts.csv
+hierspeech,hierspeech,12,0.0818880149053242,SPEAKER,hierspeech/v1.1/eng,73.49052624103314,13.0,intel,aggregated_results_sap__libritts.csv
+vevo,vevo,13,0.029618680831655,SPEAKER,vevo/vevo1.5/eng,76.9406662838124,11.0,intel,aggregated_results_sap__libritts.csv
+recording,recording,14,0.0,SPEAKER,recording/default/eng,73.0568793381221,14.0,intel,aggregated_results_sap__libritts.csv
+maskgct,maskgct,15,-0.0537024851800524,SPEAKER,maskgct/default/eng,71.60158692683498,16.0,intel,aggregated_results_sap__libritts.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,SPEAKER,gpt-sovits/v4/eng,76.33029532176262,12.0,intel,aggregated_results_sap__libritts.csv
+voicecraft,voicecraft,17,-0.653807459549089,SPEAKER,voicecraft/giga830m_tts_enhanced/eng,69.62385760694028,17.0,intel,aggregated_results_sap__libritts.csv
+metavoice,metavoice,18,-1.07553475807921,SPEAKER,metavoice/default/eng,67.96958637314152,18.0,intel,aggregated_results_sap__libritts.csv
+indextts,indextts,1,0.962534929784353,GENERIC,indextts/default/eng,91.87587858800627,7.0,sim,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,GENERIC,qwen3-tts/1.7b-base/eng,90.97194291450025,11.0,sim,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,3,0.67182568139416,GENERIC,e2-tts/default/eng,94.74177806476835,4.0,sim,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,4,0.355839445079671,GENERIC,fish-speech/s1-mini/eng,84.98261091699253,16.0,sim,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,5,0.181825571787109,GENERIC,f5-tts/v1/eng,89.84769506228069,13.0,sim,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,6,0.140665032548458,GENERIC,maskgct/default/eng,96.18970464285375,2.0,sim,aggregated_results_sap__sap_readable_01.csv
+recording,recording,7,0.0,GENERIC,recording/default/eng,98.31726432678845,1.0,sim,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,8,-0.419851736565557,GENERIC,vibevoice/default/eng,94.6116582161063,5.0,sim,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,9,-0.576927185670687,GENERIC,voicecraft/giga830m_tts_enhanced/eng,95.22617301015612,3.0,sim,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,GENERIC,gpt-sovits/v4/eng,90.43414562548428,12.0,sim,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,11,-0.754505234743026,GENERIC,hierspeech/v1.1/eng,91.42769746866637,9.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,12,-0.787962267314379,GENERIC,styletts2/default/eng,82.91487010266614,17.0,sim,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,13,-0.827690328166699,GENERIC,tortoise/default/eng,88.63055453666085,14.0,sim,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,14,-0.944343404792295,GENERIC,vevo/vevo1.5/eng,93.0224715444997,6.0,sim,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,15,-1.17557209871395,GENERIC,metavoice/default/eng,91.39025044634464,10.0,sim,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,16,-1.28878163920876,GENERIC,xtts/v2/eng,91.62612479326437,8.0,sim,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,GENERIC,whisperspeech/small/eng,86.99263230036199,15.0,sim,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,18,-1.53361547255085,GENERIC,openvoice/default/eng,81.28981284468459,18.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,1,2.44697819734404,GENERIC,styletts2/default/eng,82.91487010266614,17.0,intel,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,2,2.33973696175463,GENERIC,fish-speech/s1-mini/eng,84.98261091699253,16.0,intel,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,3,2.23589580650502,GENERIC,openvoice/default/eng,81.28981284468459,18.0,intel,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,GENERIC,qwen3-tts/1.7b-base/eng,90.97194291450025,11.0,intel,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,5,1.93963770677368,GENERIC,tortoise/default/eng,88.63055453666085,14.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,6,1.9212030193773,GENERIC,indextts/default/eng,91.87587858800627,7.0,intel,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,7,1.46426118294162,GENERIC,f5-tts/v1/eng,89.84769506228069,13.0,intel,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,8,1.20841567669501,GENERIC,whisperspeech/small/eng,86.99263230036199,15.0,intel,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,9,0.92878102689503,GENERIC,vibevoice/default/eng,94.6116582161063,5.0,intel,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,10,0.48960136589781,GENERIC,xtts/v2/eng,91.62612479326437,8.0,intel,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,11,0.198223341447589,GENERIC,e2-tts/default/eng,94.74177806476835,4.0,intel,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,12,0.0818880149053242,GENERIC,hierspeech/v1.1/eng,91.42769746866637,9.0,intel,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,13,0.029618680831655,GENERIC,vevo/vevo1.5/eng,93.0224715444997,6.0,intel,aggregated_results_sap__sap_readable_01.csv
+recording,recording,14,0.0,GENERIC,recording/default/eng,98.31726432678845,1.0,intel,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,15,-0.0537024851800524,GENERIC,maskgct/default/eng,96.18970464285375,2.0,intel,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,GENERIC,gpt-sovits/v4/eng,90.43414562548428,12.0,intel,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,17,-0.653807459549089,GENERIC,voicecraft/giga830m_tts_enhanced/eng,95.22617301015612,3.0,intel,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,18,-1.07553475807921,GENERIC,metavoice/default/eng,91.39025044634464,10.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,1,0.962534929784353,INTELLIGIBILITY,indextts/default/eng,83.40583309170361,7.0,sim,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,INTELLIGIBILITY,qwen3-tts/1.7b-base/eng,82.52324834430382,10.0,sim,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,3,0.67182568139416,INTELLIGIBILITY,e2-tts/default/eng,87.7636584947816,3.0,sim,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,4,0.355839445079671,INTELLIGIBILITY,fish-speech/s1-mini/eng,71.93968059326593,15.0,sim,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,5,0.181825571787109,INTELLIGIBILITY,f5-tts/v1/eng,81.49932552381566,12.0,sim,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,6,0.140665032548458,INTELLIGIBILITY,maskgct/default/eng,88.412212206602,2.0,sim,aggregated_results_sap__sap_readable_01.csv
+recording,recording,7,0.0,INTELLIGIBILITY,recording/default/eng,89.28258889136256,1.0,sim,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,8,-0.419851736565557,INTELLIGIBILITY,vibevoice/default/eng,83.8791596586276,6.0,sim,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,9,-0.576927185670687,INTELLIGIBILITY,voicecraft/giga830m_tts_enhanced/eng,82.8978769863587,9.0,sim,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,INTELLIGIBILITY,gpt-sovits/v4/eng,82.059080507315,11.0,sim,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,11,-0.754505234743026,INTELLIGIBILITY,hierspeech/v1.1/eng,87.0666278633543,4.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,12,-0.787962267314379,INTELLIGIBILITY,styletts2/default/eng,75.73459910253698,13.0,sim,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,13,-0.827690328166699,INTELLIGIBILITY,tortoise/default/eng,75.02180429603332,14.0,sim,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,14,-0.944343404792295,INTELLIGIBILITY,vevo/vevo1.5/eng,82.97639213185448,8.0,sim,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,15,-1.17557209871395,INTELLIGIBILITY,metavoice/default/eng,65.40347258643641,16.0,sim,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,16,-1.28878163920876,INTELLIGIBILITY,xtts/v2/eng,84.35934561208853,5.0,sim,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,INTELLIGIBILITY,whisperspeech/small/eng,64.77963443738156,17.0,sim,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,18,-1.53361547255085,INTELLIGIBILITY,openvoice/default/eng,63.79574573005912,18.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,1,2.44697819734404,INTELLIGIBILITY,styletts2/default/eng,75.73459910253698,13.0,intel,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,2,2.33973696175463,INTELLIGIBILITY,fish-speech/s1-mini/eng,71.93968059326593,15.0,intel,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,3,2.23589580650502,INTELLIGIBILITY,openvoice/default/eng,63.79574573005912,18.0,intel,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,INTELLIGIBILITY,qwen3-tts/1.7b-base/eng,82.52324834430382,10.0,intel,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,5,1.93963770677368,INTELLIGIBILITY,tortoise/default/eng,75.02180429603332,14.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,6,1.9212030193773,INTELLIGIBILITY,indextts/default/eng,83.40583309170361,7.0,intel,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,7,1.46426118294162,INTELLIGIBILITY,f5-tts/v1/eng,81.49932552381566,12.0,intel,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,8,1.20841567669501,INTELLIGIBILITY,whisperspeech/small/eng,64.77963443738156,17.0,intel,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,9,0.92878102689503,INTELLIGIBILITY,vibevoice/default/eng,83.8791596586276,6.0,intel,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,10,0.48960136589781,INTELLIGIBILITY,xtts/v2/eng,84.35934561208853,5.0,intel,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,11,0.198223341447589,INTELLIGIBILITY,e2-tts/default/eng,87.7636584947816,3.0,intel,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,12,0.0818880149053242,INTELLIGIBILITY,hierspeech/v1.1/eng,87.0666278633543,4.0,intel,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,13,0.029618680831655,INTELLIGIBILITY,vevo/vevo1.5/eng,82.97639213185448,8.0,intel,aggregated_results_sap__sap_readable_01.csv
+recording,recording,14,0.0,INTELLIGIBILITY,recording/default/eng,89.28258889136256,1.0,intel,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,15,-0.0537024851800524,INTELLIGIBILITY,maskgct/default/eng,88.412212206602,2.0,intel,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,INTELLIGIBILITY,gpt-sovits/v4/eng,82.059080507315,11.0,intel,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,17,-0.653807459549089,INTELLIGIBILITY,voicecraft/giga830m_tts_enhanced/eng,82.8978769863587,9.0,intel,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,18,-1.07553475807921,INTELLIGIBILITY,metavoice/default/eng,65.40347258643641,16.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,1,0.962534929784353,OVERALL,indextts/default/eng,86.92941785852994,9.0,sim,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,OVERALL,qwen3-tts/1.7b-base/eng,86.44482280702039,10.0,sim,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,3,0.67182568139416,OVERALL,e2-tts/default/eng,90.60289743916418,3.0,sim,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,4,0.355839445079671,OVERALL,fish-speech/s1-mini/eng,80.33871363732644,16.0,sim,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,5,0.181825571787109,OVERALL,f5-tts/v1/eng,85.79977792617426,12.0,sim,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,6,0.140665032548458,OVERALL,maskgct/default/eng,90.84338613505116,2.0,sim,aggregated_results_sap__sap_readable_01.csv
+recording,recording,7,0.0,OVERALL,recording/default/eng,93.63954863662688,1.0,sim,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,8,-0.419851736565557,OVERALL,vibevoice/default/eng,88.65773292828466,5.0,sim,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,9,-0.576927185670687,OVERALL,voicecraft/giga830m_tts_enhanced/eng,88.25326226987268,6.0,sim,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,OVERALL,gpt-sovits/v4/eng,87.29596327002925,7.0,sim,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,11,-0.754505234743026,OVERALL,hierspeech/v1.1/eng,88.85531754477626,4.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,12,-0.787962267314379,OVERALL,styletts2/default/eng,80.91448615332737,14.0,sim,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,13,-0.827690328166699,OVERALL,tortoise/default/eng,82.461723506932,13.0,sim,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,14,-0.944343404792295,OVERALL,vevo/vevo1.5/eng,87.11885723760122,8.0,sim,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,15,-1.17557209871395,OVERALL,metavoice/default/eng,80.89013904930435,15.0,sim,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,16,-1.28878163920876,OVERALL,xtts/v2/eng,86.04800873926334,11.0,sim,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,OVERALL,whisperspeech/small/eng,79.79833975779454,17.0,sim,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,18,-1.53361547255085,OVERALL,openvoice/default/eng,76.81229188403728,18.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,1,2.44697819734404,OVERALL,styletts2/default/eng,80.91448615332737,14.0,intel,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,2,2.33973696175463,OVERALL,fish-speech/s1-mini/eng,80.33871363732644,16.0,intel,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,3,2.23589580650502,OVERALL,openvoice/default/eng,76.81229188403728,18.0,intel,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,OVERALL,qwen3-tts/1.7b-base/eng,86.44482280702039,10.0,intel,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,5,1.93963770677368,OVERALL,tortoise/default/eng,82.461723506932,13.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,6,1.9212030193773,OVERALL,indextts/default/eng,86.92941785852994,9.0,intel,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,7,1.46426118294162,OVERALL,f5-tts/v1/eng,85.79977792617426,12.0,intel,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,8,1.20841567669501,OVERALL,whisperspeech/small/eng,79.79833975779454,17.0,intel,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,9,0.92878102689503,OVERALL,vibevoice/default/eng,88.65773292828466,5.0,intel,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,10,0.48960136589781,OVERALL,xtts/v2/eng,86.04800873926334,11.0,intel,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,11,0.198223341447589,OVERALL,e2-tts/default/eng,90.60289743916418,3.0,intel,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,12,0.0818880149053242,OVERALL,hierspeech/v1.1/eng,88.85531754477626,4.0,intel,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,13,0.029618680831655,OVERALL,vevo/vevo1.5/eng,87.11885723760122,8.0,intel,aggregated_results_sap__sap_readable_01.csv
+recording,recording,14,0.0,OVERALL,recording/default/eng,93.63954863662688,1.0,intel,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,15,-0.0537024851800524,OVERALL,maskgct/default/eng,90.84338613505116,2.0,intel,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,OVERALL,gpt-sovits/v4/eng,87.29596327002925,7.0,intel,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,17,-0.653807459549089,OVERALL,voicecraft/giga830m_tts_enhanced/eng,88.25326226987268,6.0,intel,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,18,-1.07553475807921,OVERALL,metavoice/default/eng,80.89013904930435,15.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,1,0.962534929784353,PROSODY,indextts/default/eng,82.62104943691507,10.0,sim,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,PROSODY,qwen3-tts/1.7b-base/eng,84.16566760350635,8.0,sim,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,3,0.67182568139416,PROSODY,e2-tts/default/eng,88.23271623691896,3.0,sim,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,4,0.355839445079671,PROSODY,fish-speech/s1-mini/eng,78.34474539799625,18.0,sim,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,5,0.181825571787109,PROSODY,f5-tts/v1/eng,82.92865591982739,9.0,sim,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,6,0.140665032548458,PROSODY,maskgct/default/eng,87.79493179625463,4.0,sim,aggregated_results_sap__sap_readable_01.csv
+recording,recording,7,0.0,PROSODY,recording/default/eng,94.5689836494094,1.0,sim,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,8,-0.419851736565557,PROSODY,vibevoice/default/eng,86.63506384596239,6.0,sim,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,9,-0.576927185670687,PROSODY,voicecraft/giga830m_tts_enhanced/eng,87.22072072718687,5.0,sim,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,PROSODY,gpt-sovits/v4/eng,86.44567670964393,7.0,sim,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,11,-0.754505234743026,PROSODY,hierspeech/v1.1/eng,89.80799782715157,2.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,12,-0.787962267314379,PROSODY,styletts2/default/eng,80.23350807437814,15.0,sim,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,13,-0.827690328166699,PROSODY,tortoise/default/eng,78.96191000074941,17.0,sim,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,14,-0.944343404792295,PROSODY,vevo/vevo1.5/eng,81.68699036011363,11.0,sim,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,15,-1.17557209871395,PROSODY,metavoice/default/eng,80.8315682752587,13.0,sim,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,16,-1.28878163920876,PROSODY,xtts/v2/eng,81.63574491419168,12.0,sim,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,PROSODY,whisperspeech/small/eng,80.17203937298423,16.0,sim,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,18,-1.53361547255085,PROSODY,openvoice/default/eng,80.32188203422761,14.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,1,2.44697819734404,PROSODY,styletts2/default/eng,80.23350807437814,15.0,intel,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,2,2.33973696175463,PROSODY,fish-speech/s1-mini/eng,78.34474539799625,18.0,intel,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,3,2.23589580650502,PROSODY,openvoice/default/eng,80.32188203422761,14.0,intel,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,PROSODY,qwen3-tts/1.7b-base/eng,84.16566760350635,8.0,intel,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,5,1.93963770677368,PROSODY,tortoise/default/eng,78.96191000074941,17.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,6,1.9212030193773,PROSODY,indextts/default/eng,82.62104943691507,10.0,intel,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,7,1.46426118294162,PROSODY,f5-tts/v1/eng,82.92865591982739,9.0,intel,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,8,1.20841567669501,PROSODY,whisperspeech/small/eng,80.17203937298423,16.0,intel,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,9,0.92878102689503,PROSODY,vibevoice/default/eng,86.63506384596239,6.0,intel,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,10,0.48960136589781,PROSODY,xtts/v2/eng,81.63574491419168,12.0,intel,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,11,0.198223341447589,PROSODY,e2-tts/default/eng,88.23271623691896,3.0,intel,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,12,0.0818880149053242,PROSODY,hierspeech/v1.1/eng,89.80799782715157,2.0,intel,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,13,0.029618680831655,PROSODY,vevo/vevo1.5/eng,81.68699036011363,11.0,intel,aggregated_results_sap__sap_readable_01.csv
+recording,recording,14,0.0,PROSODY,recording/default/eng,94.5689836494094,1.0,intel,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,15,-0.0537024851800524,PROSODY,maskgct/default/eng,87.79493179625463,4.0,intel,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,PROSODY,gpt-sovits/v4/eng,86.44567670964393,7.0,intel,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,17,-0.653807459549089,PROSODY,voicecraft/giga830m_tts_enhanced/eng,87.22072072718687,5.0,intel,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,18,-1.07553475807921,PROSODY,metavoice/default/eng,80.8315682752587,13.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,1,0.962534929784353,SPEAKER,indextts/default/eng,89.81491031749482,6.0,sim,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,SPEAKER,qwen3-tts/1.7b-base/eng,88.11843236577113,9.0,sim,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,3,0.67182568139416,SPEAKER,e2-tts/default/eng,91.6734369601878,2.0,sim,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,4,0.355839445079671,SPEAKER,fish-speech/s1-mini/eng,86.08781764105106,15.0,sim,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,5,0.181825571787109,SPEAKER,f5-tts/v1/eng,88.92343519877329,8.0,sim,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,6,0.140665032548458,SPEAKER,maskgct/default/eng,90.97669589449418,3.0,sim,aggregated_results_sap__sap_readable_01.csv
+recording,recording,7,0.0,SPEAKER,recording/default/eng,92.38935767894708,1.0,sim,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,8,-0.419851736565557,SPEAKER,vibevoice/default/eng,89.50504999244232,7.0,sim,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,9,-0.576927185670687,SPEAKER,voicecraft/giga830m_tts_enhanced/eng,87.66827835578903,10.0,sim,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,SPEAKER,gpt-sovits/v4/eng,90.24495023767378,5.0,sim,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,11,-0.754505234743026,SPEAKER,hierspeech/v1.1/eng,87.11894701993282,13.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,12,-0.787962267314379,SPEAKER,styletts2/default/eng,84.77496733372827,17.0,sim,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,13,-0.827690328166699,SPEAKER,tortoise/default/eng,87.2326251942844,12.0,sim,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,14,-0.944343404792295,SPEAKER,vevo/vevo1.5/eng,90.78957491393707,4.0,sim,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,15,-1.17557209871395,SPEAKER,metavoice/default/eng,85.9352648891777,16.0,sim,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,16,-1.28878163920876,SPEAKER,xtts/v2/eng,86.57081963750883,14.0,sim,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,SPEAKER,whisperspeech/small/eng,87.24905292045038,11.0,sim,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,18,-1.53361547255085,SPEAKER,openvoice/default/eng,81.84172692717779,18.0,sim,aggregated_results_sap__sap_readable_01.csv
+styletts2,styletts2,1,2.44697819734404,SPEAKER,styletts2/default/eng,84.77496733372827,17.0,intel,aggregated_results_sap__sap_readable_01.csv
+fish.speech,fish-speech,2,2.33973696175463,SPEAKER,fish-speech/s1-mini/eng,86.08781764105106,15.0,intel,aggregated_results_sap__sap_readable_01.csv
+openvoice,openvoice,3,2.23589580650502,SPEAKER,openvoice/default/eng,81.84172692717779,18.0,intel,aggregated_results_sap__sap_readable_01.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,SPEAKER,qwen3-tts/1.7b-base/eng,88.11843236577113,9.0,intel,aggregated_results_sap__sap_readable_01.csv
+tortoise,tortoise,5,1.93963770677368,SPEAKER,tortoise/default/eng,87.2326251942844,12.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,6,1.9212030193773,SPEAKER,indextts/default/eng,89.81491031749482,6.0,intel,aggregated_results_sap__sap_readable_01.csv
+f5.tts,f5-tts,7,1.46426118294162,SPEAKER,f5-tts/v1/eng,88.92343519877329,8.0,intel,aggregated_results_sap__sap_readable_01.csv
+whisperspeech,whisperspeech,8,1.20841567669501,SPEAKER,whisperspeech/small/eng,87.24905292045038,11.0,intel,aggregated_results_sap__sap_readable_01.csv
+vibevoice,vibevoice,9,0.92878102689503,SPEAKER,vibevoice/default/eng,89.50504999244232,7.0,intel,aggregated_results_sap__sap_readable_01.csv
+xtts,xtts,10,0.48960136589781,SPEAKER,xtts/v2/eng,86.57081963750883,14.0,intel,aggregated_results_sap__sap_readable_01.csv
+e2.tts,e2-tts,11,0.198223341447589,SPEAKER,e2-tts/default/eng,91.6734369601878,2.0,intel,aggregated_results_sap__sap_readable_01.csv
+hierspeech,hierspeech,12,0.0818880149053242,SPEAKER,hierspeech/v1.1/eng,87.11894701993282,13.0,intel,aggregated_results_sap__sap_readable_01.csv
+vevo,vevo,13,0.029618680831655,SPEAKER,vevo/vevo1.5/eng,90.78957491393707,4.0,intel,aggregated_results_sap__sap_readable_01.csv
+recording,recording,14,0.0,SPEAKER,recording/default/eng,92.38935767894708,1.0,intel,aggregated_results_sap__sap_readable_01.csv
+maskgct,maskgct,15,-0.0537024851800524,SPEAKER,maskgct/default/eng,90.97669589449418,3.0,intel,aggregated_results_sap__sap_readable_01.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,SPEAKER,gpt-sovits/v4/eng,90.24495023767378,5.0,intel,aggregated_results_sap__sap_readable_01.csv
+voicecraft,voicecraft,17,-0.653807459549089,SPEAKER,voicecraft/giga830m_tts_enhanced/eng,87.66827835578903,10.0,intel,aggregated_results_sap__sap_readable_01.csv
+metavoice,metavoice,18,-1.07553475807921,SPEAKER,metavoice/default/eng,85.9352648891777,16.0,intel,aggregated_results_sap__sap_readable_01.csv
+indextts,indextts,1,0.962534929784353,GENERIC,indextts/default/eng,87.39640614283826,10.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,GENERIC,qwen3-tts/1.7b-base/eng,85.84248697498589,12.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,3,0.67182568139416,GENERIC,e2-tts/default/eng,90.95009598562602,4.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,4,0.355839445079671,GENERIC,fish-speech/s1-mini/eng,80.14088864048148,16.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,5,0.181825571787109,GENERIC,f5-tts/v1/eng,84.45513772263241,13.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,6,0.140665032548458,GENERIC,maskgct/default/eng,93.6383993262168,2.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,7,0.0,GENERIC,recording/default/eng,96.16710352297645,1.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,8,-0.419851736565557,GENERIC,vibevoice/default/eng,90.74486330426625,5.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,9,-0.576927185670687,GENERIC,voicecraft/giga830m_tts_enhanced/eng,92.45433722740304,3.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,GENERIC,gpt-sovits/v4/eng,86.3195733906475,11.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,11,-0.754505234743026,GENERIC,hierspeech/v1.1/eng,88.21198657118755,8.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,12,-0.787962267314379,GENERIC,styletts2/default/eng,77.646595705159,17.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,13,-0.827690328166699,GENERIC,tortoise/default/eng,83.62015294517546,14.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,14,-0.944343404792295,GENERIC,vevo/vevo1.5/eng,89.68321238476294,6.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,15,-1.17557209871395,GENERIC,metavoice/default/eng,88.26522999321223,7.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,16,-1.28878163920876,GENERIC,xtts/v2/eng,87.47454515446965,9.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,GENERIC,whisperspeech/small/eng,82.52424615515672,15.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,18,-1.53361547255085,GENERIC,openvoice/default/eng,76.14519240159365,18.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,1,2.44697819734404,GENERIC,styletts2/default/eng,77.646595705159,17.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,2,2.33973696175463,GENERIC,fish-speech/s1-mini/eng,80.14088864048148,16.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,3,2.23589580650502,GENERIC,openvoice/default/eng,76.14519240159365,18.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,GENERIC,qwen3-tts/1.7b-base/eng,85.84248697498589,12.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,5,1.93963770677368,GENERIC,tortoise/default/eng,83.62015294517546,14.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,6,1.9212030193773,GENERIC,indextts/default/eng,87.39640614283826,10.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,7,1.46426118294162,GENERIC,f5-tts/v1/eng,84.45513772263241,13.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,8,1.20841567669501,GENERIC,whisperspeech/small/eng,82.52424615515672,15.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,9,0.92878102689503,GENERIC,vibevoice/default/eng,90.74486330426625,5.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,10,0.48960136589781,GENERIC,xtts/v2/eng,87.47454515446965,9.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,11,0.198223341447589,GENERIC,e2-tts/default/eng,90.95009598562602,4.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,12,0.0818880149053242,GENERIC,hierspeech/v1.1/eng,88.21198657118755,8.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,13,0.029618680831655,GENERIC,vevo/vevo1.5/eng,89.68321238476294,6.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,14,0.0,GENERIC,recording/default/eng,96.16710352297645,1.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,15,-0.0537024851800524,GENERIC,maskgct/default/eng,93.6383993262168,2.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,GENERIC,gpt-sovits/v4/eng,86.3195733906475,11.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,17,-0.653807459549089,GENERIC,voicecraft/giga830m_tts_enhanced/eng,92.45433722740304,3.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,18,-1.07553475807921,GENERIC,metavoice/default/eng,88.26522999321223,7.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,1,0.962534929784353,INTELLIGIBILITY,indextts/default/eng,77.71340881262452,9.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,INTELLIGIBILITY,qwen3-tts/1.7b-base/eng,76.58692602347269,11.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,3,0.67182568139416,INTELLIGIBILITY,e2-tts/default/eng,84.42046922747726,3.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,4,0.355839445079671,INTELLIGIBILITY,fish-speech/s1-mini/eng,67.08492097247247,15.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,5,0.181825571787109,INTELLIGIBILITY,f5-tts/v1/eng,76.51096236826412,12.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,6,0.140665032548458,INTELLIGIBILITY,maskgct/default/eng,85.8383495791193,1.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,7,0.0,INTELLIGIBILITY,recording/default/eng,85.5803849392232,2.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,8,-0.419851736565557,INTELLIGIBILITY,vibevoice/default/eng,80.2831937347024,5.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,9,-0.576927185670687,INTELLIGIBILITY,voicecraft/giga830m_tts_enhanced/eng,79.78882852937588,6.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,INTELLIGIBILITY,gpt-sovits/v4/eng,77.49278630858623,10.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,11,-0.754505234743026,INTELLIGIBILITY,hierspeech/v1.1/eng,81.9836549118171,4.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,12,-0.787962267314379,INTELLIGIBILITY,styletts2/default/eng,69.76869696858111,14.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,13,-0.827690328166699,INTELLIGIBILITY,tortoise/default/eng,70.07214346082333,13.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,14,-0.944343404792295,INTELLIGIBILITY,vevo/vevo1.5/eng,78.32305935519727,8.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,15,-1.17557209871395,INTELLIGIBILITY,metavoice/default/eng,64.65251241643499,16.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,16,-1.28878163920876,INTELLIGIBILITY,xtts/v2/eng,79.0445927425715,7.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,INTELLIGIBILITY,whisperspeech/small/eng,61.61622584507958,17.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,18,-1.53361547255085,INTELLIGIBILITY,openvoice/default/eng,59.31111921139615,18.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,1,2.44697819734404,INTELLIGIBILITY,styletts2/default/eng,69.76869696858111,14.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,2,2.33973696175463,INTELLIGIBILITY,fish-speech/s1-mini/eng,67.08492097247247,15.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,3,2.23589580650502,INTELLIGIBILITY,openvoice/default/eng,59.31111921139615,18.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,INTELLIGIBILITY,qwen3-tts/1.7b-base/eng,76.58692602347269,11.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,5,1.93963770677368,INTELLIGIBILITY,tortoise/default/eng,70.07214346082333,13.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,6,1.9212030193773,INTELLIGIBILITY,indextts/default/eng,77.71340881262452,9.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,7,1.46426118294162,INTELLIGIBILITY,f5-tts/v1/eng,76.51096236826412,12.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,8,1.20841567669501,INTELLIGIBILITY,whisperspeech/small/eng,61.61622584507958,17.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,9,0.92878102689503,INTELLIGIBILITY,vibevoice/default/eng,80.2831937347024,5.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,10,0.48960136589781,INTELLIGIBILITY,xtts/v2/eng,79.0445927425715,7.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,11,0.198223341447589,INTELLIGIBILITY,e2-tts/default/eng,84.42046922747726,3.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,12,0.0818880149053242,INTELLIGIBILITY,hierspeech/v1.1/eng,81.9836549118171,4.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,13,0.029618680831655,INTELLIGIBILITY,vevo/vevo1.5/eng,78.32305935519727,8.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,14,0.0,INTELLIGIBILITY,recording/default/eng,85.5803849392232,2.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,15,-0.0537024851800524,INTELLIGIBILITY,maskgct/default/eng,85.8383495791193,1.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,INTELLIGIBILITY,gpt-sovits/v4/eng,77.49278630858623,10.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,17,-0.653807459549089,INTELLIGIBILITY,voicecraft/giga830m_tts_enhanced/eng,79.78882852937588,6.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,18,-1.07553475807921,INTELLIGIBILITY,metavoice/default/eng,64.65251241643499,16.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,1,0.962534929784353,OVERALL,indextts/default/eng,82.32813002313736,10.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,OVERALL,qwen3-tts/1.7b-base/eng,81.48755442234236,11.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,3,0.67182568139416,OVERALL,e2-tts/default/eng,85.50238631690723,3.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,4,0.355839445079671,OVERALL,fish-speech/s1-mini/eng,76.26773843123436,15.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,5,0.181825571787109,OVERALL,f5-tts/v1/eng,80.39369289820299,12.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,6,0.140665032548458,OVERALL,maskgct/default/eng,86.66355872473208,2.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,7,0.0,OVERALL,recording/default/eng,88.25167317791524,1.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,8,-0.419851736565557,OVERALL,vibevoice/default/eng,84.13966842947626,5.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,9,-0.576927185670687,OVERALL,voicecraft/giga830m_tts_enhanced/eng,84.63429149843111,4.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,OVERALL,gpt-sovits/v4/eng,82.5578466588632,8.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,11,-0.754505234743026,OVERALL,hierspeech/v1.1/eng,83.7684085158808,6.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,12,-0.787962267314379,OVERALL,styletts2/default/eng,75.73462511607414,16.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,13,-0.827690328166699,OVERALL,tortoise/default/eng,77.91739150615548,14.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,14,-0.944343404792295,OVERALL,vevo/vevo1.5/eng,82.75305497728286,7.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,15,-1.17557209871395,OVERALL,metavoice/default/eng,78.5207218824866,13.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,16,-1.28878163920876,OVERALL,xtts/v2/eng,82.35031403892253,9.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,OVERALL,whisperspeech/small/eng,75.28018929305516,17.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,18,-1.53361547255085,OVERALL,openvoice/default/eng,72.23779333973157,18.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,1,2.44697819734404,OVERALL,styletts2/default/eng,75.73462511607414,16.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,2,2.33973696175463,OVERALL,fish-speech/s1-mini/eng,76.26773843123436,15.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,3,2.23589580650502,OVERALL,openvoice/default/eng,72.23779333973157,18.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,OVERALL,qwen3-tts/1.7b-base/eng,81.48755442234236,11.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,5,1.93963770677368,OVERALL,tortoise/default/eng,77.91739150615548,14.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,6,1.9212030193773,OVERALL,indextts/default/eng,82.32813002313736,10.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,7,1.46426118294162,OVERALL,f5-tts/v1/eng,80.39369289820299,12.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,8,1.20841567669501,OVERALL,whisperspeech/small/eng,75.28018929305516,17.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,9,0.92878102689503,OVERALL,vibevoice/default/eng,84.13966842947626,5.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,10,0.48960136589781,OVERALL,xtts/v2/eng,82.35031403892253,9.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,11,0.198223341447589,OVERALL,e2-tts/default/eng,85.50238631690723,3.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,12,0.0818880149053242,OVERALL,hierspeech/v1.1/eng,83.7684085158808,6.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,13,0.029618680831655,OVERALL,vevo/vevo1.5/eng,82.75305497728286,7.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,14,0.0,OVERALL,recording/default/eng,88.25167317791524,1.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,15,-0.0537024851800524,OVERALL,maskgct/default/eng,86.66355872473208,2.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,OVERALL,gpt-sovits/v4/eng,82.5578466588632,8.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,17,-0.653807459549089,OVERALL,voicecraft/giga830m_tts_enhanced/eng,84.63429149843111,4.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,18,-1.07553475807921,OVERALL,metavoice/default/eng,78.5207218824866,13.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,1,0.962534929784353,PROSODY,indextts/default/eng,80.80812952391888,9.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,PROSODY,qwen3-tts/1.7b-base/eng,81.79634480367498,6.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,3,0.67182568139416,PROSODY,e2-tts/default/eng,81.72851228991742,7.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,4,0.355839445079671,PROSODY,fish-speech/s1-mini/eng,77.2190764105503,14.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,5,0.181825571787109,PROSODY,f5-tts/v1/eng,78.25912305859333,13.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,6,0.140665032548458,PROSODY,maskgct/default/eng,81.10352505009546,8.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,7,0.0,PROSODY,recording/default/eng,84.51848330758305,1.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,8,-0.419851736565557,PROSODY,vibevoice/default/eng,82.26204679476042,4.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,9,-0.576927185670687,PROSODY,voicecraft/giga830m_tts_enhanced/eng,82.80581942302938,3.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,PROSODY,gpt-sovits/v4/eng,81.9984090332461,5.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,11,-0.754505234743026,PROSODY,hierspeech/v1.1/eng,83.01451216519082,2.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,12,-0.787962267314379,PROSODY,styletts2/default/eng,75.75341396054485,17.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,13,-0.827690328166699,PROSODY,tortoise/default/eng,76.70248503326303,15.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,14,-0.944343404792295,PROSODY,vevo/vevo1.5/eng,78.30081851035503,12.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,15,-1.17557209871395,PROSODY,metavoice/default/eng,79.23498618476945,11.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,16,-1.28878163920876,PROSODY,xtts/v2/eng,80.31692032610316,10.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,PROSODY,whisperspeech/small/eng,75.57133902497831,18.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,18,-1.53361547255085,PROSODY,openvoice/default/eng,76.03211294520833,16.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,1,2.44697819734404,PROSODY,styletts2/default/eng,75.75341396054485,17.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,2,2.33973696175463,PROSODY,fish-speech/s1-mini/eng,77.2190764105503,14.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,3,2.23589580650502,PROSODY,openvoice/default/eng,76.03211294520833,16.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,PROSODY,qwen3-tts/1.7b-base/eng,81.79634480367498,6.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,5,1.93963770677368,PROSODY,tortoise/default/eng,76.70248503326303,15.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,6,1.9212030193773,PROSODY,indextts/default/eng,80.80812952391888,9.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,7,1.46426118294162,PROSODY,f5-tts/v1/eng,78.25912305859333,13.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,8,1.20841567669501,PROSODY,whisperspeech/small/eng,75.57133902497831,18.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,9,0.92878102689503,PROSODY,vibevoice/default/eng,82.26204679476042,4.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,10,0.48960136589781,PROSODY,xtts/v2/eng,80.31692032610316,10.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,11,0.198223341447589,PROSODY,e2-tts/default/eng,81.72851228991742,7.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,12,0.0818880149053242,PROSODY,hierspeech/v1.1/eng,83.01451216519082,2.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,13,0.029618680831655,PROSODY,vevo/vevo1.5/eng,78.30081851035503,12.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,14,0.0,PROSODY,recording/default/eng,84.51848330758305,1.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,15,-0.0537024851800524,PROSODY,maskgct/default/eng,81.10352505009546,8.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,PROSODY,gpt-sovits/v4/eng,81.9984090332461,5.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,17,-0.653807459549089,PROSODY,voicecraft/giga830m_tts_enhanced/eng,82.80581942302938,3.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,18,-1.07553475807921,PROSODY,metavoice/default/eng,79.23498618476945,11.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,1,0.962534929784353,SPEAKER,indextts/default/eng,83.39457561316779,7.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,2,0.791079988365953,SPEAKER,qwen3-tts/1.7b-base/eng,81.72445988723587,13.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,3,0.67182568139416,SPEAKER,e2-tts/default/eng,84.91046776460823,3.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,4,0.355839445079671,SPEAKER,fish-speech/s1-mini/eng,80.62606770143319,16.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,5,0.181825571787109,SPEAKER,f5-tts/v1/eng,82.34954844332208,10.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,6,0.140665032548458,SPEAKER,maskgct/default/eng,86.07396094349676,2.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,7,0.0,SPEAKER,recording/default/eng,86.74072094187827,1.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,8,-0.419851736565557,SPEAKER,vibevoice/default/eng,83.268569884176,8.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,9,-0.576927185670687,SPEAKER,voicecraft/giga830m_tts_enhanced/eng,83.48818081391619,6.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,10,-0.644218378544644,SPEAKER,gpt-sovits/v4/eng,84.42061790297296,5.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,11,-0.754505234743026,SPEAKER,hierspeech/v1.1/eng,81.8634804153277,12.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,12,-0.787962267314379,SPEAKER,styletts2/default/eng,79.76979383001162,17.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,13,-0.827690328166699,SPEAKER,tortoise/default/eng,81.27478458536014,15.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,14,-0.944343404792295,SPEAKER,vevo/vevo1.5/eng,84.70512965881619,4.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,15,-1.17557209871395,SPEAKER,metavoice/default/eng,81.9301589355297,11.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,16,-1.28878163920876,SPEAKER,xtts/v2/eng,82.56519793254584,9.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,17,-1.35491983218282,SPEAKER,whisperspeech/small/eng,81.40894614700602,14.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,18,-1.53361547255085,SPEAKER,openvoice/default/eng,77.46274880072815,18.0,sim,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+styletts2,styletts2,1,2.44697819734404,SPEAKER,styletts2/default/eng,79.76979383001162,17.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+fish.speech,fish-speech,2,2.33973696175463,SPEAKER,fish-speech/s1-mini/eng,80.62606770143319,16.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+openvoice,openvoice,3,2.23589580650502,SPEAKER,openvoice/default/eng,77.46274880072815,18.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+qwen3.tts,qwen3-tts,4,2.20698429417246,SPEAKER,qwen3-tts/1.7b-base/eng,81.72445988723587,13.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+tortoise,tortoise,5,1.93963770677368,SPEAKER,tortoise/default/eng,81.27478458536014,15.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,6,1.9212030193773,SPEAKER,indextts/default/eng,83.39457561316779,7.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+f5.tts,f5-tts,7,1.46426118294162,SPEAKER,f5-tts/v1/eng,82.34954844332208,10.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+whisperspeech,whisperspeech,8,1.20841567669501,SPEAKER,whisperspeech/small/eng,81.40894614700602,14.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vibevoice,vibevoice,9,0.92878102689503,SPEAKER,vibevoice/default/eng,83.268569884176,8.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+xtts,xtts,10,0.48960136589781,SPEAKER,xtts/v2/eng,82.56519793254584,9.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+e2.tts,e2-tts,11,0.198223341447589,SPEAKER,e2-tts/default/eng,84.91046776460823,3.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+hierspeech,hierspeech,12,0.0818880149053242,SPEAKER,hierspeech/v1.1/eng,81.8634804153277,12.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+vevo,vevo,13,0.029618680831655,SPEAKER,vevo/vevo1.5/eng,84.70512965881619,4.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+recording,recording,14,0.0,SPEAKER,recording/default/eng,86.74072094187827,1.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+maskgct,maskgct,15,-0.0537024851800524,SPEAKER,maskgct/default/eng,86.07396094349676,2.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,SPEAKER,gpt-sovits/v4/eng,84.42061790297296,5.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+voicecraft,voicecraft,17,-0.653807459549089,SPEAKER,voicecraft/giga830m_tts_enhanced/eng,83.48818081391619,6.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+metavoice,metavoice,18,-1.07553475807921,SPEAKER,metavoice/default/eng,81.9301589355297,11.0,intel,aggregated_results_sap__sap_readable_01_very_high_wer.csv
+indextts,indextts,1,0.962534929784353,WER (whisper),indextts,0.9009810992147949,4.0,sim,WER (whisper)
+qwen3.tts,qwen3-tts,2,0.791079988365953,WER (whisper),qwen3-tts,0.8003795613202841,12.0,sim,WER (whisper)
+e2.tts,e2-tts,3,0.67182568139416,WER (whisper),e2-tts,0.6917801278022702,15.0,sim,WER (whisper)
+fish.speech,fish-speech,4,0.355839445079671,WER (whisper),fish-speech,0.9161886450703487,3.0,sim,WER (whisper)
+f5.tts,f5-tts,5,0.181825571787109,WER (whisper),f5-tts,0.8766437286028479,5.0,sim,WER (whisper)
+maskgct,maskgct,6,0.140665032548458,WER (whisper),maskgct,0.8248197401324985,9.0,sim,WER (whisper)
+recording,recording,7,0.0,WER (whisper),recording,0.7944692656110834,13.0,sim,WER (whisper)
+vibevoice,vibevoice,8,-0.419851736565557,WER (whisper),vibevoice,0.813776674529352,11.0,sim,WER (whisper)
+voicecraft,voicecraft,9,-0.576927185670687,WER (whisper),voicecraft,0.6405387210562243,17.0,sim,WER (whisper)
+gpt.sovits,gpt-sovits,10,-0.644218378544644,WER (whisper),gpt-sovits,0.729559795275708,14.0,sim,WER (whisper)
+hierspeech,hierspeech,11,-0.754505234743026,WER (whisper),hierspeech,0.8630209232812409,6.0,sim,WER (whisper)
+styletts2,styletts2,12,-0.787962267314379,WER (whisper),styletts2,0.9358224667090157,1.0,sim,WER (whisper)
+tortoise,tortoise,13,-0.827690328166699,WER (whisper),tortoise,0.8490823385045783,7.0,sim,WER (whisper)
+vevo,vevo,14,-0.944343404792295,WER (whisper),vevo,0.6519796244591578,16.0,sim,WER (whisper)
+metavoice,metavoice,15,-1.17557209871395,WER (whisper),metavoice,0.5674727740697227,18.0,sim,WER (whisper)
+xtts,xtts,16,-1.28878163920876,WER (whisper),xtts,0.8269994984791519,8.0,sim,WER (whisper)
+whisperspeech,whisperspeech,17,-1.35491983218282,WER (whisper),whisperspeech,0.8181530016076417,10.0,sim,WER (whisper)
+openvoice,openvoice,18,-1.53361547255085,WER (whisper),openvoice,0.9331063891785074,2.0,sim,WER (whisper)
+styletts2,styletts2,1,2.44697819734404,WER (whisper),styletts2,0.9358224667090157,1.0,intel,WER (whisper)
+fish.speech,fish-speech,2,2.33973696175463,WER (whisper),fish-speech,0.9161886450703487,3.0,intel,WER (whisper)
+openvoice,openvoice,3,2.23589580650502,WER (whisper),openvoice,0.9331063891785074,2.0,intel,WER (whisper)
+qwen3.tts,qwen3-tts,4,2.20698429417246,WER (whisper),qwen3-tts,0.8003795613202841,12.0,intel,WER (whisper)
+tortoise,tortoise,5,1.93963770677368,WER (whisper),tortoise,0.8490823385045783,7.0,intel,WER (whisper)
+indextts,indextts,6,1.9212030193773,WER (whisper),indextts,0.9009810992147949,4.0,intel,WER (whisper)
+f5.tts,f5-tts,7,1.46426118294162,WER (whisper),f5-tts,0.8766437286028479,5.0,intel,WER (whisper)
+whisperspeech,whisperspeech,8,1.20841567669501,WER (whisper),whisperspeech,0.8181530016076417,10.0,intel,WER (whisper)
+vibevoice,vibevoice,9,0.92878102689503,WER (whisper),vibevoice,0.813776674529352,11.0,intel,WER (whisper)
+xtts,xtts,10,0.48960136589781,WER (whisper),xtts,0.8269994984791519,8.0,intel,WER (whisper)
+e2.tts,e2-tts,11,0.198223341447589,WER (whisper),e2-tts,0.6917801278022702,15.0,intel,WER (whisper)
+hierspeech,hierspeech,12,0.0818880149053242,WER (whisper),hierspeech,0.8630209232812409,6.0,intel,WER (whisper)
+vevo,vevo,13,0.029618680831655,WER (whisper),vevo,0.6519796244591578,16.0,intel,WER (whisper)
+recording,recording,14,0.0,WER (whisper),recording,0.7944692656110834,13.0,intel,WER (whisper)
+maskgct,maskgct,15,-0.0537024851800524,WER (whisper),maskgct,0.8248197401324985,9.0,intel,WER (whisper)
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,WER (whisper),gpt-sovits,0.729559795275708,14.0,intel,WER (whisper)
+voicecraft,voicecraft,17,-0.653807459549089,WER (whisper),voicecraft,0.6405387210562243,17.0,intel,WER (whisper)
+metavoice,metavoice,18,-1.07553475807921,WER (whisper),metavoice,0.5674727740697227,18.0,intel,WER (whisper)
+indextts,indextts,1,0.962534929784353,Speaker Similarity (wespeaker),indextts,0.6703362659706423,2.0,sim,Speaker Similarity (wespeaker)
+qwen3.tts,qwen3-tts,2,0.791079988365953,Speaker Similarity (wespeaker),qwen3-tts,0.5734052804689254,6.0,sim,Speaker Similarity (wespeaker)
+e2.tts,e2-tts,3,0.67182568139416,Speaker Similarity (wespeaker),e2-tts,0.7128348929407708,1.0,sim,Speaker Similarity (wespeaker)
+fish.speech,fish-speech,4,0.355839445079671,Speaker Similarity (wespeaker),fish-speech,0.486874503484044,10.0,sim,Speaker Similarity (wespeaker)
+f5.tts,f5-tts,5,0.181825571787109,Speaker Similarity (wespeaker),f5-tts,0.6185515357647091,5.0,sim,Speaker Similarity (wespeaker)
+maskgct,maskgct,6,0.140665032548458,Speaker Similarity (wespeaker),maskgct,0.6265693063511274,4.0,sim,Speaker Similarity (wespeaker)
+recording,recording,7,0.0,Speaker Similarity (wespeaker),recording,0.6454861923048534,3.0,sim,Speaker Similarity (wespeaker)
+vibevoice,vibevoice,8,-0.419851736565557,Speaker Similarity (wespeaker),vibevoice,0.4859877953907319,11.0,sim,Speaker Similarity (wespeaker)
+voicecraft,voicecraft,9,-0.576927185670687,Speaker Similarity (wespeaker),voicecraft,0.373675051220592,15.0,sim,Speaker Similarity (wespeaker)
+gpt.sovits,gpt-sovits,10,-0.644218378544644,Speaker Similarity (wespeaker),gpt-sovits,0.504126441117478,8.0,sim,Speaker Similarity (wespeaker)
+hierspeech,hierspeech,11,-0.754505234743026,Speaker Similarity (wespeaker),hierspeech,0.496392639035388,9.0,sim,Speaker Similarity (wespeaker)
+styletts2,styletts2,12,-0.787962267314379,Speaker Similarity (wespeaker),styletts2,0.371036104838519,17.0,sim,Speaker Similarity (wespeaker)
+tortoise,tortoise,13,-0.827690328166699,Speaker Similarity (wespeaker),tortoise,0.3721197235120579,16.0,sim,Speaker Similarity (wespeaker)
+vevo,vevo,14,-0.944343404792295,Speaker Similarity (wespeaker),vevo,0.5625258911536147,7.0,sim,Speaker Similarity (wespeaker)
+metavoice,metavoice,15,-1.17557209871395,Speaker Similarity (wespeaker),metavoice,0.4180100682563115,13.0,sim,Speaker Similarity (wespeaker)
+xtts,xtts,16,-1.28878163920876,Speaker Similarity (wespeaker),xtts,0.404474214607261,14.0,sim,Speaker Similarity (wespeaker)
+whisperspeech,whisperspeech,17,-1.35491983218282,Speaker Similarity (wespeaker),whisperspeech,0.4409204733032019,12.0,sim,Speaker Similarity (wespeaker)
+openvoice,openvoice,18,-1.53361547255085,Speaker Similarity (wespeaker),openvoice,0.2831737673647391,18.0,sim,Speaker Similarity (wespeaker)
+styletts2,styletts2,1,2.44697819734404,Speaker Similarity (wespeaker),styletts2,0.371036104838519,17.0,intel,Speaker Similarity (wespeaker)
+fish.speech,fish-speech,2,2.33973696175463,Speaker Similarity (wespeaker),fish-speech,0.486874503484044,10.0,intel,Speaker Similarity (wespeaker)
+openvoice,openvoice,3,2.23589580650502,Speaker Similarity (wespeaker),openvoice,0.2831737673647391,18.0,intel,Speaker Similarity (wespeaker)
+qwen3.tts,qwen3-tts,4,2.20698429417246,Speaker Similarity (wespeaker),qwen3-tts,0.5734052804689254,6.0,intel,Speaker Similarity (wespeaker)
+tortoise,tortoise,5,1.93963770677368,Speaker Similarity (wespeaker),tortoise,0.3721197235120579,16.0,intel,Speaker Similarity (wespeaker)
+indextts,indextts,6,1.9212030193773,Speaker Similarity (wespeaker),indextts,0.6703362659706423,2.0,intel,Speaker Similarity (wespeaker)
+f5.tts,f5-tts,7,1.46426118294162,Speaker Similarity (wespeaker),f5-tts,0.6185515357647091,5.0,intel,Speaker Similarity (wespeaker)
+whisperspeech,whisperspeech,8,1.20841567669501,Speaker Similarity (wespeaker),whisperspeech,0.4409204733032019,12.0,intel,Speaker Similarity (wespeaker)
+vibevoice,vibevoice,9,0.92878102689503,Speaker Similarity (wespeaker),vibevoice,0.4859877953907319,11.0,intel,Speaker Similarity (wespeaker)
+xtts,xtts,10,0.48960136589781,Speaker Similarity (wespeaker),xtts,0.404474214607261,14.0,intel,Speaker Similarity (wespeaker)
+e2.tts,e2-tts,11,0.198223341447589,Speaker Similarity (wespeaker),e2-tts,0.7128348929407708,1.0,intel,Speaker Similarity (wespeaker)
+hierspeech,hierspeech,12,0.0818880149053242,Speaker Similarity (wespeaker),hierspeech,0.496392639035388,9.0,intel,Speaker Similarity (wespeaker)
+vevo,vevo,13,0.029618680831655,Speaker Similarity (wespeaker),vevo,0.5625258911536147,7.0,intel,Speaker Similarity (wespeaker)
+recording,recording,14,0.0,Speaker Similarity (wespeaker),recording,0.6454861923048534,3.0,intel,Speaker Similarity (wespeaker)
+maskgct,maskgct,15,-0.0537024851800524,Speaker Similarity (wespeaker),maskgct,0.6265693063511274,4.0,intel,Speaker Similarity (wespeaker)
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,Speaker Similarity (wespeaker),gpt-sovits,0.504126441117478,8.0,intel,Speaker Similarity (wespeaker)
+voicecraft,voicecraft,17,-0.653807459549089,Speaker Similarity (wespeaker),voicecraft,0.373675051220592,15.0,intel,Speaker Similarity (wespeaker)
+metavoice,metavoice,18,-1.07553475807921,Speaker Similarity (wespeaker),metavoice,0.4180100682563115,13.0,intel,Speaker Similarity (wespeaker)
+indextts,indextts,1,0.962534929784353,UTMOS,indextts,2.8815934285521507,9.0,sim,UTMOS
+qwen3.tts,qwen3-tts,2,0.791079988365953,UTMOS,qwen3-tts,3.582511525641205,4.0,sim,UTMOS
+e2.tts,e2-tts,3,0.67182568139416,UTMOS,e2-tts,2.609934762510329,13.0,sim,UTMOS
+fish.speech,fish-speech,4,0.355839445079671,UTMOS,fish-speech,3.475493849867984,5.0,sim,UTMOS
+f5.tts,f5-tts,5,0.181825571787109,UTMOS,f5-tts,2.936446918242889,8.0,sim,UTMOS
+maskgct,maskgct,6,0.140665032548458,UTMOS,maskgct,2.5802027998170303,14.0,sim,UTMOS
+recording,recording,7,0.0,UTMOS,recording,2.3562861933656363,17.0,sim,UTMOS
+vibevoice,vibevoice,8,-0.419851736565557,UTMOS,vibevoice,2.7498562590529523,10.0,sim,UTMOS
+voicecraft,voicecraft,9,-0.576927185670687,UTMOS,voicecraft,2.4215777831551915,16.0,sim,UTMOS
+gpt.sovits,gpt-sovits,10,-0.644218378544644,UTMOS,gpt-sovits,2.569675088569682,15.0,sim,UTMOS
+hierspeech,hierspeech,11,-0.754505234743026,UTMOS,hierspeech,3.624379452646088,3.0,sim,UTMOS
+styletts2,styletts2,12,-0.787962267314379,UTMOS,styletts2,3.710073315848907,2.0,sim,UTMOS
+tortoise,tortoise,13,-0.827690328166699,UTMOS,tortoise,3.146745614548947,6.0,sim,UTMOS
+vevo,vevo,14,-0.944343404792295,UTMOS,vevo,2.6676931900063945,11.0,sim,UTMOS
+metavoice,metavoice,15,-1.17557209871395,UTMOS,metavoice,2.085649662961562,18.0,sim,UTMOS
+xtts,xtts,16,-1.28878163920876,UTMOS,xtts,2.6269042183080487,12.0,sim,UTMOS
+whisperspeech,whisperspeech,17,-1.35491983218282,UTMOS,whisperspeech,3.0134621290345267,7.0,sim,UTMOS
+openvoice,openvoice,18,-1.53361547255085,UTMOS,openvoice,3.715826808164517,1.0,sim,UTMOS
+styletts2,styletts2,1,2.44697819734404,UTMOS,styletts2,3.710073315848907,2.0,intel,UTMOS
+fish.speech,fish-speech,2,2.33973696175463,UTMOS,fish-speech,3.475493849867984,5.0,intel,UTMOS
+openvoice,openvoice,3,2.23589580650502,UTMOS,openvoice,3.715826808164517,1.0,intel,UTMOS
+qwen3.tts,qwen3-tts,4,2.20698429417246,UTMOS,qwen3-tts,3.582511525641205,4.0,intel,UTMOS
+tortoise,tortoise,5,1.93963770677368,UTMOS,tortoise,3.146745614548947,6.0,intel,UTMOS
+indextts,indextts,6,1.9212030193773,UTMOS,indextts,2.8815934285521507,9.0,intel,UTMOS
+f5.tts,f5-tts,7,1.46426118294162,UTMOS,f5-tts,2.936446918242889,8.0,intel,UTMOS
+whisperspeech,whisperspeech,8,1.20841567669501,UTMOS,whisperspeech,3.0134621290345267,7.0,intel,UTMOS
+vibevoice,vibevoice,9,0.92878102689503,UTMOS,vibevoice,2.7498562590529523,10.0,intel,UTMOS
+xtts,xtts,10,0.48960136589781,UTMOS,xtts,2.6269042183080487,12.0,intel,UTMOS
+e2.tts,e2-tts,11,0.198223341447589,UTMOS,e2-tts,2.609934762510329,13.0,intel,UTMOS
+hierspeech,hierspeech,12,0.0818880149053242,UTMOS,hierspeech,3.624379452646088,3.0,intel,UTMOS
+vevo,vevo,13,0.029618680831655,UTMOS,vevo,2.6676931900063945,11.0,intel,UTMOS
+recording,recording,14,0.0,UTMOS,recording,2.3562861933656363,17.0,intel,UTMOS
+maskgct,maskgct,15,-0.0537024851800524,UTMOS,maskgct,2.5802027998170303,14.0,intel,UTMOS
+gpt.sovits,gpt-sovits,16,-0.0710059488697125,UTMOS,gpt-sovits,2.569675088569682,15.0,intel,UTMOS
+voicecraft,voicecraft,17,-0.653807459549089,UTMOS,voicecraft,2.4215777831551915,16.0,intel,UTMOS
+metavoice,metavoice,18,-1.07553475807921,UTMOS,metavoice,2.085649662961562,18.0,intel,UTMOS

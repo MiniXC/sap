@@ -1,0 +1,181 @@
+benchmark_name,benchmark_category,dataset,score,time_taken,noise_dataset,reference_dataset
+Hubert,GENERIC,fish-speech/s1-mini/eng,94.50709396642463,315.1747057437897,noise_uniform_distribution,libritts
+Hubert,GENERIC,whisperspeech/small/eng,94.1703616025097,87.55083322525024,noise_uniform_distribution,libritts
+Hubert,GENERIC,qwen3-tts/1.7b-base/eng,94.02421991850653,141.54230618476868,noise_uniform_distribution,libritts
+Hubert,GENERIC,styletts2/default/eng,93.72265442964417,145.1397602558136,noise_uniform_distribution,libritts
+Hubert,GENERIC,tortoise/default/eng,93.58599384951006,144.28292846679688,noise_uniform_distribution,libritts
+Hubert,GENERIC,openvoice/default/eng,92.38939974451164,118.39401292800903,noise_uniform_distribution,libritts
+Hubert,GENERIC,indextts/default/eng,92.11557449810468,314.30801725387573,noise_uniform_distribution,libritts
+Hubert,GENERIC,f5-tts/v1/eng,92.01066823377012,318.00249004364014,noise_uniform_distribution,libritts
+Hubert,GENERIC,gpt-sovits/v4/eng,91.08173282859549,289.8000946044922,noise_uniform_distribution,libritts
+Hubert,GENERIC,vibevoice/default/eng,90.79838756403471,118.22344517707825,noise_uniform_distribution,libritts
+Hubert,GENERIC,e2-tts/default/eng,88.98245430823111,314.1645963191986,noise_uniform_distribution,libritts
+Hubert,GENERIC,xtts/v2/eng,88.43348672918478,68.53000545501709,noise_uniform_distribution,libritts
+Hubert,GENERIC,vevo/vevo1.5/eng,87.9316688685742,144.08766412734985,noise_uniform_distribution,libritts
+Hubert,GENERIC,metavoice/default/eng,87.70778714367397,315.3165395259857,noise_uniform_distribution,libritts
+Hubert,GENERIC,voicecraft/giga830m_tts_enhanced/eng,86.69254038445223,141.43601369857788,noise_uniform_distribution,libritts
+Hubert,GENERIC,maskgct/default/eng,86.68747884061291,314.01066064834595,noise_uniform_distribution,libritts
+Hubert,GENERIC,hierspeech/v1.1/eng,85.81812237692186,318.02788043022156,noise_uniform_distribution,libritts
+Hubert,GENERIC,recording/default/eng,83.91654655744851,141.24641728401184,noise_uniform_distribution,libritts
+Wav2Vec2,GENERIC,fish-speech/s1-mini/eng,94.22856667221201,124.27124238014221,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,whisperspeech/small/eng,94.11626916649095,65.79311490058899,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,tortoise/default/eng,93.59867396027485,135.85981512069702,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,qwen3-tts/1.7b-base/eng,93.59505749806544,141.72784805297852,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,styletts2/default/eng,93.31609476657928,137.31108593940735,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,openvoice/default/eng,92.42343079844055,138.22589445114136,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,indextts/default/eng,92.05477882741256,116.52744483947754,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,gpt-sovits/v4/eng,91.77547839888412,116.79961466789246,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,f5-tts/v1/eng,91.70871089698231,124.23992133140564,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,vibevoice/default/eng,91.32534583437419,134.01254510879517,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,e2-tts/default/eng,89.09644337160141,122.39873433113098,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,xtts/v2/eng,88.90007942481489,68.7251250743866,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,vevo/vevo1.5/eng,88.70687097044018,133.98250889778137,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,voicecraft/giga830m_tts_enhanced/eng,88.18301721342964,133.9270224571228,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,metavoice/default/eng,87.92788374693534,116.64865469932556,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,maskgct/default/eng,87.66117756519782,124.24407458305359,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,hierspeech/v1.1/eng,85.56524908906763,116.43078136444092,noise_all_zeros,libritts
+Wav2Vec2,GENERIC,recording/default/eng,85.3447941274025,138.02127742767334,noise_all_zeros,libritts
+WavLM,GENERIC,fish-speech/s1-mini/eng,95.74936212517525,173.00257921218872,noise_uniform_distribution,libritts
+WavLM,GENERIC,whisperspeech/small/eng,95.31960668311854,104.82510375976562,noise_uniform_distribution,libritts
+WavLM,GENERIC,styletts2/default/eng,94.56173848282788,121.18822288513184,noise_uniform_distribution,libritts
+WavLM,GENERIC,qwen3-tts/1.7b-base/eng,94.35445858355308,116.78872299194336,noise_uniform_distribution,libritts
+WavLM,GENERIC,tortoise/default/eng,94.28527325324362,120.72475600242615,noise_uniform_distribution,libritts
+WavLM,GENERIC,openvoice/default/eng,94.11810101375686,129.1872329711914,noise_uniform_distribution,libritts
+WavLM,GENERIC,indextts/default/eng,93.47965575271253,155.55850219726562,noise_uniform_distribution,libritts
+WavLM,GENERIC,f5-tts/v1/eng,92.88665277421605,150.88649439811707,noise_uniform_distribution,libritts
+WavLM,GENERIC,gpt-sovits/v4/eng,91.87726384956491,178.46233916282654,noise_uniform_distribution,libritts
+WavLM,GENERIC,vibevoice/default/eng,91.11967895597108,145.99695658683777,noise_uniform_distribution,libritts
+WavLM,GENERIC,xtts/v2/eng,90.05224763673164,104.189697265625,noise_uniform_distribution,libritts
+WavLM,GENERIC,e2-tts/default/eng,89.68364912400482,173.44327902793884,noise_uniform_distribution,libritts
+WavLM,GENERIC,vevo/vevo1.5/eng,88.60047549791756,116.62613487243652,noise_uniform_distribution,libritts
+WavLM,GENERIC,metavoice/default/eng,88.04368274743162,155.5657923221588,noise_uniform_distribution,libritts
+WavLM,GENERIC,maskgct/default/eng,87.34318348560983,178.3907732963562,noise_uniform_distribution,libritts
+WavLM,GENERIC,voicecraft/giga830m_tts_enhanced/eng,86.69211737913768,145.9679765701294,noise_uniform_distribution,libritts
+WavLM,GENERIC,hierspeech/v1.1/eng,85.57932926936907,178.41654014587402,noise_all_ones,libritts
+WavLM,GENERIC,recording/default/eng,84.66407113086647,117.73201370239258,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,styletts2/default/eng,96.82227899264481,224.8012068271637,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,qwen3-tts/1.7b-base/eng,95.68068042112115,224.8098533153534,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,openvoice/default/eng,95.62286313528742,230.69808506965637,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,tortoise/default/eng,95.31359585528108,224.7209882736206,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,fish-speech/s1-mini/eng,95.27462981596068,127.03200244903564,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,indextts/default/eng,95.03278189059354,132.98497819900513,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,f5-tts/v1/eng,94.6349742176105,132.96088099479675,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,xtts/v2/eng,92.99711591787806,76.68524622917175,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,gpt-sovits/v4/eng,92.26826226211485,132.96926021575928,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,vibevoice/default/eng,91.89484878237296,224.7671627998352,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,e2-tts/default/eng,91.06386446417173,132.9983389377594,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,vevo/vevo1.5/eng,90.84417848300568,224.75537419319153,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,maskgct/default/eng,90.10753103026065,132.9699523448944,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,hierspeech/v1.1/eng,89.962647098514,132.9862174987793,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,recording/default/eng,88.77900996726069,224.77254486083984,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,voicecraft/giga830m_tts_enhanced/eng,87.91197544744762,215.7679204940796,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,whisperspeech/small/eng,85.30825079697351,85.89824342727661,noise_uniform_distribution,libritts
+Wav2Vec2 Activations,INTELLIGIBILITY,metavoice/default/eng,70.02543501999759,132.98689365386963,noise_uniform_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,hierspeech/v1.1/eng,76.41412063450586,511.8302938938141,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,vibevoice/default/eng,75.06062152352406,504.4934916496277,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,gpt-sovits/v4/eng,74.99570047233274,511.760187625885,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,e2-tts/default/eng,74.84074936101396,511.66601610183716,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,maskgct/default/eng,74.38612151197869,511.6578257083893,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,xtts/v2/eng,74.17578114444977,259.37009596824646,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,voicecraft/giga830m_tts_enhanced/eng,73.96892002097358,538.1440482139587,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,qwen3-tts/1.7b-base/eng,73.76769905766568,538.4028036594391,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,recording/default/eng,73.67914366910006,538.424631357193,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,indextts/default/eng,72.74074172893121,511.7695982456207,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,f5-tts/v1/eng,71.71134520369513,480.30964493751526,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,vevo/vevo1.5/eng,70.33419219390467,538.2200734615326,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,metavoice/default/eng,69.83138444965707,511.73336911201477,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,styletts2/default/eng,68.06827834143924,538.3584733009338,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,whisperspeech/small/eng,65.95637255960396,292.7006251811981,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,fish-speech/s1-mini/eng,65.92467566855723,511.72649574279785,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,tortoise/default/eng,65.22322539543343,538.3273830413818,noise_normal_distribution,libritts
+Whisper Activations,INTELLIGIBILITY,openvoice/default/eng,56.436328667971026,569.7330088615417,noise_normal_distribution,libritts
+Allosaurus SR,PROSODY,whisperspeech/small/eng,89.06209706781785,0.2935507297515869,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,fish-speech/s1-mini/eng,88.43413726393705,0.0869002342224121,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,openvoice/default/eng,87.62721842304978,0.3563554286956787,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,styletts2/default/eng,84.03366174315452,0.1900322437286377,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,f5-tts/v1/eng,81.5213344518557,0.0844776630401611,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,tortoise/default/eng,78.27647405487991,0.2868483066558838,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,metavoice/default/eng,74.06927192577294,0.078521728515625,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,indextts/default/eng,73.32717544743704,0.1268346309661865,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,qwen3-tts/1.7b-base/eng,73.28202201273574,0.2719011306762695,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,gpt-sovits/v4/eng,60.21297758825701,0.1487002372741699,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,e2-tts/default/eng,59.49535718213209,0.0940511226654052,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,vibevoice/default/eng,59.42226445167955,0.2688541412353515,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,xtts/v2/eng,59.37477990770967,0.1932530403137207,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,voicecraft/giga830m_tts_enhanced/eng,57.18368258335992,0.2805280685424804,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,vevo/vevo1.5/eng,56.99706695566563,0.3061559200286865,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,hierspeech/v1.1/eng,50.67909412625047,0.0438578128814697,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,maskgct/default/eng,48.412725317996994,0.0910406112670898,noise_uniform_distribution,libritts
+Allosaurus SR,PROSODY,recording/default/eng,43.23569836209407,0.0051996707916259766,noise_uniform_distribution,libritts
+MPM,PROSODY,tortoise/default/eng,97.88957787311925,19.929794549942017,noise_normal_distribution,libritts
+MPM,PROSODY,whisperspeech/small/eng,97.70649217047229,13.285433530807495,noise_normal_distribution,libritts
+MPM,PROSODY,qwen3-tts/1.7b-base/eng,97.67675131995608,20.080551147460938,noise_normal_distribution,libritts
+MPM,PROSODY,openvoice/default/eng,97.50171944020654,17.28764772415161,noise_normal_distribution,libritts
+MPM,PROSODY,vibevoice/default/eng,96.75260193693657,19.991425037384033,noise_normal_distribution,libritts
+MPM,PROSODY,gpt-sovits/v4/eng,96.47346830040314,21.70343542098999,noise_uniform_distribution,libritts
+MPM,PROSODY,indextts/default/eng,96.46325679567246,21.776352405548096,noise_normal_distribution,libritts
+MPM,PROSODY,vevo/vevo1.5/eng,96.23660372802958,20.190285205841064,noise_normal_distribution,libritts
+MPM,PROSODY,fish-speech/s1-mini/eng,96.00488754436877,17.85461950302124,noise_normal_distribution,libritts
+MPM,PROSODY,voicecraft/giga830m_tts_enhanced/eng,95.49610259906399,19.996493816375732,noise_normal_distribution,libritts
+MPM,PROSODY,styletts2/default/eng,95.444155710331,19.96598219871521,noise_uniform_distribution,libritts
+MPM,PROSODY,xtts/v2/eng,95.20371837581214,8.349304676055908,noise_normal_distribution,libritts
+MPM,PROSODY,e2-tts/default/eng,95.17949691652109,21.854770183563232,noise_normal_distribution,libritts
+MPM,PROSODY,maskgct/default/eng,95.16617970245022,21.684383869171143,noise_normal_distribution,libritts
+MPM,PROSODY,f5-tts/v1/eng,93.81518631723526,21.682342767715454,noise_normal_distribution,libritts
+MPM,PROSODY,hierspeech/v1.1/eng,93.51956970508682,21.81206965446472,noise_normal_distribution,libritts
+MPM,PROSODY,metavoice/default/eng,93.34431668513885,14.311270475387573,noise_normal_distribution,libritts
+MPM,PROSODY,recording/default/eng,92.77820826349358,20.257986783981323,noise_normal_distribution,libritts
+Pitch,PROSODY,fish-speech/s1-mini/eng,86.60199551143518,0.14415192604064941,noise_all_ones,libritts
+Pitch,PROSODY,metavoice/default/eng,85.95076677920119,0.10741806030273438,noise_all_ones,libritts
+Pitch,PROSODY,indextts/default/eng,85.81595488342974,0.0725259780883789,noise_all_ones,libritts
+Pitch,PROSODY,maskgct/default/eng,84.85119231575571,0.10768532752990723,noise_all_ones,libritts
+Pitch,PROSODY,vibevoice/default/eng,84.17519372189291,0.08838486671447754,noise_all_ones,libritts
+Pitch,PROSODY,vevo/vevo1.5/eng,83.65046057802824,0.11671996116638184,noise_all_ones,libritts
+Pitch,PROSODY,tortoise/default/eng,83.63136047305957,0.10969924926757812,noise_all_ones,libritts
+Pitch,PROSODY,whisperspeech/small/eng,82.87754576480968,0.18848800659179688,noise_all_ones,libritts
+Pitch,PROSODY,gpt-sovits/v4/eng,81.385972138633,0.05119919776916504,noise_all_ones,libritts
+Pitch,PROSODY,xtts/v2/eng,80.73612923999552,0.15657997131347656,noise_all_ones,libritts
+Pitch,PROSODY,qwen3-tts/1.7b-base/eng,80.58587040800307,0.1124124526977539,noise_all_ones,libritts
+Pitch,PROSODY,e2-tts/default/eng,78.24802727580052,0.17602324485778809,noise_all_ones,libritts
+Pitch,PROSODY,voicecraft/giga830m_tts_enhanced/eng,76.9002737198472,0.2044978141784668,noise_all_ones,libritts
+Pitch,PROSODY,f5-tts/v1/eng,76.08123219994043,0.14618635177612305,noise_all_ones,libritts
+Pitch,PROSODY,recording/default/eng,75.83903253005589,0.25153398513793945,noise_all_ones,libritts
+Pitch,PROSODY,openvoice/default/eng,74.4251028900992,0.17520570755004883,noise_all_ones,libritts
+Pitch,PROSODY,hierspeech/v1.1/eng,72.51930935677045,0.08616900444030762,noise_all_ones,libritts
+Pitch,PROSODY,styletts2/default/eng,69.87273201567689,0.1137087345123291,noise_all_ones,libritts
+DVector,SPEAKER,tortoise/default/eng,92.80279088361652,44.96510314941406,noise_all_ones,libritts
+DVector,SPEAKER,qwen3-tts/1.7b-base/eng,92.10891242234165,61.69255352020264,noise_all_ones,libritts
+DVector,SPEAKER,vevo/vevo1.5/eng,92.09060055878926,40.84861636161804,noise_all_ones,libritts
+DVector,SPEAKER,gpt-sovits/v4/eng,91.72975184702108,52.21531820297241,noise_all_ones,libritts
+DVector,SPEAKER,whisperspeech/small/eng,91.68099926185455,40.79804587364197,noise_all_ones,libritts
+DVector,SPEAKER,e2-tts/default/eng,91.5305969160472,76.38646602630615,noise_all_ones,libritts
+DVector,SPEAKER,fish-speech/s1-mini/eng,91.3712291368873,31.143792152404785,noise_all_ones,libritts
+DVector,SPEAKER,recording/default/eng,91.35563233686767,40.85157299041748,noise_all_ones,libritts
+DVector,SPEAKER,f5-tts/v1/eng,90.75205161086932,42.15228152275085,noise_all_ones,libritts
+DVector,SPEAKER,maskgct/default/eng,90.63877757736464,80.3094596862793,noise_all_ones,libritts
+DVector,SPEAKER,styletts2/default/eng,90.61011340290192,46.74678874015808,noise_all_ones,libritts
+DVector,SPEAKER,indextts/default/eng,90.5605242698723,46.51426959037781,noise_all_ones,libritts
+DVector,SPEAKER,openvoice/default/eng,90.42061035379544,34.07327842712402,noise_all_ones,libritts
+DVector,SPEAKER,vibevoice/default/eng,90.22498519690959,40.550485372543335,noise_all_ones,libritts
+DVector,SPEAKER,voicecraft/giga830m_tts_enhanced/eng,89.94825788525533,40.88268232345581,noise_all_ones,libritts
+DVector,SPEAKER,metavoice/default/eng,88.77934724564666,37.78668880462647,noise_all_ones,libritts
+DVector,SPEAKER,xtts/v2/eng,88.42684331977195,40.86578893661499,noise_all_ones,libritts
+DVector,SPEAKER,hierspeech/v1.1/eng,86.5386087204393,68.617356300354,noise_all_ones,libritts
+WeSpeaker,SPEAKER,qwen3-tts/1.7b-base/eng,74.51780253430876,17.7668776512146,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,f5-tts/v1/eng,72.88017755037384,15.872997760772705,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,fish-speech/s1-mini/eng,71.50911079991837,19.28561520576477,noise_uniform_distribution,libritts
+WeSpeaker,SPEAKER,openvoice/default/eng,71.06924046246974,18.42524242401123,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,tortoise/default/eng,71.02751688859196,17.512722492218018,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,styletts2/default/eng,70.67040644384979,17.444079875946045,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,indextts/default/eng,68.43558063295401,18.672572374343872,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,whisperspeech/small/eng,65.88634539635119,6.711879253387451,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,e2-tts/default/eng,64.10807093883392,16.20660376548767,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,vibevoice/default/eng,64.07742466235771,17.510360956192017,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,vevo/vevo1.5/eng,61.79073200883555,16.85251808166504,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,gpt-sovits/v4/eng,60.93083879650417,20.412126302719116,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,hierspeech/v1.1/eng,60.442443761626976,17.086525678634644,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,xtts/v2/eng,56.62607512417986,6.6433868408203125,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,recording/default/eng,54.75812633937653,19.07176947593689,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,maskgct/default/eng,52.56439627630532,18.673195600509644,noise_normal_distribution,libritts
+WeSpeaker,SPEAKER,voicecraft/giga830m_tts_enhanced/eng,49.29945732862521,17.444442987442017,noise_uniform_distribution,libritts
+WeSpeaker,SPEAKER,metavoice/default/eng,47.159825500636394,20.748579263687134,noise_normal_distribution,libritts

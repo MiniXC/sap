@@ -1,0 +1,91 @@
+benchmark_category,dataset,score_mean,score_std,time_taken_sum,noise_dataset,reference_dataset
+SPEAKER,recording/default/eng,92.38935767894709,7.80873281111052,372.80906438827515,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,e2-tts/default/eng,91.67343696018781,7.351605631648264,300.44410490989685,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,maskgct/default/eng,90.97669589449418,8.526762921359389,317.99184131622314,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,vevo/vevo1.5/eng,90.78957491393707,7.6813773480331315,285.18427085876465,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,gpt-sovits/v4/eng,90.24495023767378,8.031094447703563,234.74073219299316,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,indextts/default/eng,89.81491031749482,7.458275065347074,205.98629808425903,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,vibevoice/default/eng,89.50504999244232,7.6361289645800134,271.8260455131531,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,f5-tts/v1/eng,88.92343519877329,8.888802751424908,197.97643733024597,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,qwen3-tts/1.7b-base/eng,88.11843236577113,9.451550940242416,231.734393119812,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,voicecraft/giga830m_tts_enhanced/eng,87.66827835578903,8.681627345550973,265.4976086616516,"noise_all_ones, noise_uniform_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,whisperspeech/small/eng,87.24905292045038,7.218098069991246,160.28955340385437,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,tortoise/default/eng,87.2326251942844,9.403080135575708,170.13945198059082,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,hierspeech/v1.1/eng,87.11894701993282,9.265846109889294,279.14667296409607,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,xtts/v2/eng,86.57081963750883,9.615851838419106,274.5066771507263,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,fish-speech/s1-mini/eng,86.08781764105106,9.625690507979593,161.09726810455322,"noise_all_ones, noise_uniform_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,metavoice/default/eng,85.9352648891777,9.113084463376959,180.5276074409485,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,styletts2/default/eng,84.77496733372827,11.087864235713011,168.28133082389832,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+SPEAKER,openvoice/default/eng,81.84172692717779,11.398671912046543,136.11678099632263,"noise_all_ones, noise_normal_distribution","sap_readable_01, sap_readable_01"
+PROSODY,recording/default/eng,94.56898364940939,4.197683215667982,296.3047788143158,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,hierspeech/v1.1/eng,89.80799782715157,8.272775864286201,394.7408788204193,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,e2-tts/default/eng,88.23271623691896,12.018002951193983,433.5646433830261,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,maskgct/default/eng,87.79493179625463,8.690609313614129,438.25457644462585,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,voicecraft/giga830m_tts_enhanced/eng,87.22072072718687,10.226772616813394,286.005211353302,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,vibevoice/default/eng,86.63506384596239,10.431658100869946,302.187775850296,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,gpt-sovits/v4/eng,86.44567670964393,10.9826026054709,322.55094957351685,"noise_uniform_distribution, noise_uniform_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,qwen3-tts/1.7b-base/eng,84.16566760350635,13.624352308498093,319.6445813179016,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,f5-tts/v1/eng,82.92865591982739,15.29953605086253,284.85753822326654,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,indextts/default/eng,82.62104943691507,13.844560863735115,305.71911692619324,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,vevo/vevo1.5/eng,81.68699036011363,10.179543666945161,330.24376654624933,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,xtts/v2/eng,81.63574491419168,12.650220682871808,280.2844126224518,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,metavoice/default/eng,80.8315682752587,12.362482170425357,270.6439299583435,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,openvoice/default/eng,80.32188203422761,16.857438354282518,214.76906847953796,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,styletts2/default/eng,80.23350807437814,13.4743453226997,263.83053970336914,"noise_uniform_distribution, noise_uniform_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,whisperspeech/small/eng,80.17203937298423,14.046949057171373,206.63021659851074,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,tortoise/default/eng,78.96191000074941,13.377349363566035,250.4856698513031,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+PROSODY,fish-speech/s1-mini/eng,78.34474539799625,12.246380246436939,245.09651517868042,"noise_uniform_distribution, noise_normal_distribution, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+OVERALL,recording/default/eng,93.63954863662687,0.0,2260.7773354053497,,
+OVERALL,maskgct/default/eng,90.84338613505115,0.0,2850.2241957187653,,
+OVERALL,e2-tts/default/eng,90.60289743916418,0.0,3009.891164779663,,
+OVERALL,hierspeech/v1.1/eng,88.85531754477626,0.0,2921.6427145004272,,
+OVERALL,vibevoice/default/eng,88.65773292828466,0.0,2545.8823685646057,,
+OVERALL,voicecraft/giga830m_tts_enhanced/eng,88.25326226987268,0.0,2639.150729417801,,
+OVERALL,gpt-sovits/v4/eng,87.29596327002925,0.0,2702.6635143756866,,
+OVERALL,vevo/vevo1.5/eng,87.11885723760122,0.0,3094.259489774704,,
+OVERALL,indextts/default/eng,86.92941785852994,0.0,2436.403173685074,,
+OVERALL,qwen3-tts/1.7b-base/eng,86.44482280702039,0.0,2739.7589042186737,,
+OVERALL,xtts/v2/eng,86.04800873926334,0.0,2042.8364675045013,,
+OVERALL,f5-tts/v1/eng,85.79977792617426,0.0,2418.757960796356,,
+OVERALL,tortoise/default/eng,82.461723506932,0.0,2148.924831390381,,
+OVERALL,styletts2/default/eng,80.91448615332737,0.0,2147.3943433761597,,
+OVERALL,metavoice/default/eng,80.89013904930435,0.0,2323.9511251449585,,
+OVERALL,fish-speech/s1-mini/eng,80.33871363732644,0.0,2130.841098546982,,
+OVERALL,whisperspeech/small/eng,79.79833975779454,0.0,2074.7957015037537,,
+OVERALL,openvoice/default/eng,76.81229188403728,0.0,1661.5125501155853,,
+INTELLIGIBILITY,recording/default/eng,89.28258889136256,12.714787859249753,1221.4050047397616,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,maskgct/default/eng,88.412212206602,12.107848090769036,1601.5031323432922,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,e2-tts/default/eng,87.7636584947816,12.340710898542932,1768.9753515720367,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,hierspeech/v1.1/eng,87.0666278633543,14.460791430768388,1821.5266172885895,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,xtts/v2/eng,84.35934561208853,17.285068997043368,1177.2883353233337,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,vibevoice/default/eng,83.8791596586276,10.857969887180253,1574.235570192337,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,indextts/default/eng,83.40583309170361,15.55936468960176,1516.0109651088715,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,vevo/vevo1.5/eng,82.97639213185448,14.45626109262491,2060.3647060394287,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,voicecraft/giga830m_tts_enhanced/eng,82.8978769863587,10.92974659886893,1658.490324497223,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,qwen3-tts/1.7b-base/eng,82.52324834430382,15.797600557511727,1913.8873484134676,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,gpt-sovits/v4/eng,82.059080507315,12.10476525906795,1724.3316915035248,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,f5-tts/v1/eng,81.49932552381566,14.271275002343096,1528.2069199085236,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,styletts2/default/eng,75.73459910253698,20.834689469877045,1338.4777233600616,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,tortoise/default/eng,75.02180429603332,20.64827771073563,1317.2454302310946,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,fish-speech/s1-mini/eng,71.93968059326593,17.06794336637757,1353.1031315326693,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,metavoice/default/eng,65.40347258643641,6.811824806911255,1388.1010301113129,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,whisperspeech/small/eng,64.77963443738156,9.32301081346237,1386.4976301193237,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+INTELLIGIBILITY,openvoice/default/eng,63.79574573005912,23.49745967284405,1016.4781570434569,"noise_uniform_distribution, noise_normal_distribution","sap_readable_01, sap_readable_01"
+GENERIC,recording/default/eng,98.31726432678845,0.5114789346988357,370.25848746299744,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,maskgct/default/eng,96.18970464285375,0.4855184018370201,492.474645614624,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,voicecraft/giga830m_tts_enhanced/eng,95.22617301015612,0.7403366978317347,429.1575849056244,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,e2-tts/default/eng,94.74177806476837,0.44047327463190994,506.90706491470337,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,vibevoice/default/eng,94.6116582161063,0.48948354221749446,397.6329770088196,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,vevo/vevo1.5/eng,93.0224715444997,0.3651245844485145,418.4667463302613,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,indextts/default/eng,91.87587858800627,0.4723630781442818,408.6867935657501,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,xtts/v2/eng,91.62612479326435,0.14865557821112477,310.7570424079895,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,hierspeech/v1.1/eng,91.42769746866635,0.594008359736721,426.2285454273224,"noise_uniform_distribution, noise_all_zeros, noise_all_ones","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,metavoice/default/eng,91.39025044634464,0.8089966955444435,484.67855763435364,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,qwen3-tts/1.7b-base/eng,90.97194291450023,0.18788741881223725,274.4925813674927,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,gpt-sovits/v4/eng,90.43414562548428,0.30564468429495567,421.04014110565186,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,f5-tts/v1/eng,89.84769506228069,0.14485972938359382,407.71706533432007,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,tortoise/default/eng,88.63055453666085,0.1519542110906332,411.0542793273926,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,whisperspeech/small/eng,86.99263230036199,0.30668186079102655,321.3783013820648,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,fish-speech/s1-mini/eng,84.98261091699253,0.24176936304414787,371.5441837310791,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,styletts2/default/eng,82.91487010266614,0.5326274541380609,376.80474948883057,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"
+GENERIC,openvoice/default/eng,81.28981284468459,0.6269068563830817,294.1485435962677,"noise_uniform_distribution, noise_all_zeros, noise_uniform_distribution","sap_readable_01, sap_readable_01, sap_readable_01"

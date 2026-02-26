@@ -1,0 +1,41 @@
+Unnamed: 0,response_id,type_trial,recording,e2-tts,f5-tts,fish-speech,gpt-sovits,hierspeech,indextts,maskgct,metavoice,openvoice,qwen3-tts,styletts2,tortoise,vevo,vibevoice,voicecraft,whisperspeech,xtts,attention_best,attention_worst,display_order,speaker_name,speaker_etiology,speaker_wer
+0,R_3rAMJtDwOblHS2B,trial,1,0,2,0,0,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,QID7_2|QID7_3|QID7_4|QID7_1,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_3rAMJtDwOblHS2B,trial,0,2,3,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,QID10_1|QID10_4|QID10_3|QID10_2,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_2Vr3U9Lp0mrMfnr,trial,1,0,2,0,0,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,QID7_3|QID7_2|QID7_1|QID7_4,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_2Vr3U9Lp0mrMfnr,trial,0,1,2,0,0,0,0,0,0,0,0,0,3,0,2,0,0,0,0,0,QID10_3|QID10_4|QID10_1|QID10_2,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_2kNRwAQV44NgaZN,trial,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,QID7_1|QID7_2|QID7_3|QID7_4,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_2kNRwAQV44NgaZN,trial,0,1,2,0,0,0,0,0,0,0,0,0,2,0,3,0,0,0,0,0,QID10_2|QID10_4|QID10_3|QID10_1,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_2109FwSw5NgGMRH,trial,1,0,2,0,0,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,QID7_4|QID7_3|QID7_1|QID7_2,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_2109FwSw5NgGMRH,trial,0,1,2,0,0,0,0,0,0,0,0,0,3,0,2,0,0,0,0,0,QID10_2|QID10_4|QID10_3|QID10_1,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_2elh1QAgdQr1V9k,trial,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,QID7_1|QID7_2|QID7_4|QID7_3,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_2elh1QAgdQr1V9k,trial,0,2,1,0,0,0,0,0,0,0,0,0,2,0,3,0,0,0,0,0,QID10_1|QID10_3|QID10_2|QID10_4,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_6KpKswsReDk010J,trial,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,QID7_4|QID7_2|QID7_3|QID7_1,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_6KpKswsReDk010J,trial,0,1,2,0,0,0,0,0,0,0,0,0,2,0,3,0,0,0,0,0,QID10_3|QID10_1|QID10_2|QID10_4,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_3hPTG3ALlklfw7Q,trial,1,0,2,0,0,0,0,0,0,0,2,0,0,0,0,3,0,0,0,0,QID7_1|QID7_2|QID7_3|QID7_4,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_3hPTG3ALlklfw7Q,trial,0,2,1,0,0,0,0,0,0,0,0,0,3,0,2,0,0,0,0,0,QID10_2|QID10_4|QID10_1|QID10_3,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_5dLBlhMofM1kuKd,trial,1,0,2,0,0,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,QID7_2|QID7_1|QID7_3|QID7_4,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_5dLBlhMofM1kuKd,trial,0,1,3,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,QID10_3|QID10_1|QID10_2|QID10_4,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_8GV7R9deOentJAR,trial,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,QID7_4|QID7_3|QID7_1|QID7_2,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_8GV7R9deOentJAR,trial,0,3,2,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0,0,0,QID10_2|QID10_3|QID10_1|QID10_4,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_811J0igtn1kdsMz,trial,1,0,2,0,0,0,0,0,0,0,2,0,0,0,0,3,0,0,0,0,QID7_1|QID7_3|QID7_4|QID7_2,8a2785b4-c2d4-4561-33a8-08dc856a35ea,Cerebral Palsy,1.0235294117647058
+0,R_811J0igtn1kdsMz,trial,0,2,3,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,QID10_3|QID10_1|QID10_2|QID10_4,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,Parkinson's Disease,2.221613394216134
+0,R_3rAMJtDwOblHS2B,attention_worst,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,3,QID15_1|QID15_2|QID15_3|QID15_4,attention_worst,-,-
+0,R_3rAMJtDwOblHS2B,attention_best,0,2,0,2,0,0,0,3,0,0,0,0,0,0,0,0,0,0,1,0,QID20_2|QID20_4|QID20_1|QID20_3,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367
+0,R_2Vr3U9Lp0mrMfnr,attention_worst,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,3,QID15_4|QID15_2|QID15_3|QID15_1,attention_worst,-,-
+0,R_2Vr3U9Lp0mrMfnr,attention_best,0,2,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,QID20_1|QID20_4|QID20_3|QID20_2,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367
+0,R_2kNRwAQV44NgaZN,attention_worst,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,3,QID15_1|QID15_3|QID15_4|QID15_2,attention_worst,-,-
+0,R_2kNRwAQV44NgaZN,attention_best,0,2,0,2,0,0,0,3,0,0,0,0,0,0,0,0,0,0,1,0,QID20_3|QID20_2|QID20_4|QID20_1,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367
+0,R_2109FwSw5NgGMRH,attention_worst,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,3,QID15_1|QID15_2|QID15_4|QID15_3,attention_worst,-,-
+0,R_2109FwSw5NgGMRH,attention_best,0,2,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,QID20_1|QID20_4|QID20_3|QID20_2,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367
+0,R_2elh1QAgdQr1V9k,attention_worst,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,3,QID15_4|QID15_3|QID15_1|QID15_2,attention_worst,-,-
+0,R_2elh1QAgdQr1V9k,attention_best,0,2,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,QID20_1|QID20_3|QID20_2|QID20_4,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367
+0,R_6KpKswsReDk010J,attention_worst,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,3,QID15_1|QID15_2|QID15_3|QID15_4,attention_worst,-,-
+0,R_6KpKswsReDk010J,attention_best,0,2,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,QID20_4|QID20_2|QID20_1|QID20_3,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367
+0,R_3hPTG3ALlklfw7Q,attention_worst,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0,3,QID15_1|QID15_3|QID15_4|QID15_2,attention_worst,-,-
+0,R_3hPTG3ALlklfw7Q,attention_best,0,2,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,QID20_3|QID20_1|QID20_2|QID20_4,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367
+0,R_5dLBlhMofM1kuKd,attention_worst,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,3,QID15_3|QID15_4|QID15_2|QID15_1,attention_worst,-,-
+0,R_5dLBlhMofM1kuKd,attention_best,0,2,0,2,0,0,0,3,0,0,0,0,0,0,0,0,0,0,1,0,QID20_4|QID20_1|QID20_2|QID20_3,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367
+0,R_8GV7R9deOentJAR,attention_worst,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,3,QID15_4|QID15_3|QID15_2|QID15_1,attention_worst,-,-
+0,R_8GV7R9deOentJAR,attention_best,0,2,0,2,0,0,0,3,0,0,0,0,0,0,0,0,0,0,1,0,QID20_3|QID20_2|QID20_1|QID20_4,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367
+0,R_811J0igtn1kdsMz,attention_worst,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,3,QID15_2|QID15_1|QID15_3|QID15_4,attention_worst,-,-
+0,R_811J0igtn1kdsMz,attention_best,0,2,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,QID20_3|QID20_1|QID20_4|QID20_2,f5cfee85-0110-474a-6dab-08db348aa35d,Parkinson's Disease,0.3822566239952367

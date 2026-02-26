@@ -1,0 +1,92 @@
+[
+  {
+    "name": "e2-tts/default/eng",
+    "path": "data/sap/e2-tts/default/eng",
+    "wav_count": 191
+  },
+  {
+    "name": "f5-tts/v1/eng",
+    "path": "data/sap/f5-tts/v1/eng",
+    "wav_count": 191
+  },
+  {
+    "name": "fish-speech/s1-mini/eng",
+    "path": "data/sap/fish-speech/s1-mini/eng",
+    "wav_count": 193
+  },
+  {
+    "name": "gpt-sovits/v4/eng",
+    "path": "data/sap/gpt-sovits/v4/eng",
+    "wav_count": 186
+  },
+  {
+    "name": "hierspeech/v1.1/eng",
+    "path": "data/sap/hierspeech/v1.1/eng",
+    "wav_count": 193
+  },
+  {
+    "name": "indextts/default/eng",
+    "path": "data/sap/indextts/default/eng",
+    "wav_count": 192
+  },
+  {
+    "name": "maskgct/default/eng",
+    "path": "data/sap/maskgct/default/eng",
+    "wav_count": 191
+  },
+  {
+    "name": "metavoice/default/eng",
+    "path": "data/sap/metavoice/default/eng",
+    "wav_count": 192
+  },
+  {
+    "name": "openvoice/default/eng",
+    "path": "data/sap/openvoice/default/eng",
+    "wav_count": 192
+  },
+  {
+    "name": "qwen3-tts/1.7b-base/eng",
+    "path": "data/sap/qwen3-tts/1.7b-base/eng",
+    "wav_count": 186
+  },
+  {
+    "name": "recording/default/eng",
+    "path": "data/sap/recording/default/eng",
+    "wav_count": 193
+  },
+  {
+    "name": "styletts2/default/eng",
+    "path": "data/sap/styletts2/default/eng",
+    "wav_count": 192
+  },
+  {
+    "name": "tortoise/default/eng",
+    "path": "data/sap/tortoise/default/eng",
+    "wav_count": 188
+  },
+  {
+    "name": "vevo/vevo1.5/eng",
+    "path": "data/sap/vevo/vevo1.5/eng",
+    "wav_count": 193
+  },
+  {
+    "name": "vibevoice/default/eng",
+    "path": "data/sap/vibevoice/default/eng",
+    "wav_count": 192
+  },
+  {
+    "name": "voicecraft/giga830m_tts_enhanced/eng",
+    "path": "data/sap/voicecraft/giga830m_tts_enhanced/eng",
+    "wav_count": 191
+  },
+  {
+    "name": "whisperspeech/small/eng",
+    "path": "data/sap/whisperspeech/small/eng",
+    "wav_count": 193
+  },
+  {
+    "name": "xtts/v2/eng",
+    "path": "data/sap/xtts/v2/eng",
+    "wav_count": 193
+  }
+]

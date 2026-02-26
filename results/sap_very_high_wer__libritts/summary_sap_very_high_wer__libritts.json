@@ -1,0 +1,32 @@
+{
+  "n_systems": 18,
+  "sap_root": "data/sap_very_high_wer",
+  "gt_root": "data/gt/libritts_reference",
+  "output_dir": "results/sap_very_high_wer__libritts",
+  "device": "cuda",
+  "workers": 8,
+  "ranking_dataset_col": "dataset",
+  "ranking_score_col": "score_mean",
+  "top5": [
+    {
+      "dataset": "styletts2/default/eng",
+      "score_mean": 91.6722600994197
+    },
+    {
+      "dataset": "fish-speech/s1-mini/eng",
+      "score_mean": 91.45862653061556
+    },
+    {
+      "dataset": "qwen3-tts/1.7b-base/eng",
+      "score_mean": 91.22657362507216
+    },
+    {
+      "dataset": "openvoice/default/eng",
+      "score_mean": 90.56905114726167
+    },
+    {
+      "dataset": "f5-tts/v1/eng",
+      "score_mean": 89.40683625325805
+    }
+  ]
+}

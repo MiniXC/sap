@@ -1,0 +1,32 @@
+{
+  "n_systems": 18,
+  "sap_root": "data/sap_very_high_wer",
+  "gt_root": "data/gt/sap_readable_01_very_high_wer",
+  "output_dir": "results/sap_very_high_wer__sap_readable_01_very_high_wer",
+  "device": "cuda",
+  "workers": 8,
+  "ranking_dataset_col": "dataset",
+  "ranking_score_col": "score_mean",
+  "top5": [
+    {
+      "dataset": "recording/default/eng",
+      "score_mean": 96.23025332377021
+    },
+    {
+      "dataset": "maskgct/default/eng",
+      "score_mean": 93.17534373774764
+    },
+    {
+      "dataset": "vibevoice/default/eng",
+      "score_mean": 92.60208859561003
+    },
+    {
+      "dataset": "voicecraft/giga830m_tts_enhanced/eng",
+      "score_mean": 91.39144607749523
+    },
+    {
+      "dataset": "e2-tts/default/eng",
+      "score_mean": 91.29611903147963
+    }
+  ]
+}

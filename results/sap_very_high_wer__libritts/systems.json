@@ -1,0 +1,92 @@
+[
+  {
+    "name": "e2-tts/default/eng",
+    "path": "data/sap_very_high_wer/e2-tts/default/eng",
+    "wav_count": 42
+  },
+  {
+    "name": "f5-tts/v1/eng",
+    "path": "data/sap_very_high_wer/f5-tts/v1/eng",
+    "wav_count": 43
+  },
+  {
+    "name": "fish-speech/s1-mini/eng",
+    "path": "data/sap_very_high_wer/fish-speech/s1-mini/eng",
+    "wav_count": 44
+  },
+  {
+    "name": "gpt-sovits/v4/eng",
+    "path": "data/sap_very_high_wer/gpt-sovits/v4/eng",
+    "wav_count": 42
+  },
+  {
+    "name": "hierspeech/v1.1/eng",
+    "path": "data/sap_very_high_wer/hierspeech/v1.1/eng",
+    "wav_count": 44
+  },
+  {
+    "name": "indextts/default/eng",
+    "path": "data/sap_very_high_wer/indextts/default/eng",
+    "wav_count": 43
+  },
+  {
+    "name": "maskgct/default/eng",
+    "path": "data/sap_very_high_wer/maskgct/default/eng",
+    "wav_count": 42
+  },
+  {
+    "name": "metavoice/default/eng",
+    "path": "data/sap_very_high_wer/metavoice/default/eng",
+    "wav_count": 44
+  },
+  {
+    "name": "openvoice/default/eng",
+    "path": "data/sap_very_high_wer/openvoice/default/eng",
+    "wav_count": 43
+  },
+  {
+    "name": "qwen3-tts/1.7b-base/eng",
+    "path": "data/sap_very_high_wer/qwen3-tts/1.7b-base/eng",
+    "wav_count": 42
+  },
+  {
+    "name": "recording/default/eng",
+    "path": "data/sap_very_high_wer/recording/default/eng",
+    "wav_count": 44
+  },
+  {
+    "name": "styletts2/default/eng",
+    "path": "data/sap_very_high_wer/styletts2/default/eng",
+    "wav_count": 43
+  },
+  {
+    "name": "tortoise/default/eng",
+    "path": "data/sap_very_high_wer/tortoise/default/eng",
+    "wav_count": 40
+  },
+  {
+    "name": "vevo/vevo1.5/eng",
+    "path": "data/sap_very_high_wer/vevo/vevo1.5/eng",
+    "wav_count": 44
+  },
+  {
+    "name": "vibevoice/default/eng",
+    "path": "data/sap_very_high_wer/vibevoice/default/eng",
+    "wav_count": 43
+  },
+  {
+    "name": "voicecraft/giga830m_tts_enhanced/eng",
+    "path": "data/sap_very_high_wer/voicecraft/giga830m_tts_enhanced/eng",
+    "wav_count": 44
+  },
+  {
+    "name": "whisperspeech/small/eng",
+    "path": "data/sap_very_high_wer/whisperspeech/small/eng",
+    "wav_count": 44
+  },
+  {
+    "name": "xtts/v2/eng",
+    "path": "data/sap_very_high_wer/xtts/v2/eng",
+    "wav_count": 44
+  }
+]

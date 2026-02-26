@@ -1,0 +1,194 @@
+severity_computed,disorder_type,speaker_name,readable_name,recording_wer
+low_severity,Cerebral Palsy,6b83360c-897c-4188-1070-08dc4d0abe5b,fish-princess-kansas-oven,0.4285714285714285
+low_severity,Cerebral Palsy,8a2785b4-c2d4-4561-33a8-08dc856a35ea,pluto-blue-six-east,0.5
+low_severity,Cerebral Palsy,49009238-7353-4d86-abc9-08dc5d6a38e4,ceiling-november-summer-queen,0.4
+low_severity,Cerebral Palsy,1315d02d-1f43-4d11-a8ad-08dc1144581f,arizona-shade-carolina-iowa,0.0
+low_severity,Cerebral Palsy,a68ea94f-8194-49e5-3c84-08dc4b8edc60,muppet-michigan-shade-summer,0.5
+low_severity,Cerebral Palsy,4972841b-fcaf-495f-d79e-08dc46c59895,georgia-five-xray-arkansas,1.0
+low_severity,Cerebral Palsy,8ee07e3b-57c6-4df3-f086-08dbffd6e72c,hamper-cardinal-kilo-fourteen,0.7777777777777778
+low_severity,Cerebral Palsy,2007718f-efef-4f5e-ab5c-08dc51b077c7,kentucky-arizona-river-georgia,0.9333333333333332
+low_severity,Cerebral Palsy,a358b4db-04f6-4c40-3917-08dc358e2588,fish-fillet-sixteen-princess,0.1666666666666666
+low_severity,Cerebral Palsy,b0ab3b58-fc9e-4f9b-87a9-08dc74e08a4e,washington-football-cola-paris,0.1666666666666666
+low_severity,Cerebral Palsy,1a029240-167d-4433-8b30-08dc44f243ab,charlie-alaska-saturn-paris,0.6428571428571429
+low_severity,Cerebral Palsy,edc855c9-4e06-4163-43da-08dc13e54ff5,alaska-uranus-equal-orange,0.0
+low_severity,Cerebral Palsy,8cf6d8fc-57c1-4fc1-b734-08dc443ba3cc,washington-jupiter-idaho-uranus,1.0
+low_severity,Cerebral Palsy,305f56d6-2f54-4a1f-6957-08dbe84eccc1,princess-carbon-quiet-delta,0.0
+mid_severity,Parkinson's Disease,f5aa375b-c5eb-43e3-b06b-08db3156ae3a,fifteen-utah-delaware-east,0.1739130434782608
+mid_severity,Parkinson's Disease,2f909f36-d59c-4ca4-5ab9-08db26ef62e1,nine-maine-crazy-green,1.25
+mid_severity,Parkinson's Disease,ffbb560c-78e1-4dc2-aa21-08db7f28d1f2,green-one-coffee-potato,0.8571428571428571
+low_severity,Parkinson's Disease,90231471-f333-4f3a-115e-08dba7fa5465,william-bacon-salami-romeo,0.1428571428571428
+low_severity,Parkinson's Disease,e8c8369b-9093-4547-d891-08db4be65c62,sierra-lion-freddie-enemy,0.0
+low_severity,Parkinson's Disease,53a684d5-d42f-49c3-dc90-08dbacb1d678,vermont-coffee-autumn-beryllium,0.0
+low_severity,Parkinson's Disease,0cc37842-3e60-493d-eab6-08db5ebeefc6,king-lithium-alanine-blue,0.1428571428571428
+low_severity,Parkinson's Disease,75884af1-0630-4e57-b82c-08dbb85ab880,dakota-earth-lemon-blue,0.0
+low_severity,Parkinson's Disease,37a9fbdc-03a6-4ebd-1f62-08db3dcbbd09,edward-network-avocado-shade,0.0
+low_severity,Parkinson's Disease,0298b0ec-4be0-4ed6-83ba-08db78b5561a,pizza-lima-fourteen-iowa,0.0
+low_severity,Parkinson's Disease,6437b6d7-6381-4427-f1a5-08db41f4c88b,lithium-california-one-delta,0.0
+low_severity,Parkinson's Disease,558c8b14-7e5a-45d4-6b84-08db40e65de5,north-speaker-fanta-lactose,0.5
+low_severity,Parkinson's Disease,fa9f4370-e85f-4629-0c4a-08db33bf801f,social-vermont-vermont-zebra,0.0
+low_severity,Parkinson's Disease,435006a9-e960-46a2-8a60-08db31656635,west-triple-uniform-tennis,0.0
+low_severity,Parkinson's Disease,a15bbc72-4ade-43dc-b89c-08db74d9e4d8,arizona-double-zulu-floor,0.0
+low_severity,Parkinson's Disease,f4291b85-744e-41f6-9d02-08db701e3a54,eleven-west-fillet-cardinal,0.0
+low_severity,Parkinson's Disease,9ec977d9-1c8f-4374-d6eb-08db42d02878,mars-bluebird-november-twelve,0.125
+low_severity,Parkinson's Disease,e284430e-a76d-434a-e67a-08db2d6a5da8,north-spring-london-edward,0.2857142857142857
+low_severity,Parkinson's Disease,a9000ee1-d751-43d8-9bd7-08db4d814b6e,music-lion-bluebird-steak,0.0
+low_severity,Parkinson's Disease,690a4970-0aa0-4457-115f-08dba7fa5465,charlie-lithium-jig-two,0.0
+low_severity,Parkinson's Disease,841b5954-25e9-4805-244a-08dc016f5033,whiskey-fix-fillet-washington,1.0
+low_severity,Parkinson's Disease,63f2665b-ddde-420b-d1ec-08db95465630,fruit-louisiana-blossom-tango,0.0
+low_severity,Parkinson's Disease,1e4a17d9-1d51-46e1-fb35-08db3b0245c7,orange-mango-ink-two,0.2
+low_severity,Parkinson's Disease,19544a94-6a1d-48a1-b199-08db2507e8b5,oven-south-thirteen-pasta,0.0
+low_severity,Parkinson's Disease,662ad6f3-d8fe-4bf5-d939-08db465e8b8a,single-undress-oregon-pasta,0.0
+low_severity,Parkinson's Disease,e86387f3-77e0-4345-9f67-08db28bb85b0,ack-sixteen-helium-bulldog,0.0
+low_severity,Parkinson's Disease,29446bcd-071b-4232-cf52-08dc36bdc819,michigan-angel-alpha-july,0.1538461538461538
+low_severity,Parkinson's Disease,6c868961-e917-42d4-632d-08dbaaf8a4b7,timing-delaware-idaho-video,0.2
+low_severity,Parkinson's Disease,86d9ad40-470e-41b3-1262-08db48c83e2c,march-washington-sweet-dakota,0.25
+low_severity,Parkinson's Disease,61668d9d-71d0-4e61-603d-08db888af625,harry-bacon-north-cola,1.6666666666666667
+low_severity,Parkinson's Disease,1efde431-6c53-4fcc-1162-08db2577509f,saturn-violet-thirteen-vegan,0.0
+low_severity,Parkinson's Disease,6c6cbc6d-f66d-4b02-ea95-08db4e7b0019,angel-princess-alaska-lemon,0.125
+low_severity,Parkinson's Disease,d72b0a76-9782-4404-3a1a-08dc5fadb5c5,purple-friend-social-xray,0.1818181818181818
+low_severity,Parkinson's Disease,2b5e75af-0263-44fb-3a25-08dc5fadb5c5,mississippi-quebec-illinois-monkey,0.125
+low_severity,Parkinson's Disease,82118252-9858-4410-19b9-08db2fb58edf,mountain-saturn-cold-pizza,0.0
+low_severity,Parkinson's Disease,7661028e-95ae-44cd-029a-08db8ea270da,bacon-football-mississippi-mockingbird,0.0
+low_severity,Parkinson's Disease,268adcfd-a262-4bb2-d2c2-08db4723ec09,tennessee-music-ceiling-stairway,0.2222222222222222
+low_severity,Parkinson's Disease,ecbe385b-1b5c-45aa-bc3c-08db7417355e,oranges-sad-carpet-violet,0.0
+low_severity,Parkinson's Disease,17fc5f44-e24f-4138-db5b-08db263bd57d,spring-cola-finch-texas,0.0555555555555555
+low_severity,Parkinson's Disease,4b8aae89-754d-4c6e-f7da-08db65f35c8b,lemon-nitrogen-nine-washington,0.4705882352941176
+low_severity,Parkinson's Disease,682ed0c5-f41a-488b-0856-08db66fd04b0,early-pluto-paris-delta,0.125
+low_severity,Parkinson's Disease,c6c49ecb-3f65-4366-fb5c-08db6d7755f1,alanine-happy-xray-lithium,0.0
+low_severity,Parkinson's Disease,eb90a6df-9b21-49bb-bb95-08db2f9d9555,spaghetti-river-vegan-shade,0.0
+low_severity,Parkinson's Disease,23736436-53fa-46dc-6226-08db384abf34,kilo-eighteen-sink-steak,0.125
+low_severity,Parkinson's Disease,32aa9cef-4937-4cfa-7a0b-08db42147f9a,ceiling-potato-wolfram-maine,0.0
+low_severity,Parkinson's Disease,e92aac78-9175-48b2-33ee-08dbad6081c5,five-utah-chicken-magnesium,0.0
+low_severity,Parkinson's Disease,abd640de-5589-4460-443e-08db780528b1,zebra-virginia-twelve-quiet,0.1
+low_severity,Parkinson's Disease,0011deac-27ce-4d61-a02e-08db2c0e5fe3,connecticut-quiet-jig-wolfram,0.0
+low_severity,Parkinson's Disease,30367f4b-f259-4248-4cdd-08db4b718502,foxtrot-magazine-artist-single,0.0
+low_severity,Parkinson's Disease,0b9b6a5a-fff7-4129-8082-08db3c5502ba,cardinal-georgia-florida-winter,0.0
+low_severity,Parkinson's Disease,2b755f1e-f852-4da0-fd7f-08db4831e779,south-south-alabama-pip,0.0
+low_severity,Parkinson's Disease,8b43e597-8fb8-4a84-9319-08db7b2bf57b,mirror-sweet-violet-steak,0.0
+low_severity,Parkinson's Disease,0871da63-c175-4b34-4eb5-08dbaa61e12d,cola-jupiter-lion-twenty,0.0
+low_severity,Parkinson's Disease,d847daf6-adac-4aaa-1f65-08db3dcbbd09,hamper-nuts-london-spaghetti,0.0
+low_severity,Parkinson's Disease,b09e3d07-8df9-4958-5cae-08db25ba8c25,football-friend-ack-social,0.0
+low_severity,Parkinson's Disease,bcfc8320-b900-4d74-61a7-08dbaec8caff,hotel-pizza-happy-black,0.0588235294117647
+low_severity,Parkinson's Disease,4071d589-6395-4486-ab97-08db26923497,violet-potato-harry-missouri,0.0
+low_severity,Parkinson's Disease,7797862e-0242-4c4e-3f62-08dc27b62080,hydrogen-island-island-october,0.0
+low_severity,Parkinson's Disease,d6d4e52a-87db-44b8-161d-08db89680dc1,lithium-yellow-alaska-nineteen,0.1
+low_severity,Parkinson's Disease,e12d07cc-b73a-4c62-6ad8-08dbe30077ee,pip-pennsylvania-connecticut-mississippi,1.5
+low_severity,Parkinson's Disease,132876ee-6363-4789-4e12-08db39529b19,glucose-seventeen-lactose-ink,0.0
+low_severity,Parkinson's Disease,a29710b6-4f46-49e3-116f-08dba7fa5465,king-sierra-shade-sink,0.0
+low_severity,Parkinson's Disease,36819bf1-b6a8-4b73-2eca-08dc27684872,zulu-oxygen-nine-single,0.0
+low_severity,Parkinson's Disease,db83c1ba-3ccd-4939-c583-08dc27c1bd26,fanta-papa-montana-finch,0.0
+low_severity,Parkinson's Disease,bc3d8166-b7e5-45df-94f2-08dbadaf11d8,hamper-angel-earth-butter,0.3333333333333333
+low_severity,Parkinson's Disease,e1445001-72f7-46eb-0f80-08db40377d80,rugby-hydrogen-cola-two,0.7142857142857143
+low_severity,Parkinson's Disease,4b05eff4-b30e-40e8-30ff-08db50c8319f,yellow-monkey-cup-uranus,0.3333333333333333
+low_severity,Parkinson's Disease,59b47aea-1709-4559-aa22-08db7f28d1f2,six-enemy-november-red,0.0
+low_severity,Parkinson's Disease,a94f44f1-aa52-4960-d2bd-08db4723ec09,california-freddie-robin-summer,0.0
+low_severity,Parkinson's Disease,c904ef6b-7796-4d27-db5e-08db263bd57d,high-uniform-connecticut-thirteen,0.0
+low_severity,Parkinson's Disease,3f9653f8-ffc8-44f6-10e6-08db6af1ce41,oxygen-king-seven-seventeen,0.0
+low_severity,Parkinson's Disease,65941f0e-4793-4142-808d-08dc28b09bf9,mountain-louisiana-river-north,0.0
+low_severity,Parkinson's Disease,c35c82cd-4e97-4d47-1148-08db2b07b033,low-delaware-alaska-connecticut,0.0
+low_severity,Parkinson's Disease,4450c670-1015-4e12-ab55-08db7376d336,asparagus-alabama-cola-hydrogen,0.0
+low_severity,Parkinson's Disease,f10f76ad-650c-4f1b-db5d-08db263bd57d,lima-harry-lemon-vegan,0.0
+low_severity,Parkinson's Disease,d59c9675-314c-4e81-1f68-08db3dcbbd09,romeo-robin-edward-carolina,0.0714285714285714
+low_severity,Parkinson's Disease,7f36cf5a-a56b-4bd6-ef05-08db5cba8704,eleven-grey-tennis-comet,0.0
+low_severity,Parkinson's Disease,c2b6a53e-a301-4105-072c-08db6bc3d3c4,network-quebec-apart-neptune,0.0909090909090909
+low_severity,Parkinson's Disease,3f26fe3d-9cab-4073-769a-08db451a0b36,pasta-april-october-illinois,0.1666666666666666
+low_severity,Parkinson's Disease,65ceb5df-bc14-4a3d-ca67-08db7331a16c,vegan-pennsylvania-echo-missouri,0.1428571428571428
+low_severity,Parkinson's Disease,33a571de-54ef-4b4d-b2f0-08db6e8bdba4,alpha-double-crazy-undress,0.0
+low_severity,Parkinson's Disease,ad160303-51b7-4ed3-1166-08dba7fa5465,indigo-jig-ack-kilo,0.0
+low_severity,Parkinson's Disease,6fa3f212-6a4f-4019-f06f-08db4b4fdcbb,low-network-muppet-friend,0.0
+low_severity,Parkinson's Disease,3415facd-2541-47f9-5b86-08db2bb3509e,connecticut-lamp-friend-three,0.0
+low_severity,Parkinson's Disease,63ebcb02-e259-4632-1f63-08db3dcbbd09,california-double-montana-mississippi,0.0
+low_severity,Parkinson's Disease,7960602d-a55a-42e6-ef04-08db5cba8704,hot-white-stairway-asparagus,0.0
+low_severity,Parkinson's Disease,91ef5c26-f0af-455d-a464-08db2b045661,fruit-charlie-timing-solar,0.5
+low_severity,Parkinson's Disease,438039aa-f477-405e-d25a-08db32115f35,missouri-tennis-island-purple,0.0
+low_severity,Parkinson's Disease,27269d8c-d7c6-456c-6ece-08db6c5df3b4,fillet-harry-georgia-ohio,0.0
+low_severity,Parkinson's Disease,5a96c15d-bbce-492a-117a-08dba7fa5465,kilo-asparagus-nebraska-berlin,0.0909090909090909
+low_severity,Parkinson's Disease,603b47ab-b99f-47b0-8086-08db80053c20,jupiter-south-salami-two,0.1111111111111111
+low_severity,Parkinson's Disease,9954f9a7-b55a-4981-46c2-08db82273f48,lima-tennis-bacon-floor,0.375
+low_severity,Parkinson's Disease,3f0de68f-e620-49ba-5cef-08db46a76191,ack-juliet-stream-vermont,0.0
+low_severity,Parkinson's Disease,d18cc111-39bc-4e6e-f3bd-08db49b9f20e,delta-robert-indigo-eleven,0.0
+low_severity,Parkinson's Disease,32ad7175-6db9-4e69-33a8-08db41d15341,louisiana-table-eleven-twelve,0.0
+low_severity,Parkinson's Disease,2272219d-dbc0-49ee-4408-08db797e52e3,pizza-robin-charlie-blossom,0.4
+low_severity,Parkinson's Disease,38bbecae-c73b-4791-f536-08db33311565,moon-delaware-oven-princess,0.0
+low_severity,Parkinson's Disease,a7e2add7-b9f4-46e9-9873-08db8e06f7f8,idaho-july-charlie-cat,0.0
+low_severity,Parkinson's Disease,511e8ca5-236a-4aeb-bf52-08db3cfd4e3e,bacon-beer-earth-hamper,0.0
+low_severity,Parkinson's Disease,6ee7333a-ccb4-42f9-12aa-08db3e6e5021,missouri-football-fix-mars,0.0
+low_severity,Parkinson's Disease,57c429b4-a6c7-4e2a-dd1a-08db98f21470,fifteen-jupiter-ceiling-georgia,0.0
+low_severity,Parkinson's Disease,44b93712-ce43-4b72-b7d3-08dba97af433,hydrogen-hotel-jig-johnny,0.0
+low_severity,Parkinson's Disease,0f397840-4dca-486d-5143-08dba881aa8d,purple-mobile-london-carbon,0.4117647058823529
+low_severity,Parkinson's Disease,d7ce7d5f-8c95-4569-cfa6-08db726500b4,oklahoma-victor-alanine-oklahoma,0.0
+low_severity,Parkinson's Disease,bd9c4f59-9245-4fae-9fe6-08db25c774fb,ink-earth-beer-shade,0.2
+low_severity,Parkinson's Disease,09716de8-6f65-4a68-3769-08db63d00ed9,nuts-chicken-montana-kansas,0.3333333333333333
+low_severity,Parkinson's Disease,07b8fcab-237f-47f7-24e9-08db32506b53,mars-leopard-potato-item,0.2
+low_severity,Parkinson's Disease,66018674-5b03-4623-1188-08dba7fa5465,river-april-don-michigan,1.0
+low_severity,Parkinson's Disease,f5cfee85-0110-474a-6dab-08db348aa35d,fish-failed-beryllium-early,0.2
+low_severity,Parkinson's Disease,468955f5-481a-4220-8744-08db55811628,skylark-shade-ceiling-social,0.1111111111111111
+low_severity,Parkinson's Disease,625d8b11-cce4-4876-010d-08db2c67da8b,robert-oxygen-bluebird-fruit,0.0
+low_severity,Parkinson's Disease,b6cd796c-433a-4387-bcd1-08db91c912c0,winner-west-massachusetts-carbon,0.0
+low_severity,Parkinson's Disease,52b660ca-1778-4dc4-5b83-08db2bb3509e,glucose-sierra-october-helium,0.0
+low_severity,Parkinson's Disease,578895fa-55a7-4ab4-ef6a-08db7199713e,friend-diet-montana-kentucky,0.1818181818181818
+low_severity,Parkinson's Disease,e7295175-4edb-4d5c-a1e9-08dc11dcc589,eight-november-vegan-green,0.0
+low_severity,Parkinson's Disease,1d97f400-f70d-48da-6485-08db26850d18,johnny-chicken-ohio-don,0.0
+low_severity,Parkinson's Disease,c1fb56dd-977d-44a2-d2be-08db4723ec09,princess-potato-triple-thirteen,0.0
+low_severity,Parkinson's Disease,70ba239b-9b51-4789-1096-08db6b8d1576,fruit-fillet-yellow-stairway,0.0
+low_severity,Parkinson's Disease,99fc8423-2c12-461b-62ac-08dbcc0db50c,tango-zulu-five-triple,0.2857142857142857
+low_severity,Parkinson's Disease,3d53af79-4abd-4370-df83-08db5c991d99,shade-december-edward-crazy,0.2222222222222222
+low_severity,Parkinson's Disease,e403c1ba-243b-4735-c2f7-08db4a8e24c0,blue-shade-mountain-jersey,0.0
+low_severity,Parkinson's Disease,7b0f16fa-2404-4335-07ac-08dbaed83b41,skylark-stairway-papa-don,0.0
+low_severity,Parkinson's Disease,3d7fc0a6-60cd-470f-4f4a-08db9399a6d5,bacon-football-mirror-angel,0.0
+low_severity,Parkinson's Disease,d7d0ae6d-9ca1-40f9-299b-08db848a8c45,july-arkansas-princess-kitten,0.0
+low_severity,Parkinson's Disease,90c8f9c7-ee65-4178-c568-08dc27c1bd26,ink-nebraska-victor-tennis,0.2857142857142857
+low_severity,Parkinson's Disease,c6e71eca-f17f-4a75-2653-08db322ca5c4,hotel-nineteen-mississippi-oscar,0.1
+low_severity,Parkinson's Disease,11e4aa43-fc83-46fb-dd25-08db782122ba,pizza-bacon-wyoming-ink,0.0
+low_severity,Parkinson's Disease,9fb13376-b839-4cc4-2e66-08dc27684872,william-six-steak-undress,0.0
+low_severity,Parkinson's Disease,d19f737f-9070-499c-5c23-08db7125e1cf,grey-island-angel-four,0.0909090909090909
+low_severity,Parkinson's Disease,3aa9d4f5-a530-4f63-33fe-08dbb7176ebb,venus-cup-asparagus-comet,0.0
+low_severity,Parkinson's Disease,ecfe53e2-1780-4eab-6052-08dbc2f1ba22,oxygen-bluebird-muppet-pasta,0.0
+low_severity,Parkinson's Disease,da6dfde2-5658-4ed3-82ea-08db6cec1e82,avocado-twenty-iowa-montana,0.1111111111111111
+low_severity,Parkinson's Disease,72592637-45fd-4eb0-5b85-08db2bb3509e,blossom-fourteen-beer-winner,0.0
+low_severity,Parkinson's Disease,9d8d2260-dfe9-4384-e137-08dbe55910bb,leopard-california-may-hotel,0.0
+low_severity,Parkinson's Disease,1fdc2f8c-7bcb-4063-3383-08db7f04fed4,neptune-papa-muppet-thirteen,0.4
+low_severity,Parkinson's Disease,e9594e84-3837-4c23-d3f1-08db43eacc94,snake-stream-shade-cat,0.0
+low_severity,Parkinson's Disease,9e7aa4fd-7ec8-4ae7-c277-08db783c5d41,fix-vegan-alanine-failed,0.0
+low_severity,Parkinson's Disease,987a5dad-44c2-4a6b-1184-08dba7fa5465,december-nine-pizza-finch,0.1333333333333333
+low_severity,Parkinson's Disease,75a389c8-cae1-4e45-e828-08dbe0ac2304,lemon-nuts-alanine-autumn,0.1111111111111111
+low_severity,ALS,5b52d5da-bf66-4309-a19c-08dc11dcc589,lemon-pip-oranges-helium,0.2
+low_severity,ALS,24a73324-3a99-46e3-a1aa-08dc11dcc589,bacon-montana-romeo-apart,0.0
+low_severity,ALS,2c6c3eb4-9956-48b2-a6d7-08dc15310511,coffee-diet-queen-jersey,0.0
+low_severity,ALS,f41ace9e-58d1-45d3-6fbb-08dc10671a10,west-steak-happy-high,0.0
+low_severity,ALS,d27d1dfb-909f-4c9f-a190-08dc11dcc589,juliet-virginia-pasta-spring,0.0
+low_severity,ALS,972c6e75-1fb1-470b-a1e1-08dc11dcc589,fruit-oregon-rugby-lemon,0.6
+low_severity,ALS,1a31d058-b4f0-4915-94e2-08dc0dffdde6,cup-monkey-potato-potato,0.2727272727272727
+low_severity,ALS,21d7dd89-eca0-4722-3a71-08dc183f4f57,skylark-washington-april-jupiter,0.0
+low_severity,ALS,65870458-e018-461d-a172-08dc11dcc589,colorado-island-winter-idaho,0.1111111111111111
+low_severity,ALS,643b2422-2f9a-45d7-a16b-08dc11dcc589,cold-saturn-utah-virginia,0.0
+low_severity,ALS,55e37781-2d81-434e-3a28-08dc5fadb5c5,bulldog-table-enemy-muppet,0.1538461538461538
+low_severity,ALS,511ea74b-4526-4237-a1d0-08dc11dcc589,zebra-nitrogen-robin-cat,0.0
+low_severity,ALS,edeaf033-ba86-46a5-4a52-08dc3c7b3134,golf-bacon-cola-virginia,0.5
+low_severity,ALS,a38ae187-f5cc-4414-2713-08dc18a4ec91,delta-london-uniform-bulldog,0.3333333333333333
+mid_severity,Down Syndrome,f65d47c1-0216-450c-67d2-08dbe21c871c,helium-twenty-ink-undress,0.0
+mid_severity,Down Syndrome,c5907823-602a-443c-1e31-08dbe1ed2b7f,coffee-lemon-lima-skylark,0.4285714285714285
+mid_severity,Down Syndrome,88219ed9-d7ba-4d3d-f94e-08dc1c2dd218,texas-bakerloo-two-vermont,0.8260869565217391
+mid_severity,Down Syndrome,7b641b5e-90da-4828-769f-08dc54a70eeb,juliet-charlie-fillet-jupiter,0.1111111111111111
+mid_severity,Cerebral Palsy,f60008c4-fe6e-4a38-aa58-08dbfc00603a,cup-solar-oklahoma-sixteen,0.5555555555555556
+mid_severity,Cerebral Palsy,11da7376-f5ee-4093-9514-08dc7733f79d,eleven-robert-autumn-high,1.7142857142857142
+mid_severity,Cerebral Palsy,db8636a4-99d3-48d7-87ae-08dc74e08a4e,asparagus-lake-charlie-alanine,0.6666666666666666
+mid_severity,Cerebral Palsy,374ad5cf-710f-4147-450c-08dc42c84745,juliet-oscar-echo-eleven,0.5
+mid_severity,Cerebral Palsy,3a67511d-bdb6-4e0b-0c46-08dbe9df9e4a,nineteen-ink-sweet-charlie,0.0
+mid_severity,Cerebral Palsy,a49aba71-22f9-4377-8b31-08dc44f243ab,quiet-gee-tennessee-foxtrot,0.9130434782608696
+mid_severity,Cerebral Palsy,7913cfeb-79d2-41f1-87b7-08dc74e08a4e,don-saturn-cold-diet,0.2
+mid_severity,Cerebral Palsy,d5fbd782-6354-4109-da7e-08dc75b20572,mexico-pip-black-ceiling,0.8571428571428571
+mid_severity,Cerebral Palsy,fc9a1978-865e-49a8-0b8f-08dc12b452f6,hotel-maine-bulldog-alpha,0.8333333333333334
+mid_severity,Cerebral Palsy,1b82ca80-115a-4348-43db-08dc13e54ff5,oranges-fix-cold-zulu,0.875
+high_severity,ALS,a1dec06a-a466-4786-b587-08dc5e199653,pluto-july-california-maryland,0.5714285714285714
+low_severity,Down Syndrome,6a81e17f-fb8f-4289-1e2c-08dbe1ed2b7f,princess-washington-failed-bluebird,0.125
+low_severity,Down Syndrome,50836d2a-d25b-48bf-ecff-08dbe1995a23,march-one-orange-lithium,0.0
+low_severity,Down Syndrome,18103139-b813-48db-6ddb-08dc1b6d5dbc,sodium-louisiana-sweet-oranges,0.0
+high_severity,Cerebral Palsy,ba81400d-8291-415a-15e5-08dc16a43af2,hydrogen-six-south-enemy,0.8333333333333334
+high_severity,Cerebral Palsy,db72a193-5788-4716-2cc5-08dc137c976d,carpet-louisiana-avocado-magazine,0.0
+high_severity,Cerebral Palsy,cef21a18-cfb1-47cb-32dd-08dc57db575d,island-magazine-carpet-may,1.0
+high_severity,Cerebral Palsy,f384ec19-a3e8-4c8a-87b0-08dc74e08a4e,football-white-mountain-mexico,0.125
+high_severity,Cerebral Palsy,27a3a1ac-c916-4bac-0b97-08dc12b452f6,cardinal-ten-lamp-shade,0.5714285714285714
+high_severity,Cerebral Palsy,3c9f3061-e5bd-4f9c-16eb-08dc1eef205f,earth-ten-mockingbird-monkey,0.0
+mid_severity,ALS,674ab9df-ce7d-4118-abb1-08dc5d6a38e4,harry-eleven-charlie-sink,1.4285714285714286
+mid_severity,ALS,10988087-9d14-4c9d-b58a-08dc5e199653,arizona-maryland-north-montana,0.0
