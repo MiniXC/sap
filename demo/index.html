@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>An Evaluation Framework for Voice Reconstruction &mdash; Audio Demo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <script defer src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+  <style>
+    :root {
+      --pico-font-size: 16px;
+    }
+    html { scroll-behavior: smooth; }
+    body > main { max-width: 1600px; }
+    .speaker-card {
+      border: 1px solid var(--pico-muted-border-color);
+      border-radius: var(--pico-border-radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      background: var(--pico-card-background-color);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    .speaker-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .speaker-header h3 { margin-bottom: 0; }
+    .badge {
+      display: inline-block;
+      padding: 0.15rem 0.6rem;
+      border-radius: 1rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .badge-high { background: #2e7d32; }
+    .badge-low { background: #c62828; }
+    .prompt-section {
+      background: var(--pico-muted-background-color);
+      border-radius: var(--pico-border-radius);
+      padding: 1rem 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .prompt-section p { margin-bottom: 0.4rem; }
+    .prompt-section audio { width: 100%; max-width: 400px; height: 40px; }
+    .target-text {
+      font-size: 1.05rem;
+      margin-bottom: 0.75rem;
+    }
+    .target-text em { font-style: normal; font-weight: 600; }
+    table {
+      font-size: 0.85rem;
+      margin-top: 0;
+    }
+    table th, table td { padding: 0.45rem 0.55rem; }
+    table audio { width: 180px; height: 36px; }
+    .num-cell { text-align: center; font-variant-numeric: tabular-nums; }
+    .model-name { font-weight: 500; white-space: nowrap; }
+    .recording-row { background: var(--pico-muted-background-color); font-weight: 600; }
+    .section-intro {
+      margin-bottom: 2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--pico-primary);
+    }
+    .legend {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      color: var(--pico-muted-color);
+    }
+    .legend span { white-space: nowrap; }
+    h2 { margin-top: 2.5rem; }
+    footer { text-align: center; font-size: 0.85rem; color: var(--pico-muted-color); padding-top: 1rem; border-top: 1px solid var(--pico-muted-border-color); }
+    thead th { position: sticky; top: 0; background: var(--pico-card-background-color); z-index: 1; }
+    nav.page-nav { display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; margin-bottom: 1.5rem; font-size: 0.9rem; }
+    nav.page-nav a { text-decoration: none; font-weight: 500; }
+    .listening-box {
+      border: 2px solid var(--pico-primary);
+      border-radius: var(--pico-border-radius);
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 1.5rem;
+      background: color-mix(in srgb, var(--pico-primary) 4%, var(--pico-card-background-color));
+    }
+    .listening-box h4 {
+      margin-top: 0;
+      color: var(--pico-primary);
+    }
+    .listening-box blockquote {
+      border-left: 3px solid var(--pico-primary);
+      margin: 0.75rem 0;
+      padding: 0.5rem 1rem;
+      background: var(--pico-card-background-color);
+      border-radius: 0 var(--pico-border-radius) var(--pico-border-radius) 0;
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    th.sortable:hover {
+      text-decoration: underline;
+    }
+    th.sortable::after {
+      content: ' \2195';
+      font-size: 0.7em;
+      opacity: 0.4;
+    }
+    th.sortable.sort-asc::after {
+      content: ' \2191';
+      opacity: 1;
+    }
+    th.sortable.sort-desc::after {
+      content: ' \2193';
+      opacity: 1;
+    }
+    @media (max-width: 768px) {
+      table audio { width: 140px; }
+      .speaker-card { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+<main class="container">
+
+  <header style="text-align:center; margin-bottom:2rem;">
+    <h1>An Evaluation Framework for Voice Reconstruction</h1>
+    <p>Audio demo for 17 zero-shot TTS systems evaluated on speakers with speech disorders from the Speech Accessibility Project (SAP) corpus</p>
+    <p style="font-size:0.9rem; color:var(--pico-muted-color);">
+      Each system receives a <strong>voice prompt</strong> (one recorded utterance from the speaker)
+      and must synthesise a different <strong>target sentence</strong> in that speaker's voice.
+      Objective metrics and subjective evaluations are shown per system.
+    </p>
+  </header>
+
+  <nav class="page-nav">
+    <a href="#correlation">Correlation Explorer</a>
+    <a href="#high-intel">High Intelligibility Speaker</a>
+    <a href="#low-intel">Low Intelligibility Speaker</a>
+    <a href="#listening-test">Listening Tests</a>
+    <a href="#notes">Notes</a>
+  </nav>
+
+  <div class="legend">
+    <span><strong>WER</strong> = Word Error Rate (lower is better)</span>
+    <span><strong>Spk. Sim.</strong> = Speaker Similarity cosine score (higher is better)</span>
+    <span><strong>TTSDS</strong> = TTS Distribution Score (higher is better)</span>
+    <span><strong>PER</strong> = Phone Error Rate (lower is better)</span>
+    <span><strong>UTMOS</strong> = predicted Mean Opinion Score (higher is better)</span>
+    <span><strong>Log Worth</strong> = Plackett-Luce subjective log worth (higher is better)</span>
+  </div>
+
+  <section>
+    <h3 id="correlation">Interactive Correlation Explorer</h3>
+    <p>Select two metrics to visualise their Spearman rank correlation across all 18 systems.
+       The <span style="color:#e67e22;font-weight:bold;">orange</span> point marks the <em>Recording</em> (ground truth).</p>
+
+    <div class="grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 1rem; align-items: end;">
+      <label>
+        X axis (objective)
+        <select id="corrX">
+          <option value="spk_sim">Spk. Sim.</option>
+          <option value="wer">WER</option>
+          <option value="per">PER</option>
+          <option value="utmos">UTMOS</option>
+          <option value="ttsds_libritts">TTSDS|LibriTTS</option>
+          <option value="ttsds_sap">TTSDS|SAP</option>
+          <option value="ttsds_mean" selected>TTSDS Mean</option>
+        </select>
+      </label>
+      <label>
+        Y axis (subjective)
+        <select id="corrY">
+          <option value="subj_recon" selected>Recon. Log Worth</option>
+          <option value="subj_intel">Intel. Log Worth</option>
+        </select>
+      </label>
+      <label>
+        Speaker group
+        <select id="corrGroup">
+          <option value="all" selected>All Speakers</option>
+          <option value="low">Low Intelligibility</option>
+        </select>
+      </label>
+    </div>
+
+    <div id="corrPlot" style="width:100%; height:520px;"></div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════ -->
+  <h2 id="high-intel">High Intelligibility Speaker</h2>
+
+  <!-- Speaker B: ack-sixteen-helium-bulldog -->
+  <article class="speaker-card">
+    <div class="speaker-header">
+      <h3>Speaker B</h3>
+      <span class="badge badge-high">High Intelligibility &middot; Rec WER 0%</span>
+    </div>
+    <div class="prompt-section">
+      <p><strong>Voice prompt:</strong> <em>&ldquo;at last billy woodchuck's lips began to feel very weird, puckered up as they were&rdquo;</em></p>
+      <audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/prompt.wav"></audio>
+    </div>
+    <p class="target-text"><strong>Target text:</strong> <em>&ldquo;play the dear evan hansen soundtrack&rdquo;</em></p>
+    <div style="overflow-x:auto;">
+    <table id="table-speaker-b">
+      <thead><tr>
+        <th>System</th>
+        <th>Audio</th>
+        <th class="sortable num-cell" data-type="num">WER</th>
+        <th class="sortable num-cell" data-type="num">Spk.&nbsp;Sim.</th>
+        <th class="sortable num-cell" data-type="num">UTMOS</th>
+        <th class="sortable num-cell" data-type="num">PER</th>
+        <th class="sortable num-cell" data-type="num">TTSDS|LibriTTS</th>
+        <th class="sortable num-cell" data-type="num">TTSDS|SAP</th>
+        <th class="sortable num-cell" data-type="num" data-default-sort="desc">TTSDS&nbsp;Mean</th>
+        <th class="sortable num-cell" data-type="num">Recon.&nbsp;Log&nbsp;Worth</th>
+        <th class="sortable num-cell" data-type="num">Intel.&nbsp;Log&nbsp;Worth</th>
+      </tr></thead>
+      <tbody>
+        <tr class="recording-row"><td class="model-name">Recording</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/recording.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.684</td><td class="num-cell">1.433</td><td class="num-cell">0.852</td><td class="num-cell">77.39</td><td class="num-cell">93.64</td><td class="num-cell">85.51</td><td class="num-cell">0.000</td><td class="num-cell">0.000
+        <tr><td class="model-name">E2-TTS</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/e2-tts.wav"></audio></td><td class="num-cell">1.333</td><td class="num-cell">0.736</td><td class="num-cell">1.494</td><td class="num-cell">1.037</td><td class="num-cell">81.92</td><td class="num-cell">90.60</td><td class="num-cell">86.26</td><td class="num-cell">0.672</td><td class="num-cell">0.198
+        <tr><td class="model-name">F5-TTS</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/f5-tts.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.660</td><td class="num-cell">1.470</td><td class="num-cell">0.741</td><td class="num-cell">85.25</td><td class="num-cell">85.80</td><td class="num-cell">85.52</td><td class="num-cell">0.182</td><td class="num-cell">1.464
+        <tr><td class="model-name">Fish Speech</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/fish-speech.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.452</td><td class="num-cell">2.076</td><td class="num-cell">0.778</td><td class="num-cell">86.80</td><td class="num-cell">80.34</td><td class="num-cell">83.57</td><td class="num-cell">0.356</td><td class="num-cell">2.340
+        <tr><td class="model-name">GPT-SoVITS</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/gpt-sovits.wav"></audio></td><td class="num-cell">0.167</td><td class="num-cell">0.381</td><td class="num-cell">1.628</td><td class="num-cell">0.519</td><td class="num-cell">82.72</td><td class="num-cell">87.30</td><td class="num-cell">85.01</td><td class="num-cell">&minus;0.644</td><td class="num-cell">&minus;0.071
+        <tr><td class="model-name">HierSpeech</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/hierspeech.wav"></audio></td><td class="num-cell">0.333</td><td class="num-cell">0.315</td><td class="num-cell">3.290</td><td class="num-cell">0.370</td><td class="num-cell">78.64</td><td class="num-cell">88.86</td><td class="num-cell">83.75</td><td class="num-cell">&minus;0.755</td><td class="num-cell">0.082
+        <tr><td class="model-name">IndexTTS2</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/indextts.wav"></audio></td><td class="num-cell">0.500</td><td class="num-cell">0.719</td><td class="num-cell">1.458</td><td class="num-cell">0.519</td><td class="num-cell">85.28</td><td class="num-cell">86.93</td><td class="num-cell">86.11</td><td class="num-cell">0.963</td><td class="num-cell">1.921
+        <tr><td class="model-name">MaskGCT</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/maskgct.wav"></audio></td><td class="num-cell">0.667</td><td class="num-cell">0.661</td><td class="num-cell">1.467</td><td class="num-cell">0.778</td><td class="num-cell">79.31</td><td class="num-cell">90.84</td><td class="num-cell">85.07</td><td class="num-cell">0.141</td><td class="num-cell">&minus;0.054
+        <tr><td class="model-name">Metavoice</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/metavoice.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.577</td><td class="num-cell">1.428</td><td class="num-cell">0.852</td><td class="num-cell">77.56</td><td class="num-cell">80.89</td><td class="num-cell">79.23</td><td class="num-cell">&minus;1.176</td><td class="num-cell">&minus;1.076
+        <tr><td class="model-name">OpenVoice</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/openvoice.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.263</td><td class="num-cell">2.827</td><td class="num-cell">0.333</td><td class="num-cell">84.07</td><td class="num-cell">76.81</td><td class="num-cell">80.44</td><td class="num-cell">&minus;1.534</td><td class="num-cell">2.236
+        <tr><td class="model-name">Qwen3-TTS</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/qwen3-tts.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.612</td><td class="num-cell">2.168</td><td class="num-cell">0.556</td><td class="num-cell">86.47</td><td class="num-cell">86.44</td><td class="num-cell">86.46</td><td class="num-cell">0.791</td><td class="num-cell">2.207
+        <tr><td class="model-name">StyleTTS2</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/styletts2.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.354</td><td class="num-cell">3.849</td><td class="num-cell">0.259</td><td class="num-cell">85.02</td><td class="num-cell">80.91</td><td class="num-cell">82.97</td><td class="num-cell">&minus;0.788</td><td class="num-cell">2.447
+        <tr><td class="model-name">TorToiSe</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/tortoise.wav"></audio></td><td class="num-cell">0.167</td><td class="num-cell">0.475</td><td class="num-cell">2.637</td><td class="num-cell">0.259</td><td class="num-cell">85.65</td><td class="num-cell">82.46</td><td class="num-cell">84.06</td><td class="num-cell">&minus;0.828</td><td class="num-cell">1.940
+        <tr><td class="model-name">Vevo</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/vevo.wav"></audio></td><td class="num-cell">1.000</td><td class="num-cell">0.230</td><td class="num-cell">1.267</td><td class="num-cell">1.000</td><td class="num-cell">81.23</td><td class="num-cell">87.12</td><td class="num-cell">84.17</td><td class="num-cell">&minus;0.944</td><td class="num-cell">0.030
+        <tr><td class="model-name">VibeVoice</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/vibevoice.wav"></audio></td><td class="num-cell">0.167</td><td class="num-cell">0.508</td><td class="num-cell">1.404</td><td class="num-cell">0.667</td><td class="num-cell">82.96</td><td class="num-cell">88.66</td><td class="num-cell">85.81</td><td class="num-cell">&minus;0.420</td><td class="num-cell">0.929
+        <tr><td class="model-name">VoiceCraft</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/voicecraft.wav"></audio></td><td class="num-cell">0.833</td><td class="num-cell">0.400</td><td class="num-cell">1.914</td><td class="num-cell">0.815</td><td class="num-cell">78.57</td><td class="num-cell">88.25</td><td class="num-cell">83.41</td><td class="num-cell">&minus;0.577</td><td class="num-cell">&minus;0.654
+        <tr><td class="model-name">WhisperSpeech</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/whisperspeech.wav"></audio></td><td class="num-cell">0.167</td><td class="num-cell">0.415</td><td class="num-cell">3.111</td><td class="num-cell">0.778</td><td class="num-cell">84.71</td><td class="num-cell">79.80</td><td class="num-cell">82.25</td><td class="num-cell">&minus;1.355</td><td class="num-cell">1.208
+        <tr><td class="model-name">XTTS</td><td><audio controls preload="none" src="audio/ack-sixteen-helium-bulldog/xtts.wav"></audio></td><td class="num-cell">0.667</td><td class="num-cell">0.487</td><td class="num-cell">2.194</td><td class="num-cell">0.667</td><td class="num-cell">80.92</td><td class="num-cell">86.05</td><td class="num-cell">83.48</td><td class="num-cell">&minus;1.289</td><td class="num-cell">0.490
+      </tbody>
+    </table>
+    </div>
+  </article>
+
+  <!-- ══════════════════════════════════════════════════════════════════ -->
+  <h2 id="low-intel">Low Intelligibility Speaker</h2>
+
+  <!-- Speaker E: nine-maine-crazy-green -->
+  <article class="speaker-card">
+    <div class="speaker-header">
+      <h3>Speaker E</h3>
+      <span class="badge badge-low">Low Intelligibility &middot; Rec WER 125%</span>
+    </div>
+    <div class="prompt-section">
+      <p><strong>Voice prompt:</strong> <em>&ldquo;we had played a long while&rdquo;</em></p>
+      <audio controls preload="none" src="audio/nine-maine-crazy-green/prompt.wav"></audio>
+    </div>
+    <p class="target-text"><strong>Target text:</strong> <em>&ldquo;navigate to o&rsquo;hare airport&rdquo;</em></p>
+    <div style="overflow-x:auto;">
+    <table id="table-speaker-e">
+      <thead><tr>
+        <th>System</th>
+        <th>Audio</th>
+        <th class="sortable num-cell" data-type="num">WER</th>
+        <th class="sortable num-cell" data-type="num">Spk.&nbsp;Sim.</th>
+        <th class="sortable num-cell" data-type="num">UTMOS</th>
+        <th class="sortable num-cell" data-type="num">PER</th>
+        <th class="sortable num-cell" data-type="num">TTSDS|LibriTTS</th>
+        <th class="sortable num-cell" data-type="num">TTSDS|SAP</th>
+        <th class="sortable num-cell" data-type="num" data-default-sort="desc">TTSDS&nbsp;Mean</th>
+        <th class="sortable num-cell" data-type="num">Recon.&nbsp;Log&nbsp;Worth</th>
+        <th class="sortable num-cell" data-type="num">Intel.&nbsp;Log&nbsp;Worth</th>
+      </tr></thead>
+      <tbody>
+        <tr class="recording-row"><td class="model-name">Recording</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/recording.wav"></audio></td><td class="num-cell">1.250</td><td class="num-cell">0.597</td><td class="num-cell">2.114</td><td class="num-cell">0.857</td><td class="num-cell">77.39</td><td class="num-cell">93.64</td><td class="num-cell">85.51</td><td class="num-cell">0.000</td><td class="num-cell">0.000
+        <tr><td class="model-name">E2-TTS</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/e2-tts.wav"></audio></td><td class="num-cell">0.250</td><td class="num-cell">0.760</td><td class="num-cell">2.235</td><td class="num-cell">0.952</td><td class="num-cell">81.92</td><td class="num-cell">90.60</td><td class="num-cell">86.26</td><td class="num-cell">0.672</td><td class="num-cell">0.198
+        <tr><td class="model-name">F5-TTS</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/f5-tts.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.659</td><td class="num-cell">2.546</td><td class="num-cell">0.524</td><td class="num-cell">85.25</td><td class="num-cell">85.80</td><td class="num-cell">85.52</td><td class="num-cell">0.182</td><td class="num-cell">1.464
+        <tr><td class="model-name">Fish Speech</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/fish-speech.wav"></audio></td><td class="num-cell">0.500</td><td class="num-cell">0.319</td><td class="num-cell">3.740</td><td class="num-cell">0.810</td><td class="num-cell">86.80</td><td class="num-cell">80.34</td><td class="num-cell">83.57</td><td class="num-cell">0.356</td><td class="num-cell">2.340
+        <tr><td class="model-name">GPT-SoVITS</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/gpt-sovits.wav"></audio></td><td class="num-cell">0.500</td><td class="num-cell">0.576</td><td class="num-cell">2.889</td><td class="num-cell">0.810</td><td class="num-cell">82.72</td><td class="num-cell">87.30</td><td class="num-cell">85.01</td><td class="num-cell">&minus;0.644</td><td class="num-cell">&minus;0.071
+        <tr><td class="model-name">HierSpeech</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/hierspeech.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.564</td><td class="num-cell">3.821</td><td class="num-cell">0.524</td><td class="num-cell">78.64</td><td class="num-cell">88.86</td><td class="num-cell">83.75</td><td class="num-cell">&minus;0.755</td><td class="num-cell">0.082
+        <tr><td class="model-name">IndexTTS2</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/indextts.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.698</td><td class="num-cell">3.101</td><td class="num-cell">0.667</td><td class="num-cell">85.28</td><td class="num-cell">86.93</td><td class="num-cell">86.11</td><td class="num-cell">0.963</td><td class="num-cell">1.921
+        <tr><td class="model-name">MaskGCT</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/maskgct.wav"></audio></td><td class="num-cell">0.250</td><td class="num-cell">0.597</td><td class="num-cell">2.587</td><td class="num-cell">0.762</td><td class="num-cell">79.31</td><td class="num-cell">90.84</td><td class="num-cell">85.07</td><td class="num-cell">0.141</td><td class="num-cell">&minus;0.054
+        <tr><td class="model-name">Metavoice</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/metavoice.wav"></audio></td><td class="num-cell">0.500</td><td class="num-cell">0.494</td><td class="num-cell">2.464</td><td class="num-cell">0.857</td><td class="num-cell">77.56</td><td class="num-cell">80.89</td><td class="num-cell">79.23</td><td class="num-cell">&minus;1.176</td><td class="num-cell">&minus;1.076
+        <tr><td class="model-name">OpenVoice</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/openvoice.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.072</td><td class="num-cell">3.502</td><td class="num-cell">0.571</td><td class="num-cell">84.07</td><td class="num-cell">76.81</td><td class="num-cell">80.44</td><td class="num-cell">&minus;1.534</td><td class="num-cell">2.236
+        <tr><td class="model-name">Qwen3-TTS</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/qwen3-tts.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.552</td><td class="num-cell">3.732</td><td class="num-cell">0.476</td><td class="num-cell">86.47</td><td class="num-cell">86.44</td><td class="num-cell">86.46</td><td class="num-cell">0.791</td><td class="num-cell">2.207
+        <tr><td class="model-name">StyleTTS2</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/styletts2.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.354</td><td class="num-cell">4.038</td><td class="num-cell">0.762</td><td class="num-cell">85.02</td><td class="num-cell">80.91</td><td class="num-cell">82.97</td><td class="num-cell">&minus;0.788</td><td class="num-cell">2.447
+        <tr><td class="model-name">TorToiSe</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/tortoise.wav"></audio></td><td class="num-cell">0.000</td><td class="num-cell">0.379</td><td class="num-cell">3.849</td><td class="num-cell">0.429</td><td class="num-cell">85.65</td><td class="num-cell">82.46</td><td class="num-cell">84.06</td><td class="num-cell">&minus;0.828</td><td class="num-cell">1.940
+        <tr><td class="model-name">Vevo</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/vevo.wav"></audio></td><td class="num-cell">1.000</td><td class="num-cell">0.280</td><td class="num-cell">2.254</td><td class="num-cell">0.857</td><td class="num-cell">81.23</td><td class="num-cell">87.12</td><td class="num-cell">84.17</td><td class="num-cell">&minus;0.944</td><td class="num-cell">0.030
+        <tr><td class="model-name">VibeVoice</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/vibevoice.wav"></audio></td><td class="num-cell">0.250</td><td class="num-cell">0.423</td><td class="num-cell">2.526</td><td class="num-cell">0.667</td><td class="num-cell">82.96</td><td class="num-cell">88.66</td><td class="num-cell">85.81</td><td class="num-cell">&minus;0.420</td><td class="num-cell">0.929
+        <tr><td class="model-name">VoiceCraft</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/voicecraft.wav"></audio></td><td class="num-cell">0.500</td><td class="num-cell">0.408</td><td class="num-cell">2.635</td><td class="num-cell">0.857</td><td class="num-cell">78.57</td><td class="num-cell">88.25</td><td class="num-cell">83.41</td><td class="num-cell">&minus;0.577</td><td class="num-cell">&minus;0.654
+        <tr><td class="model-name">WhisperSpeech</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/whisperspeech.wav"></audio></td><td class="num-cell">0.250</td><td class="num-cell">0.286</td><td class="num-cell">3.300</td><td class="num-cell">0.667</td><td class="num-cell">84.71</td><td class="num-cell">79.80</td><td class="num-cell">82.25</td><td class="num-cell">&minus;1.355</td><td class="num-cell">1.208
+        <tr><td class="model-name">XTTS</td><td><audio controls preload="none" src="audio/nine-maine-crazy-green/xtts.wav"></audio></td><td class="num-cell">0.750</td><td class="num-cell">0.422</td><td class="num-cell">2.707</td><td class="num-cell">0.810</td><td class="num-cell">80.92</td><td class="num-cell">86.05</td><td class="num-cell">83.48</td><td class="num-cell">&minus;1.289</td><td class="num-cell">0.490
+      </tbody>
+    </table>
+    </div>
+  </article>
+
+  <hr>
+
+  <section>
+    <h3 id="listening-test">Listening Test Instructions</h3>
+    <p>The following instructions were shown to participants in Prolific before each listening test.</p>
+
+    <div class="listening-box">
+      <h4>Reconstruction (Speaker Similarity)</h4>
+      <blockquote>
+        <p>In this study, you will assess synthetic output intended as a personalised communication aid.
+          We have used AI to reconstruct how the speaker sounded before they developed a speech impairment.
+          <strong>We ask you to compare the synthetic samples against a real recording of the speaker (reference),
+          and choose the most similar and least similar.</strong></p>
+        <p>In the cases where the speaker has a speech impairment, do <strong>not</strong> focus on whether the speech
+          impairment is matched to the reference speaker; instead, think of whether the synthetic output could sound
+          like the person before they developed the impairment.
+          <strong>You cannot select the same sample as both most and least similar.</strong></p>
+        <p>You can play each sample (including the reference) as many times as you need, and change your selected
+          answers as you listen along. <strong>In some instances, the audio sample might ask you to select it as
+          best (most similar) or worse (least similar) &mdash; these are attention checks, so follow those instructions
+          carefully.</strong></p>
+        <p>Please wear headphones and be in a quiet environment before starting. When you are ready to start, please click Continue.</p>
+      </blockquote>
+      <p><strong>Question:</strong> Please select the audio sample that is most similar to the reference speaker,
+        and the audio sample that is least similar to the reference speaker.</p>
+      <p><em>Remember that, if the speaker has a speech impairment, we want you to choose the sample that could
+        sound closest/farthest to the person before developing the speech impairment.</em></p>
+    </div>
+
+    <div class="listening-box">
+      <h4>Intelligibility</h4>
+      <blockquote>
+        <p>In this study, you will assess synthetic output intended as a personalised communication aid.
+          We have used AI to reconstruct how the speaker sounded before they developed a speech impairment.
+          <strong>We ask you to choose which audio sample is easiest to understand, and which one is hardest.</strong></p>
+        <p>Sometimes, you might notice that the audio samples sound like different individuals &mdash; focus on how
+          easy or difficult it is to understand <strong>only. You cannot select the same sample as both easiest and
+          hardest to understand.</strong></p>
+        <p>You can play each sample (including the reference) as many times as you need, and change your selected
+          answers as you keep listening along. <strong>In some instances, the audio sample might ask you to select
+          it as best (easiest to understand) or worse (hardest to understand) &mdash; these are attention checks,
+          so follow those instructions carefully.</strong></p>
+        <p>In order to progress to the next screen, you need to make sure that you have listened to all audio
+          samples <strong>in full</strong> at least once.</p>
+        <p>Please wear headphones and be in a quiet environment before starting. When you are ready to start, please click Continue.</p>
+      </blockquote>
+      <p><strong>Question:</strong> Please select the audio sample that is easiest to understand,
+        and the audio sample that is hardest to understand.</p>
+      <p><em>Remember that we want you to focus on how easy it is to understand,
+        regardless of whether the speaker sounds different.</em></p>
+    </div>
+  </section>
+
+  <section>
+    <ul>
+      <li><strong>WER</strong> is computed using Whisper large-v3 on the synthesised audio against the target text.
+        Values &gt;&nbsp;1.0 indicate the transcript contains more erroneous words than the reference has words (insertions).</li>
+      <li><strong>Spk. Sim.</strong> is the cosine similarity between WeSpeaker embeddings of the synthesised audio and the
+        speaker's voice prompt. Higher values indicate the system better preserved the speaker's voice characteristics.</li>
+      <li><strong>TTSDS|LibriTTS</strong> and <strong>TTSDS|SAP</strong> are the overall TTSDS scores when using LibriTTS or SAP as the reference dataset respectively.
+        <strong>TTSDS Mean</strong> is their average.</li>
+      <li><strong>PER</strong> is the Phoneme Error Rate. <strong>UTMOS</strong> is a neural predicted MOS score.</li>
+      <li><strong>Recon. Log Worth</strong> and <strong>Intel. Log Worth</strong> are Plackett-Luce log worth estimates from
+        subjective evaluations of speaker similarity and perceived intelligibility respectively.</li>
+      <li><strong>Recording</strong> rows show the speaker's own reading of the target sentence (ground truth).
+        For low-intelligibility speakers, the recording itself has very high WER.</li>
+      <li><strong>WER</strong>, <strong>Spk. Sim.</strong>, <strong>UTMOS</strong>, and <strong>PER</strong> in the audio tables are computed on the individual utterance shown.
+        All other metrics (<strong>TTSDS</strong>, <strong>Log Worth</strong>) are system-wide aggregates across all speakers.</li>
+      <li>Speaker identifiers are anonymised. All audio is from the SAP corpus.</li>
+      <li>Click any column header to sort the table. In the correlation explorer, hover over points for details.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>An Evaluation Framework for Voice Reconstruction &mdash; Audio Demo</p>
+  </footer>
+
+</main>
+
+<script>
+// Sortable tables
+document.querySelectorAll('th.sortable').forEach(th => {
+  th.addEventListener('click', () => {
+    const table = th.closest('table');
+    const tbody = table.querySelector('tbody');
+    const colIndex = Array.from(th.parentNode.children).indexOf(th);
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+
+    // Determine sort direction
+    const isDesc = th.classList.contains('sort-desc');
+    const newDir = isDesc ? 'asc' : 'desc';
+
+    // Clear all sort indicators in this table
+    table.querySelectorAll('th.sortable').forEach(h => {
+      h.classList.remove('sort-asc', 'sort-desc');
+    });
+    th.classList.add('sort-' + newDir);
+
+    // Sort rows (keep recording row pinned at top)
+    const pinnedRows = rows.filter(r => r.classList.contains('recording-row'));
+    const sortableRows = rows.filter(r => !r.classList.contains('recording-row'));
+
+    sortableRows.sort((a, b) => {
+      const aText = a.children[colIndex].textContent.replace(/\u2212/g, '-').trim();
+      const bText = b.children[colIndex].textContent.replace(/\u2212/g, '-').trim();
+      const aVal = parseFloat(aText);
+      const bVal = parseFloat(bText);
+      if (isNaN(aVal) && isNaN(bVal)) return aText.localeCompare(bText) * (newDir === 'asc' ? 1 : -1);
+      if (isNaN(aVal)) return 1;
+      if (isNaN(bVal)) return -1;
+      return (newDir === 'asc' ? 1 : -1) * (aVal - bVal);
+    });
+
+    // Re-append rows
+    pinnedRows.forEach(r => tbody.appendChild(r));
+    sortableRows.forEach(r => tbody.appendChild(r));
+  });
+});
+
+// Apply default sort (TTSDS Mean descending) on page load
+document.querySelectorAll('th.sortable[data-default-sort]').forEach(th => {
+  th.click(); // first click -> desc
+});
+</script>
+
+<script>
+// ========================
+// Interactive Correlation Plot
+// ========================
+const DISPLAY_NAMES = {
+  "recording":"Recording","e2-tts":"E2-TTS","f5-tts":"F5-TTS","fish-speech":"Fish Speech",
+  "gpt-sovits":"GPT-SoVITS","hierspeech":"HierSpeech","indextts":"IndexTTS2","maskgct":"MaskGCT",
+  "metavoice":"Metavoice","openvoice":"OpenVoice","qwen3-tts":"Qwen3-TTS","styletts2":"StyleTTS2",
+  "tortoise":"TorToiSe","vevo":"Vevo","vibevoice":"VibeVoice","voicecraft":"VoiceCraft",
+  "whisperspeech":"WhisperSpeech","xtts":"XTTS"
+};
+
+const METRIC_LABELS = {
+  spk_sim:"Spk. Sim.", wer:"WER", per:"PER", utmos:"UTMOS",
+  ttsds_libritts:"TTSDS|LibriTTS", ttsds_sap:"TTSDS|SAP", ttsds_mean:"TTSDS Mean",
+  subj_recon:"Recon. Log Worth", subj_intel:"Intel. Log Worth"
+};
+
+const ALL_SPEAKERS = {
+  "recording":{"spk_sim":0.6455,"wer":0.2055,"per":0.6594,"utmos":2.3563,"ttsds_libritts":77.3864,"ttsds_sap":93.6395,"ttsds_mean":85.5130,"subj_recon":0,"subj_intel":0},
+  "e2-tts":{"spk_sim":0.7128,"wer":0.3082,"per":0.6932,"utmos":2.6099,"ttsds_libritts":81.9167,"ttsds_sap":90.6029,"ttsds_mean":86.2598,"subj_recon":0.6718,"subj_intel":0.1982},
+  "f5-tts":{"spk_sim":0.6186,"wer":0.1234,"per":0.6020,"utmos":2.9364,"ttsds_libritts":85.2493,"ttsds_sap":85.7998,"ttsds_mean":85.5246,"subj_recon":0.1818,"subj_intel":1.4643},
+  "fish-speech":{"spk_sim":0.4869,"wer":0.0838,"per":0.4960,"utmos":3.4755,"ttsds_libritts":86.8038,"ttsds_sap":80.3387,"ttsds_mean":83.5713,"subj_recon":0.3558,"subj_intel":2.3397},
+  "gpt-sovits":{"spk_sim":0.5041,"wer":0.2704,"per":0.6994,"utmos":2.5697,"ttsds_libritts":82.7245,"ttsds_sap":87.2960,"ttsds_mean":85.0102,"subj_recon":-0.6442,"subj_intel":-0.0710},
+  "hierspeech":{"spk_sim":0.4964,"wer":0.1370,"per":0.4783,"utmos":3.6244,"ttsds_libritts":78.6431,"ttsds_sap":88.8553,"ttsds_mean":83.7492,"subj_recon":-0.7545,"subj_intel":0.0819},
+  "indextts":{"spk_sim":0.6703,"wer":0.0990,"per":0.5206,"utmos":2.8816,"ttsds_libritts":85.2842,"ttsds_sap":86.9294,"ttsds_mean":86.1068,"subj_recon":0.9625,"subj_intel":1.9212},
+  "maskgct":{"spk_sim":0.6266,"wer":0.1752,"per":0.6180,"utmos":2.5802,"ttsds_libritts":79.3056,"ttsds_sap":90.8434,"ttsds_mean":85.0745,"subj_recon":0.1407,"subj_intel":-0.0537},
+  "metavoice":{"spk_sim":0.4180,"wer":0.4325,"per":0.7655,"utmos":2.0856,"ttsds_libritts":77.5615,"ttsds_sap":80.8901,"ttsds_mean":79.2258,"subj_recon":-1.1756,"subj_intel":-1.0755},
+  "openvoice":{"spk_sim":0.2832,"wer":0.0669,"per":0.4551,"utmos":3.7158,"ttsds_libritts":84.0674,"ttsds_sap":76.8123,"ttsds_mean":80.4398,"subj_recon":-1.5336,"subj_intel":2.2359},
+  "qwen3-tts":{"spk_sim":0.5734,"wer":0.1996,"per":0.6480,"utmos":3.5825,"ttsds_libritts":86.4693,"ttsds_sap":86.4448,"ttsds_mean":86.4570,"subj_recon":0.7911,"subj_intel":2.2070},
+  "styletts2":{"spk_sim":0.3710,"wer":0.0642,"per":0.5008,"utmos":3.7101,"ttsds_libritts":85.0173,"ttsds_sap":80.9145,"ttsds_mean":82.9659,"subj_recon":-0.7880,"subj_intel":2.4470},
+  "tortoise":{"spk_sim":0.3721,"wer":0.1509,"per":0.4843,"utmos":3.1467,"ttsds_libritts":85.6515,"ttsds_sap":82.4617,"ttsds_mean":84.0566,"subj_recon":-0.8277,"subj_intel":1.9396},
+  "vevo":{"spk_sim":0.5625,"wer":0.3480,"per":0.6655,"utmos":2.6677,"ttsds_libritts":81.2261,"ttsds_sap":87.1189,"ttsds_mean":84.1725,"subj_recon":-0.9443,"subj_intel":0.0296},
+  "vibevoice":{"spk_sim":0.4860,"wer":0.1862,"per":0.5802,"utmos":2.7499,"ttsds_libritts":82.9567,"ttsds_sap":88.6577,"ttsds_mean":85.8072,"subj_recon":-0.4199,"subj_intel":0.9288},
+  "voicecraft":{"spk_sim":0.3737,"wer":0.3595,"per":0.7251,"utmos":2.4216,"ttsds_libritts":78.5701,"ttsds_sap":88.2533,"ttsds_mean":83.4117,"subj_recon":-0.5769,"subj_intel":-0.6538},
+  "whisperspeech":{"spk_sim":0.4409,"wer":0.1818,"per":0.5667,"utmos":3.0135,"ttsds_libritts":84.7084,"ttsds_sap":79.7983,"ttsds_mean":82.2534,"subj_recon":-1.3549,"subj_intel":1.2084},
+  "xtts":{"spk_sim":0.4045,"wer":0.1730,"per":0.6540,"utmos":2.6269,"ttsds_libritts":80.9199,"ttsds_sap":86.0480,"ttsds_mean":83.4840,"subj_recon":-1.2888,"subj_intel":0.4896}
+};
+
+const LOW_INTELLIGIBILITY = {
+  "recording":{"spk_sim":0.6256,"wer":0.7326,"per":0.8445,"utmos":1.8806,"ttsds_libritts":70.1476,"ttsds_sap":89.9088,"ttsds_mean":80.0282,"subj_recon":0,"subj_intel":0},
+  "e2-tts":{"spk_sim":0.6498,"wer":0.4556,"per":0.8104,"utmos":2.2365,"ttsds_libritts":76.5287,"ttsds_sap":86.5006,"ttsds_mean":81.5146,"subj_recon":-0.8316,"subj_intel":4.1182},
+  "f5-tts":{"spk_sim":0.5458,"wer":0.2480,"per":0.7352,"utmos":2.6519,"ttsds_libritts":79.8517,"ttsds_sap":82.4652,"ttsds_mean":81.1585,"subj_recon":-1.2212,"subj_intel":6.0309},
+  "fish-speech":{"spk_sim":0.4302,"wer":0.2138,"per":0.5955,"utmos":3.2426,"ttsds_libritts":81.0915,"ttsds_sap":76.0473,"ttsds_mean":78.5694,"subj_recon":-1.8128,"subj_intel":6.0368},
+  "gpt-sovits":{"spk_sim":0.4767,"wer":0.4988,"per":0.8141,"utmos":2.2825,"ttsds_libritts":76.8535,"ttsds_sap":84.5735,"ttsds_mean":80.7135,"subj_recon":-2.5640,"subj_intel":5.0779},
+  "hierspeech":{"spk_sim":0.4510,"wer":0.1962,"per":0.5408,"utmos":3.4479,"ttsds_libritts":72.9814,"ttsds_sap":84.4293,"ttsds_mean":78.7053,"subj_recon":-1.9890,"subj_intel":4.6832},
+  "indextts":{"spk_sim":0.6447,"wer":0.1473,"per":0.6616,"utmos":2.5293,"ttsds_libritts":78.0855,"ttsds_sap":84.4331,"ttsds_mean":81.2593,"subj_recon":0.1635,"subj_intel":4.9615},
+  "maskgct":{"spk_sim":0.5831,"wer":0.3616,"per":0.7996,"utmos":2.2643,"ttsds_libritts":73.1562,"ttsds_sap":86.8980,"ttsds_mean":80.0271,"subj_recon":-2.4806,"subj_intel":3.5705},
+  "metavoice":{"spk_sim":0.4007,"wer":0.6252,"per":0.8396,"utmos":1.8018,"ttsds_libritts":68.4460,"ttsds_sap":79.0662,"ttsds_mean":73.7561,"subj_recon":-2.8384,"subj_intel":4.3749},
+  "openvoice":{"spk_sim":0.2694,"wer":0.1071,"per":0.4917,"utmos":3.6539,"ttsds_libritts":79.4908,"ttsds_sap":71.6476,"ttsds_mean":75.5692,"subj_recon":-2.6123,"subj_intel":6.5614},
+  "qwen3-tts":{"spk_sim":0.4513,"wer":0.6351,"per":1.1698,"utmos":3.3778,"ttsds_libritts":82.8078,"ttsds_sap":81.1878,"ttsds_mean":81.9978,"subj_recon":0.3174,"subj_intel":6.0316},
+  "styletts2":{"spk_sim":0.3340,"wer":0.1369,"per":0.5546,"utmos":3.4816,"ttsds_libritts":81.1949,"ttsds_sap":76.1669,"ttsds_mean":78.6809,"subj_recon":-2.6285,"subj_intel":7.3547},
+  "tortoise":{"spk_sim":0.3193,"wer":0.3530,"per":0.6420,"utmos":2.9045,"ttsds_libritts":79.2894,"ttsds_sap":77.5519,"ttsds_mean":78.4207,"subj_recon":-2.2087,"subj_intel":5.5450},
+  "vevo":{"spk_sim":0.4750,"wer":0.6227,"per":0.7956,"utmos":2.2610,"ttsds_libritts":72.9340,"ttsds_sap":82.8579,"ttsds_mean":77.8960,"subj_recon":-2.5395,"subj_intel":4.3017},
+  "vibevoice":{"spk_sim":0.4525,"wer":0.3464,"per":0.7091,"utmos":2.3183,"ttsds_libritts":76.0644,"ttsds_sap":86.0366,"ttsds_mean":81.0505,"subj_recon":-1.6510,"subj_intel":5.4747},
+  "voicecraft":{"spk_sim":0.3262,"wer":0.5063,"per":0.8398,"utmos":2.0603,"ttsds_libritts":73.5007,"ttsds_sap":84.1299,"ttsds_mean":78.8153,"subj_recon":-2.1810,"subj_intel":3.6743},
+  "whisperspeech":{"spk_sim":0.3641,"wer":0.3391,"per":0.6857,"utmos":2.7090,"ttsds_libritts":77.7736,"ttsds_sap":75.8714,"ttsds_mean":76.8225,"subj_recon":-2.6062,"subj_intel":5.3171},
+  "xtts":{"spk_sim":0.3946,"wer":0.3460,"per":0.7410,"utmos":2.3444,"ttsds_libritts":75.9688,"ttsds_sap":82.8281,"ttsds_mean":79.3985,"subj_recon":-3.9978,"subj_intel":5.1244}
+};
+
+// Spearman rank correlation
+function spearmanRho(x, y) {
+  const n = x.length;
+  if (n < 3) return {rho: NaN, p: NaN};
+  function rankArray(arr) {
+    const sorted = arr.map((v, i) => ({v, i})).sort((a, b) => a.v - b.v);
+    const ranks = new Array(n);
+    let i = 0;
+    while (i < n) {
+      let j = i;
+      while (j < n - 1 && sorted[j + 1].v === sorted[j].v) j++;
+      const avgRank = (i + j) / 2 + 1;
+      for (let k = i; k <= j; k++) ranks[sorted[k].i] = avgRank;
+      i = j + 1;
+    }
+    return ranks;
+  }
+  const rx = rankArray(x), ry = rankArray(y);
+  let sumD2 = 0;
+  for (let i = 0; i < n; i++) sumD2 += (rx[i] - ry[i]) ** 2;
+  const rho = 1 - (6 * sumD2) / (n * (n * n - 1));
+  if (Math.abs(rho) >= 1) return {rho, p: rho === 0 ? 1 : 0};
+  const t = rho * Math.sqrt((n - 2) / (1 - rho * rho));
+  const df = n - 2;
+  // Two-tailed p: P(|T|>|t|) = I_x(df/2, 1/2) where x = df/(df+t²)
+  const bx = df / (df + t * t);
+  const p = betai(df / 2, 0.5, bx);
+  return {rho, p};
+}
+
+// Regularised incomplete beta function I_x(a,b) — Numerical Recipes
+function betai(a, b, x) {
+  if (x <= 0) return 0;
+  if (x >= 1) return 1;
+  const bt = Math.exp(
+    lgamma(a + b) - lgamma(a) - lgamma(b) +
+    a * Math.log(x) + b * Math.log(1 - x)
+  );
+  // Use symmetry for better convergence
+  if (x < (a + 1) / (a + b + 2))
+    return bt * betacf(a, b, x) / a;
+  else
+    return 1 - bt * betacf(b, a, 1 - x) / b;
+}
+function betacf(a, b, x) {
+  const FPMIN = 1e-30;
+  const qab = a + b, qap = a + 1, qam = a - 1;
+  let c = 1;
+  let d = 1 - qab * x / qap;
+  if (Math.abs(d) < FPMIN) d = FPMIN;
+  d = 1 / d;
+  let h = d;
+  for (let m = 1; m <= 200; m++) {
+    const m2 = 2 * m;
+    let aa = m * (b - m) * x / ((qam + m2) * (a + m2));
+    d = 1 + aa * d; if (Math.abs(d) < FPMIN) d = FPMIN;
+    c = 1 + aa / c; if (Math.abs(c) < FPMIN) c = FPMIN;
+    d = 1 / d; h *= d * c;
+    aa = -(a + m) * (qab + m) * x / ((a + m2) * (qap + m2));
+    d = 1 + aa * d; if (Math.abs(d) < FPMIN) d = FPMIN;
+    c = 1 + aa / c; if (Math.abs(c) < FPMIN) c = FPMIN;
+    d = 1 / d;
+    const del = d * c; h *= del;
+    if (Math.abs(del - 1) < 1e-10) break;
+  }
+  return h;
+}
+function lgamma(x) {
+  const c = [76.18009172947146,-86.50532032941677,24.01409824083091,
+    -1.231739572450155,0.1208650973866179e-2,-0.5395239384953e-5];
+  let y = x, tmp = x + 5.5;
+  tmp -= (x + 0.5) * Math.log(tmp);
+  let ser = 1.000000000190015;
+  for (let j = 0; j < 6; j++) ser += c[j] / ++y;
+  return -tmp + Math.log(2.5066282746310005 * ser / x);
+}
+
+// Linear regression
+function linReg(x, y) {
+  const n = x.length;
+  let sx = 0, sy = 0, sxy = 0, sxx = 0;
+  for (let i = 0; i < n; i++) { sx += x[i]; sy += y[i]; sxy += x[i]*y[i]; sxx += x[i]*x[i]; }
+  const slope = (n * sxy - sx * sy) / (n * sxx - sx * sx);
+  const intercept = (sy - slope * sx) / n;
+  return {slope, intercept};
+}
+
+function updateCorrPlot() {
+  const xKey = document.getElementById('corrX').value;
+  const yKey = document.getElementById('corrY').value;
+  const group = document.getElementById('corrGroup').value;
+  const data = group === 'all' ? ALL_SPEAKERS : LOW_INTELLIGIBILITY;
+  const systems = Object.keys(data);
+
+  const xVals = systems.map(s => data[s][xKey]);
+  const yVals = systems.map(s => data[s][yKey]);
+  const labels = systems.map(s => DISPLAY_NAMES[s] || s);
+  const isRec = systems.map(s => s === 'recording');
+
+  // Separate recording from others
+  const otherIdx = systems.map((_, i) => i).filter(i => !isRec[i]);
+  const recIdx = systems.map((_, i) => i).filter(i => isRec[i]);
+
+  const {rho, p} = spearmanRho(xVals, yVals);
+  const pStr = p < 0.001 ? 'p < 0.001' : 'p = ' + p.toFixed(3);
+  const rhoStr = '\u03C1 = ' + rho.toFixed(3);
+
+  // Regression line
+  const {slope, intercept} = linReg(xVals, yVals);
+  const xMin = Math.min(...xVals), xMax = Math.max(...xVals);
+  const pad = (xMax - xMin) * 0.05;
+
+  const traces = [
+    // Other systems
+    {
+      x: otherIdx.map(i => xVals[i]),
+      y: otherIdx.map(i => yVals[i]),
+      text: otherIdx.map(i => labels[i]),
+      mode: 'markers+text',
+      type: 'scatter',
+      textposition: 'top center',
+      textfont: {size: 10},
+      marker: {size: 9, color: '#2980b9'},
+      name: 'Systems',
+      hovertemplate: '%{text}<br>' + METRIC_LABELS[xKey] + ': %{x:.4f}<br>' + METRIC_LABELS[yKey] + ': %{y:.4f}<extra></extra>'
+    },
+    // Recording
+    {
+      x: recIdx.map(i => xVals[i]),
+      y: recIdx.map(i => yVals[i]),
+      text: recIdx.map(i => labels[i]),
+      mode: 'markers+text',
+      type: 'scatter',
+      textposition: 'top center',
+      textfont: {size: 10, color: '#e67e22'},
+      marker: {size: 12, color: '#e67e22', symbol: 'diamond'},
+      name: 'Recording',
+      hovertemplate: '%{text}<br>' + METRIC_LABELS[xKey] + ': %{x:.4f}<br>' + METRIC_LABELS[yKey] + ': %{y:.4f}<extra></extra>'
+    },
+    // Regression line
+    {
+      x: [xMin - pad, xMax + pad],
+      y: [slope * (xMin - pad) + intercept, slope * (xMax + pad) + intercept],
+      mode: 'lines',
+      type: 'scatter',
+      line: {color: 'rgba(44,62,80,0.4)', dash: 'dash', width: 1.5},
+      name: 'Linear fit',
+      hoverinfo: 'skip'
+    }
+  ];
+
+  const groupLabel = group === 'all' ? 'All Speakers' : 'Low Intelligibility';
+  const layout = {
+    title: {text: groupLabel + ' | Spearman ' + rhoStr + ', ' + pStr, font: {size: 14}},
+    xaxis: {title: METRIC_LABELS[xKey], zeroline: false},
+    yaxis: {title: METRIC_LABELS[yKey], zeroline: false},
+    showlegend: false,
+    margin: {t: 50, b: 60, l: 70, r: 30},
+    hovermode: 'closest',
+    plot_bgcolor: '#fafafa',
+    paper_bgcolor: '#fff'
+  };
+
+  Plotly.react('corrPlot', traces, layout, {responsive: true, displayModeBar: true, modeBarButtonsToRemove: ['lasso2d','select2d']});
+}
+
+document.getElementById('corrX').addEventListener('change', updateCorrPlot);
+document.getElementById('corrY').addEventListener('change', updateCorrPlot);
+document.getElementById('corrGroup').addEventListener('change', updateCorrPlot);
+
+// Wait for Plotly to load (deferred script) before first render
+function initCorrPlot() {
+  if (typeof Plotly !== 'undefined') { updateCorrPlot(); }
+  else { setTimeout(initCorrPlot, 100); }
+}
+initCorrPlot();
+</script>
+
+</body>
+</html>
